@@ -1,0 +1,302 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.class_442
+  randomgroup = 1
+  renderorder = background
+  randommode = false
+  randomonlyfirsttime = false
+}
+
+customization {
+  path = kubejs/assets/kubejs/textures/gui/background.png
+  action = texturizebackground
+}
+
+customization {
+  keepaspectratio = true
+  action = backgroundoptions
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  orientation = mid-centered
+  x = -123
+  action = movebutton
+  y = -14
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  width = 130
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_multiplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/gui/button_multiplayer_hov.png
+  backgroundnormal = kubejs/assets/kubejs/textures/gui/button_multiplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  orientation = mid-centered
+  x = 16
+  action = movebutton
+  y = -15
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  width = 85
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_accessibility_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/gui/button_accessibility_hov.png
+  backgroundnormal = kubejs/assets/kubejs/textures/gui/button_accessibility.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  orientation = mid-centered
+  x = -123
+  action = movebutton
+  y = 19
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  width = 130
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_options_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/gui/button_options_hov.png
+  backgroundnormal = kubejs/assets/kubejs/textures/gui/button_options.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  orientation = mid-centered
+  x = -36
+  action = movebutton
+  y = 52
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  width = 85
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_quit_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/gui/button_quit_hov.png
+  backgroundnormal = kubejs/assets/kubejs/textures/gui/button_quit.png
+}
+
+customization {
+  identifier = %id=604322%
+  orientation = mid-centered
+  x = 112
+  action = movebutton
+  y = -15
+}
+
+customization {
+  identifier = %id=604322%
+  width = 48
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=604322%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/gui/button_vr_hov.png
+  backgroundnormal = kubejs/assets/kubejs/textures/gui/button_vr.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  orientation = mid-centered
+  x = 16
+  action = movebutton
+  y = -48
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  width = 85
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_language_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/gui/button_language_hov.png
+  backgroundnormal = kubejs/assets/kubejs/textures/gui/button_language.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  orientation = mid-centered
+  x = -123
+  action = movebutton
+  y = -47
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  width = 130
+  action = resizebutton
+  height = 25
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_singleplayer_button%
+  loopbackgroundanimations = true
+  restartbackgroundanimations = true
+  action = setbuttontexture
+  backgroundhovered = kubejs/assets/kubejs/textures/gui/button_singleplayer_hov.png
+  backgroundnormal = kubejs/assets/kubejs/textures/gui/button_singleplayer.png
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_realms_button%
+  action = hidebutton
+}
+
+customization {
+  orientation = top-left
+  hidden = false
+  x = 2
+  width = 165
+  action = deep_customization_element:title_screen_branding
+  actionid = 18727da0-a9b4-4611-ad35-804b1908f5041683388561719
+  y = 327
+  height = 10
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 423
+  width = 13
+  action = deep_customization_element:title_screen_realms_notification
+  actionid = 0e4a3df7-cfed-40c8-9c98-95da7fc3c77a1683388561733
+  y = 184
+  height = 13
+}
+
+customization {
+  orientation = top-left
+  hidden = true
+  x = 343
+  width = 274
+  action = deep_customization_element:title_screen_logo
+  actionid = 7d67c209-809d-4cad-91f7-52da483bc8281683388561733
+  y = 30
+  height = 52
+}
+
+customization {
+  orientation = original
+  splash_color = #ffff00
+  hidden = true
+  x = 0
+  width = 60
+  splash_rotation = -20
+  action = deep_customization_element:title_screen_splash
+  actionid = e09b170a-b193-4e9c-8a58-c5f97b164cb61683388561733
+  y = 0
+  height = 30
+}
+
+customization {
+  path = kubejs/assets/kubejs/textures/gui/logo.png
+  orientation = top-centered
+  x = -210
+  width = 422
+  action = addtexture
+  actionid = 6ade4d0f-fe62-4ebb-840b-e8c1b41f59b01683388782608
+  y = 19
+  height = 100
+}
+
+customization {
+  orientation = mid-centered
+  restartbackgroundanimations = true
+  buttonaction = openlink;https://github.com/CaiganMythFang/CobblemonCharoite/issues%btnaction_splitter_fm%
+  backgroundhovered = kubejs/assets/kubejs/textures/gui/button_bugs_hov.png
+  label = 
+  loopbackgroundanimations = true
+  x = 16
+  width = 84
+  action = addbutton
+  actionid = 18dceb98-4b6a-466d-aa9a-23ccb37a8de61683399863899
+  y = 19
+  backgroundnormal = kubejs/assets/kubejs/textures/gui/button_bugs.png
+  height = 25
+}
+
