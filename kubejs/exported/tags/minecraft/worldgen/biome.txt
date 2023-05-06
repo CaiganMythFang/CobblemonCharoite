@@ -1,0 +1,2807 @@
+To refresh this file, delete it and run /reload command again! Last updated: May 5, 2023, 10:30:37 AM
+
+#minecraft:has_structure/nether_fortress
+- #minecraft:is_nether (from Default)
+
+#c:is_hot/overworld
+- minecraft:desert (from Porting Lib Tags)
+- minecraft:jungle (from Porting Lib Tags)
+- minecraft:sparse_jungle (from Porting Lib Tags)
+- minecraft:savanna (from Porting Lib Tags)
+- minecraft:savanna_plateau (from Porting Lib Tags)
+- minecraft:stony_peaks (from Porting Lib Tags)
+- minecraft:warm_ocean (from Porting Lib Tags)
+- minecraft:windswept_savanna (from Porting Lib Tags)
+- minecraft:eroded_badlands (from Porting Lib Tags)
+- minecraft:bamboo_jungle (from Porting Lib Tags)
+- minecraft:mangrove_swamp (from Porting Lib Tags)
+
+#forge:is_slope
+- terralith:alpine_grove (from Terralith)
+- terralith:amethyst_canyon (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:blooming_valley (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:glacial_chasm (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:lavender_valley (from Terralith)
+- terralith:moonlight_valley (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:rocky_mountains (from Terralith)
+- terralith:sakura_valley (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:stony_spires (from Terralith)
+
+#supplementaries:has_cave_urns
+- #minecraft:is_overworld (from Supplementaries Generated Pack)
+
+#c:is_cold/overworld
+- minecraft:taiga (from Porting Lib Tags)
+- minecraft:frozen_ocean (from Porting Lib Tags)
+- minecraft:frozen_river (from Porting Lib Tags)
+- minecraft:snowy_plains (from Porting Lib Tags)
+- minecraft:snowy_beach (from Porting Lib Tags)
+- minecraft:snowy_taiga (from Porting Lib Tags)
+- minecraft:old_growth_pine_taiga (from Porting Lib Tags)
+- minecraft:grove (from Porting Lib Tags)
+- minecraft:snowy_slopes (from Porting Lib Tags)
+- minecraft:jagged_peaks (from Porting Lib Tags)
+- minecraft:frozen_peaks (from Porting Lib Tags)
+- minecraft:cold_ocean (from Porting Lib Tags)
+- minecraft:deep_cold_ocean (from Porting Lib Tags)
+- minecraft:deep_frozen_ocean (from Porting Lib Tags)
+- minecraft:ice_spikes (from Porting Lib Tags)
+
+#cobblemon:is_lukewarm
+- minecraft:deep_lukewarm_ocean (from Cobblemon)
+- minecraft:lukewarm_ocean (from Cobblemon)
+
+#minecraft:has_structure/mineshaft
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_beach (from Default)
+- #minecraft:is_mountain (from Default)
+- #minecraft:is_hill (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:desert (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- #minecraft:is_ocean (from Terralith)
+- #minecraft:is_river (from Terralith)
+- #minecraft:is_beach (from Terralith)
+- #minecraft:is_mountain (from Terralith)
+- #minecraft:is_hill (from Terralith)
+- #minecraft:is_taiga (from Terralith)
+- #minecraft:is_jungle (from Terralith)
+- #minecraft:is_forest (from Terralith)
+- minecraft:stony_shore (from Terralith)
+- minecraft:mushroom_fields (from Terralith)
+- minecraft:ice_spikes (from Terralith)
+- minecraft:windswept_savanna (from Terralith)
+- minecraft:desert (from Terralith)
+- minecraft:savanna (from Terralith)
+- minecraft:snowy_plains (from Terralith)
+- minecraft:plains (from Terralith)
+- minecraft:sunflower_plains (from Terralith)
+- minecraft:swamp (from Terralith)
+- minecraft:savanna_plateau (from Terralith)
+- minecraft:dripstone_caves (from Terralith)
+- minecraft:lush_caves (from Terralith)
+- #terralith:all_terralith_biomes (from Terralith)
+
+#minecraft:has_structure/jungle_temple
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+- minecraft:bamboo_jungle (from Terralith)
+- minecraft:jungle (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+
+#c:mushroom
+- minecraft:mushroom_fields (from Fabric Convention Tags)
+- terralith:mirage_isles (from Terralith)
+- terralith:cave/fungal_caves (from Terralith)
+
+#c:mountain
+- #minecraft:is_mountain? (from Fabric Convention Tags)
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:haze_mountain (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:mountain_steppe (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:temperate_highlands (from Terralith)
+
+#cobblemon:has_ore/ore_water_stone_rare
+- #cobblemon:is_jungle (from Cobblemon)
+- #cobblemon:is_thermal (from Cobblemon)
+
+#minecraft:is_jungle
+- minecraft:bamboo_jungle (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Terralith)
+- minecraft:jungle (from Terralith)
+- minecraft:sparse_jungle (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:amethyst_canyon (from Terralith)
+
+#c:is_hot
+- minecraft:mangrove_swamp (from Porting Lib Tags)
+- #c:is_hot/overworld (from Porting Lib Tags)
+- #c:is_hot/nether (from Porting Lib Tags)
+- #c:is_hot/end? (from Porting Lib Tags)
+
+#minecraft:is_ocean
+- #minecraft:is_deep_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- #minecraft:is_deep_ocean (from Terralith)
+- minecraft:frozen_ocean (from Terralith)
+- minecraft:ocean (from Terralith)
+- minecraft:cold_ocean (from Terralith)
+- minecraft:lukewarm_ocean (from Terralith)
+- minecraft:warm_ocean (from Terralith)
+
+#c:is_water
+- #minecraft:is_ocean (from Porting Lib Tags)
+- #minecraft:is_river (from Porting Lib Tags)
+
+#cobblemon:is_freezing
+- minecraft:frozen_river (from Cobblemon)
+- minecraft:jagged_peaks (from Cobblemon)
+- minecraft:snowy_beach (from Cobblemon)
+- minecraft:snowy_plains (from Cobblemon)
+- minecraft:snowy_slopes (from Cobblemon)
+- #cobblemon:is_frozen (from Cobblemon)
+- #cobblemon:is_glacial (from Cobblemon)
+- #cobblemon:is_snowy (from Cobblemon)
+- byg:cardinal_tundra? (from Cobblemon)
+- terralith:emerald_peaks? (from Cobblemon)
+- terralith:scarlet_mountains? (from Cobblemon)
+- terralith:skylands_winter? (from Cobblemon)
+- terralith:snowy_badlands? (from Cobblemon)
+
+#yungsextras:has_structure/vanilla_desert_well
+- minecraft:desert (from YUNG's Extras)
+- #forge:is_desert? (from YUNG's Extras)
+- #c:desert? (from YUNG's Extras)
+- terralith:lush_desert? (from YUNG's Extras)
+- biomesoplenty:lush_desert? (from YUNG's Extras)
+- projectvibrantjourneys:desert_shrubland? (from YUNG's Extras)
+- projectvibrantjourneys:verdant_sands? (from YUNG's Extras)
+
+#forge:is_sparse/overworld
+- terralith:alpine_grove (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:cold_shrubland (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:shield_clearing (from Terralith)
+- terralith:steppe (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:windswept_spires (from Terralith)
+- terralith:yosemite_cliffs (from Terralith)
+
+#yungsextras:has_structure/desert_decorations
+- minecraft:desert (from YUNG's Extras)
+- #forge:is_desert? (from YUNG's Extras)
+- #c:desert? (from YUNG's Extras)
+- terralith:lush_desert? (from YUNG's Extras)
+- biomesoplenty:lush_desert? (from YUNG's Extras)
+- projectvibrantjourneys:desert_shrubland? (from YUNG's Extras)
+- projectvibrantjourneys:verdant_sands? (from YUNG's Extras)
+
+#cobblemon:has_ore/ore_ice_stone_rare
+- #cobblemon:is_freezing (from Cobblemon)
+
+#terralith:has_structure/fortified_desert_village
+- minecraft:desert (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:lush_desert (from Terralith)
+
+#cobblemon:is_jungle
+- #minecraft:is_jungle (from Cobblemon)
+- terralith:underground_jungle? (from Cobblemon)
+
+#minecraft:has_structure/ocean_ruin_cold
+- minecraft:frozen_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+
+#minecraft:produces_corals_from_bonemeal
+- minecraft:warm_ocean (from Default)
+
+#c:is_wasteland
+- minecraft:snowy_plains (from Porting Lib Tags)
+
+#forge:is_desert
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:lush_desert (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+
+#minecraft:has_structure/stronghold
+- #minecraft:is_overworld (from Default)
+- minecraft:the_void (from Terralith)
+- minecraft:plains (from Terralith)
+- minecraft:sunflower_plains (from Terralith)
+- minecraft:snowy_plains (from Terralith)
+- minecraft:ice_spikes (from Terralith)
+- minecraft:desert (from Terralith)
+- minecraft:forest (from Terralith)
+- minecraft:flower_forest (from Terralith)
+- minecraft:birch_forest (from Terralith)
+- minecraft:dark_forest (from Terralith)
+- minecraft:old_growth_birch_forest (from Terralith)
+- minecraft:old_growth_pine_taiga (from Terralith)
+- minecraft:old_growth_spruce_taiga (from Terralith)
+- minecraft:taiga (from Terralith)
+- minecraft:snowy_taiga (from Terralith)
+- minecraft:savanna (from Terralith)
+- minecraft:savanna_plateau (from Terralith)
+- minecraft:windswept_hills (from Terralith)
+- minecraft:windswept_gravelly_hills (from Terralith)
+- minecraft:windswept_forest (from Terralith)
+- minecraft:windswept_savanna (from Terralith)
+- minecraft:jungle (from Terralith)
+- minecraft:sparse_jungle (from Terralith)
+- minecraft:bamboo_jungle (from Terralith)
+- minecraft:badlands (from Terralith)
+- minecraft:eroded_badlands (from Terralith)
+- minecraft:wooded_badlands (from Terralith)
+- minecraft:meadow (from Terralith)
+- minecraft:grove (from Terralith)
+- minecraft:snowy_slopes (from Terralith)
+- minecraft:frozen_peaks (from Terralith)
+- minecraft:jagged_peaks (from Terralith)
+- minecraft:stony_peaks (from Terralith)
+- minecraft:mushroom_fields (from Terralith)
+- minecraft:dripstone_caves (from Terralith)
+- minecraft:lush_caves (from Terralith)
+- #terralith:all_terralith_biomes (from Terralith)
+
+#cobblemon:has_feature/apricorns_dense
+- #cobblemon:is_badlands (from Cobblemon)
+- #cobblemon:is_desert (from Cobblemon)
+- #cobblemon:is_forest (from Cobblemon)
+- #cobblemon:is_jungle (from Cobblemon)
+- #cobblemon:is_snowy (from Cobblemon)
+- #cobblemon:is_swamp (from Cobblemon)
+- #cobblemon:is_taiga (from Cobblemon)
+
+#apoli:category/beach
+- #minecraft:is_beach (from Apoli)
+
+#minecraft:has_structure/mineshaft_mesa
+- #minecraft:is_badlands (from Default)
+- #minecraft:is_badlands (from Terralith)
+
+#minecraft:has_structure/ancient_city
+- minecraft:deep_dark (from Default)
+- minecraft:deep_dark (from Terralith)
+
+#forge:is_peak
+- terralith:emerald_peaks (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:frozen_cliffs (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:warped_mesa (from Terralith)
+
+#minecraft:has_structure/shipwreck
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_ocean (from Terralith)
+
+#c:snowy_plains
+- minecraft:snowy_plains (from Fabric Convention Tags)
+- terralith:gravel_desert (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+
+#forge:is_wet/overworld
+- terralith:amethyst_canyon (from Terralith)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:blooming_valley (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:granite_cliffs (from Terralith)
+- terralith:gravel_beach (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+- terralith:red_oasis (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:white_cliffs (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:cave/thermal_caves (from Terralith)
+- terralith:cave/underground_jungle (from Terralith)
+
+#apoli:category/jungle
+- #minecraft:is_jungle (from Apoli)
+
+#c:vegetation_dense
+- #c:jungle? (from Fabric Convention Tags)
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+- terralith:jungle_mountains (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+
+#apoli:category/savanna
+- #minecraft:is_savanna (from Apoli)
+
+#c:is_hot/nether
+- minecraft:nether_wastes (from Porting Lib Tags)
+- minecraft:soul_sand_valley (from Porting Lib Tags)
+- minecraft:crimson_forest (from Porting Lib Tags)
+- minecraft:warped_forest (from Porting Lib Tags)
+- minecraft:basalt_deltas (from Porting Lib Tags)
+
+#minecraft:is_hill
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:windswept_hills (from Terralith)
+- minecraft:windswept_forest (from Terralith)
+- minecraft:windswept_gravelly_hills (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:cloud_forest (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:haze_mountain (from Terralith)
+
+#cobblemon:is_swamp
+- minecraft:mangrove_swamp (from Cobblemon)
+- minecraft:swamp (from Cobblemon)
+- #byg:is_swamp? (from Cobblemon)
+- terralith:ice_marsh? (from Cobblemon)
+- terralith:orchid_swamp? (from Cobblemon)
+
+#c:forest
+- #minecraft:is_forest? (from Fabric Convention Tags)
+- terralith:alpha_islands (from Terralith)
+- terralith:birch_taiga (from Terralith)
+- terralith:lavender_forest (from Terralith)
+- terralith:lavender_valley (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:moonlight_grove (from Terralith)
+- terralith:sakura_grove (from Terralith)
+- terralith:sakura_valley (from Terralith)
+- terralith:skylands (from Terralith)
+- terralith:skylands_autumn (from Terralith)
+- terralith:skylands_spring (from Terralith)
+- terralith:temperate_highlands (from Terralith)
+- terralith:white_cliffs (from Terralith)
+- terralith:yosemite_lowlands (from Terralith)
+
+#philipsruins:has_structure/sculk_dungeon_biomes
+- minecraft:deep_dark (from Philip`s ruins)
+
+#c:end_islands
+
+#cobblemon:is_badlands
+- #minecraft:is_badlands (from Cobblemon)
+- terralith:ashen_savanna? (from Cobblemon)
+- terralith:red_oasis? (from Cobblemon)
+- terralith:warped_mesa? (from Cobblemon)
+- terralith:white_mesa? (from Cobblemon)
+
+#c:is_plateau
+- minecraft:savanna_plateau (from Porting Lib Tags)
+- minecraft:wooded_badlands (from Porting Lib Tags)
+- minecraft:meadow (from Porting Lib Tags)
+
+#philipsruins:has_structure/badlands_structures_biomes
+- minecraft:badlands (from Philip`s ruins)
+- minecraft:eroded_badlands (from Philip`s ruins)
+- minecraft:wooded_badlands (from Philip`s ruins)
+
+#c:dead
+- terralith:ashen_savanna (from Terralith)
+- terralith:gravel_desert (from Terralith)
+
+#waystones:is_swamp
+- minecraft:swamp (from Waystones)
+- minecraft:mangrove_swamp (from Waystones)
+
+#c:swamp
+- minecraft:mangrove_swamp (from Fabric Convention Tags)
+- minecraft:swamp (from Fabric Convention Tags)
+- terralith:ice_marsh (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+
+#cobblemon:is_hills
+- #minecraft:is_hill (from Cobblemon)
+- #cobblemon:is_highlands (from Cobblemon)
+- terralith:blooming_valley? (from Cobblemon)
+- terralith:forested_highlands? (from Cobblemon)
+- terralith:lavender_valley? (from Cobblemon)
+- terralith:lush_valley? (from Cobblemon)
+- terralith:moonlight_valley? (from Cobblemon)
+- terralith:sakura_valley? (from Cobblemon)
+- terralith:savanna_slopes? (from Cobblemon)
+- terralith:temperate_highlands? (from Cobblemon)
+- terralith:yosemite_lowlands? (from Cobblemon)
+
+#forge:is_mountain
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:haze_mountain (from Terralith)
+- terralith:mountain_steppe (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:temperate_highlands (from Terralith)
+
+#cobblemon:is_coast
+- #minecraft:is_beach (from Cobblemon)
+- minecraft:stony_shore (from Cobblemon)
+- terralith:basalt_cliffs? (from Cobblemon)
+- terralith:granite_cliffs? (from Cobblemon)
+- terralith:white_cliffs? (from Cobblemon)
+
+#c:in_overworld
+- #minecraft:is_overworld? (from Fabric Convention Tags)
+- minecraft:river (from Fabric Convention Tags)
+- minecraft:frozen_river (from Fabric Convention Tags)
+- minecraft:cold_ocean (from Fabric Convention Tags)
+- minecraft:deep_cold_ocean (from Fabric Convention Tags)
+- minecraft:deep_frozen_ocean (from Fabric Convention Tags)
+- minecraft:deep_ocean (from Fabric Convention Tags)
+- minecraft:deep_lukewarm_ocean (from Fabric Convention Tags)
+- minecraft:warm_ocean (from Fabric Convention Tags)
+- minecraft:lukewarm_ocean (from Fabric Convention Tags)
+- minecraft:frozen_ocean (from Fabric Convention Tags)
+- minecraft:ocean (from Fabric Convention Tags)
+- minecraft:beach (from Fabric Convention Tags)
+- minecraft:plains (from Fabric Convention Tags)
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+- minecraft:snowy_plains (from Fabric Convention Tags)
+- minecraft:ice_spikes (from Fabric Convention Tags)
+- minecraft:desert (from Fabric Convention Tags)
+- minecraft:forest (from Fabric Convention Tags)
+- minecraft:flower_forest (from Fabric Convention Tags)
+- minecraft:birch_forest (from Fabric Convention Tags)
+- minecraft:dark_forest (from Fabric Convention Tags)
+- minecraft:old_growth_birch_forest (from Fabric Convention Tags)
+- minecraft:old_growth_pine_taiga (from Fabric Convention Tags)
+- minecraft:old_growth_spruce_taiga (from Fabric Convention Tags)
+- minecraft:taiga (from Fabric Convention Tags)
+- minecraft:snowy_taiga (from Fabric Convention Tags)
+- minecraft:savanna (from Fabric Convention Tags)
+- minecraft:savanna_plateau (from Fabric Convention Tags)
+- minecraft:windswept_hills (from Fabric Convention Tags)
+- minecraft:windswept_gravelly_hills (from Fabric Convention Tags)
+- minecraft:windswept_forest (from Fabric Convention Tags)
+- minecraft:windswept_savanna (from Fabric Convention Tags)
+- minecraft:jungle (from Fabric Convention Tags)
+- minecraft:sparse_jungle (from Fabric Convention Tags)
+- minecraft:bamboo_jungle (from Fabric Convention Tags)
+- minecraft:badlands (from Fabric Convention Tags)
+- minecraft:eroded_badlands (from Fabric Convention Tags)
+- minecraft:wooded_badlands (from Fabric Convention Tags)
+- minecraft:meadow (from Fabric Convention Tags)
+- minecraft:grove (from Fabric Convention Tags)
+- minecraft:snowy_slopes (from Fabric Convention Tags)
+- minecraft:frozen_peaks (from Fabric Convention Tags)
+- minecraft:jagged_peaks (from Fabric Convention Tags)
+- minecraft:stony_peaks (from Fabric Convention Tags)
+- minecraft:mushroom_fields (from Fabric Convention Tags)
+- minecraft:dripstone_caves (from Fabric Convention Tags)
+- minecraft:lush_caves (from Fabric Convention Tags)
+- minecraft:snowy_beach (from Fabric Convention Tags)
+- minecraft:swamp (from Fabric Convention Tags)
+- minecraft:stony_shore (from Fabric Convention Tags)
+- minecraft:deep_dark (from Fabric Convention Tags)
+- minecraft:mangrove_swamp (from Fabric Convention Tags)
+
+#c:tree_jungle
+- #c:jungle? (from Fabric Convention Tags)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:skylands_summer (from Terralith)
+
+#cobblemon:has_ore/ore_sun_stone_normal
+- #cobblemon:is_badlands (from Cobblemon)
+- #cobblemon:is_dripstone (from Cobblemon)
+- #cobblemon:is_grassland (from Cobblemon)
+
+#philipsruins:has_structure/lost_soul_dungeon_biomes
+- minecraft:dripstone_caves (from Philip`s ruins)
+- minecraft:lush_caves (from Philip`s ruins)
+- minecraft:deep_dark (from Philip`s ruins)
+
+#cobblemon:is_spring
+- #cobblemon:is_floral (from Cobblemon)
+- #cobblemon:is_lukewarm (from Cobblemon)
+- #cobblemon:is_magical (from Cobblemon)
+- #cobblemon:is_plains (from Cobblemon)
+- terralith:skylands_spring? (from Cobblemon)
+
+#cobblemon:is_desert
+- minecraft:desert (from Cobblemon)
+- #byg:is_desert? (from Cobblemon)
+- terralith:ancient_sands? (from Cobblemon)
+- terralith:desert_canyon? (from Cobblemon)
+- terralith:desert_caves? (from Cobblemon)
+- terralith:desert_oasis? (from Cobblemon)
+- terralith:desert_spires? (from Cobblemon)
+- terralith:lush_desert? (from Cobblemon)
+- terralith:red_oasis? (from Cobblemon)
+- terralith:sandstone_valley? (from Cobblemon)
+
+#minecraft:has_structure/ruined_portal_ocean
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_ocean (from Terralith)
+
+#forge:is_rare
+- terralith:alpha_islands (from Terralith)
+- terralith:alpha_islands_winter (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:skylands (from Terralith)
+- terralith:skylands_autumn (from Terralith)
+- terralith:skylands_spring (from Terralith)
+- terralith:skylands_summer (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:warped_mesa (from Terralith)
+- terralith:windswept_spires (from Terralith)
+- terralith:yellowstone (from Terralith)
+
+#philipsruins:has_structure/start_nether_ruin_biomes
+- #minecraft:is_jungle (from Philip`s ruins)
+- minecraft:plains (from Philip`s ruins)
+- minecraft:snowy_plains (from Philip`s ruins)
+- minecraft:sunflower_plains (from Philip`s ruins)
+- minecraft:savanna (from Philip`s ruins)
+- minecraft:savanna_plateau (from Philip`s ruins)
+- minecraft:dark_forest (from Philip`s ruins)
+- minecraft:jungle (from Philip`s ruins)
+- minecraft:swamp (from Philip`s ruins)
+- minecraft:mangrove_swamp (from Philip`s ruins)
+
+#cobblemon:has_ore/ore_leaf_stone_normal
+- #cobblemon:is_forest (from Cobblemon)
+- #cobblemon:is_jungle (from Cobblemon)
+- #cobblemon:is_lush (from Cobblemon)
+
+#c:river
+- #minecraft:is_river? (from Fabric Convention Tags)
+- terralith:warm_river (from Terralith)
+
+#minecraft:is_deep_ocean
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Terralith)
+- minecraft:deep_cold_ocean (from Terralith)
+- minecraft:deep_ocean (from Terralith)
+- minecraft:deep_lukewarm_ocean (from Terralith)
+
+#cobblemon:is_deep
+- #minecraft:is_deep_ocean (from Cobblemon)
+
+#c:windswept
+- minecraft:windswept_hills (from Fabric Convention Tags)
+- minecraft:windswept_gravelly_hills (from Fabric Convention Tags)
+- minecraft:windswept_forest (from Fabric Convention Tags)
+- minecraft:windswept_savanna (from Fabric Convention Tags)
+
+#minecraft:is_nether
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:crimson_forest (from Default)
+- minecraft:warped_forest (from Default)
+- minecraft:basalt_deltas (from Default)
+- minecraft:nether_wastes (from Terralith)
+- minecraft:basalt_deltas (from Terralith)
+- minecraft:soul_sand_valley (from Terralith)
+- minecraft:crimson_forest (from Terralith)
+- minecraft:warped_forest (from Terralith)
+
+#cobblemon:is_cold
+- #cobblemon:is_freezing (from Cobblemon)
+- #cobblemon:is_frigid (from Cobblemon)
+- #cobblemon:is_peak (from Cobblemon)
+- #cobblemon:is_taiga (from Cobblemon)
+- #cobblemon:is_tundra (from Cobblemon)
+- #byg:is_cold? (from Cobblemon)
+
+#c:climate_hot
+- #c:jungle? (from Fabric Convention Tags)
+- #c:savanna? (from Fabric Convention Tags)
+- #c:desert? (from Fabric Convention Tags)
+- #c:badlands? (from Fabric Convention Tags)
+- minecraft:stony_peaks (from Fabric Convention Tags)
+- #c:mushroom? (from Fabric Convention Tags)
+- #c:in_nether? (from Fabric Convention Tags)
+- terralith:amethyst_canyon (from Terralith)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:ancient_sands (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:basalt_cliffs (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:granite_cliffs (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:lush_desert (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:red_oasis (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:shrubland (from Terralith)
+- terralith:skylands_summer (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:warm_river (from Terralith)
+- terralith:warped_mesa (from Terralith)
+- terralith:white_mesa (from Terralith)
+- terralith:cave/desert_caves (from Terralith)
+- terralith:cave/mantle_caves (from Terralith)
+- terralith:cave/thermal_caves (from Terralith)
+- terralith:cave/underground_jungle (from Terralith)
+
+#c:is_sandy
+- minecraft:desert (from Porting Lib Tags)
+- minecraft:beach (from Porting Lib Tags)
+- minecraft:badlands (from Porting Lib Tags)
+- minecraft:wooded_badlands (from Porting Lib Tags)
+
+#c:desert
+- minecraft:desert (from Fabric Convention Tags)
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:lush_desert (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+
+#c:is_plains
+- minecraft:plains (from Porting Lib Tags)
+- minecraft:snowy_plains (from Porting Lib Tags)
+- minecraft:meadow (from Porting Lib Tags)
+- minecraft:sunflower_plains (from Porting Lib Tags)
+
+#cobblemon:is_peak
+- minecraft:frozen_peaks (from Cobblemon)
+- minecraft:jagged_peaks (from Cobblemon)
+- minecraft:snowy_slopes (from Cobblemon)
+- minecraft:stony_peaks (from Cobblemon)
+- terralith:emerald_peaks? (from Cobblemon)
+- terralith:rocky_mountains? (from Cobblemon)
+- terralith:scarlet_mountains? (from Cobblemon)
+- terralith:windswept_spires? (from Cobblemon)
+
+#cobblemon:has_ore/ore_shiny_stone_normal
+- #cobblemon:is_floral (from Cobblemon)
+- #cobblemon:is_magical (from Cobblemon)
+- #cobblemon:is_sky (from Cobblemon)
+
+#cobblemon:is_sky
+- terralith:skylands_autumn? (from Cobblemon)
+- terralith:skylands_spring? (from Cobblemon)
+- terralith:skylands_summer? (from Cobblemon)
+- terralith:skylands_winter? (from Cobblemon)
+
+#c:shallow_ocean
+- minecraft:ocean (from Fabric Convention Tags)
+- minecraft:lukewarm_ocean (from Fabric Convention Tags)
+- minecraft:frozen_ocean (from Fabric Convention Tags)
+- minecraft:cold_ocean (from Fabric Convention Tags)
+- minecraft:warm_ocean (from Fabric Convention Tags)
+
+#apoli:category/swamp
+- minecraft:swamp (from Apoli)
+
+#c:is_coniferous
+- minecraft:taiga (from Porting Lib Tags)
+- minecraft:snowy_taiga (from Porting Lib Tags)
+- minecraft:old_growth_pine_taiga (from Porting Lib Tags)
+- minecraft:grove (from Porting Lib Tags)
+
+#c:is_rare
+- minecraft:mushroom_fields (from Porting Lib Tags)
+- minecraft:sparse_jungle (from Porting Lib Tags)
+- minecraft:savanna_plateau (from Porting Lib Tags)
+- minecraft:sunflower_plains (from Porting Lib Tags)
+- minecraft:windswept_gravelly_hills (from Porting Lib Tags)
+- minecraft:flower_forest (from Porting Lib Tags)
+- minecraft:ice_spikes (from Porting Lib Tags)
+- minecraft:old_growth_birch_forest (from Porting Lib Tags)
+- minecraft:old_growth_spruce_taiga (from Porting Lib Tags)
+- minecraft:windswept_savanna (from Porting Lib Tags)
+- minecraft:eroded_badlands (from Porting Lib Tags)
+- minecraft:bamboo_jungle (from Porting Lib Tags)
+- minecraft:deep_dark (from Porting Lib Tags)
+
+#c:is_snowy
+- minecraft:frozen_ocean (from Porting Lib Tags)
+- minecraft:frozen_river (from Porting Lib Tags)
+- minecraft:snowy_plains (from Porting Lib Tags)
+- minecraft:snowy_beach (from Porting Lib Tags)
+- minecraft:snowy_taiga (from Porting Lib Tags)
+- minecraft:grove (from Porting Lib Tags)
+- minecraft:snowy_slopes (from Porting Lib Tags)
+- minecraft:jagged_peaks (from Porting Lib Tags)
+- minecraft:frozen_peaks (from Porting Lib Tags)
+- minecraft:ice_spikes (from Porting Lib Tags)
+
+#cobblemon:is_forest
+- #minecraft:is_forest (from Cobblemon)
+- terralith:alpha_islands? (from Cobblemon)
+- terralith:alpha_islands_winter? (from Cobblemon)
+- terralith:blooming_valley? (from Cobblemon)
+- terralith:forested_highlands? (from Cobblemon)
+- terralith:lavender_forest? (from Cobblemon)
+- terralith:lavender_valley? (from Cobblemon)
+- terralith:mirage_isles? (from Cobblemon)
+- terralith:sakura_grove? (from Cobblemon)
+- terralith:sakura_valley? (from Cobblemon)
+- terralith:temperate_highlands? (from Cobblemon)
+
+#cobblemon:has_ore/ore_fire_stone_normal
+- #cobblemon:is_desert (from Cobblemon)
+- #cobblemon:is_thermal (from Cobblemon)
+- #cobblemon:is_volcanic (from Cobblemon)
+
+#c:tree_deciduous
+- minecraft:forest (from Fabric Convention Tags)
+- minecraft:windswept_forest (from Fabric Convention Tags)
+- minecraft:flower_forest (from Fabric Convention Tags)
+- minecraft:birch_forest (from Fabric Convention Tags)
+- minecraft:dark_forest (from Fabric Convention Tags)
+- minecraft:old_growth_birch_forest (from Fabric Convention Tags)
+- terralith:alpha_islands (from Terralith)
+- terralith:alpha_islands_winter (from Terralith)
+- terralith:alpine_highlands (from Terralith)
+- terralith:birch_taiga (from Terralith)
+- terralith:haze_mountain (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:lavender_forest (from Terralith)
+- terralith:lavender_valley (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:sakura_grove (from Terralith)
+- terralith:skylands_autumn (from Terralith)
+- terralith:skylands_spring (from Terralith)
+- terralith:temperate_highlands (from Terralith)
+- terralith:white_cliffs (from Terralith)
+
+#minecraft:more_frequent_drowned_spawns
+- #minecraft:is_river (from Default)
+
+#minecraft:has_structure/village_desert
+- minecraft:desert (from Default)
+- minecraft:desert (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:desert_oasis (from Terralith)
+
+#c:tree_savanna
+- #c:savanna? (from Fabric Convention Tags)
+- terralith:amethyst_canyon (from Terralith)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:moonlight_grove (from Terralith)
+- terralith:moonlight_valley (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+
+#minecraft:is_forest
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:grove (from Default)
+- minecraft:forest (from Terralith)
+- minecraft:flower_forest (from Terralith)
+- minecraft:birch_forest (from Terralith)
+- minecraft:old_growth_birch_forest (from Terralith)
+- minecraft:dark_forest (from Terralith)
+- minecraft:grove (from Terralith)
+- terralith:alpine_grove (from Terralith)
+- terralith:cloud_forest (from Terralith)
+
+#c:icy
+- minecraft:frozen_peaks (from Fabric Convention Tags)
+- minecraft:ice_spikes (from Fabric Convention Tags)
+- terralith:frozen_cliffs (from Terralith)
+- terralith:glacial_chasm (from Terralith)
+- terralith:skylands_winter (from Terralith)
+
+#supplementaries:has_way_signs
+- #minecraft:is_overworld (from Supplementaries Generated Pack)
+
+#c:stony_shores
+- minecraft:stony_shore (from Fabric Convention Tags)
+- terralith:amethyst_canyon (from Terralith)
+- terralith:basalt_cliffs (from Terralith)
+- terralith:granite_cliffs (from Terralith)
+- terralith:gravel_beach (from Terralith)
+
+#apoli:category/plains
+- minecraft:plains (from Apoli)
+- minecraft:sunflower_plains (from Apoli)
+
+#cobblemon:is_temperate
+- #cobblemon:is_forest (from Cobblemon)
+- #cobblemon:is_plains (from Cobblemon)
+
+#minecraft:allows_tropical_fish_spawns_at_any_height
+- minecraft:lush_caves (from Default)
+
+#c:is_dry/overworld
+- minecraft:desert (from Porting Lib Tags)
+- minecraft:badlands (from Porting Lib Tags)
+- minecraft:wooded_badlands (from Porting Lib Tags)
+- minecraft:windswept_savanna (from Porting Lib Tags)
+- minecraft:eroded_badlands (from Porting Lib Tags)
+
+#supplementaries:has_basalt_ash
+- minecraft:basalt_deltas (from Supplementaries Generated Pack)
+
+#minecraft:polar_bears_spawn_on_alternate_blocks
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+
+#cobblemon:is_autumn
+- #cobblemon:is_arid (from Cobblemon)
+- #cobblemon:is_frigid (from Cobblemon)
+- #cobblemon:is_mountain (from Cobblemon)
+- #cobblemon:is_mushroom (from Cobblemon)
+- #cobblemon:is_taiga (from Cobblemon)
+- terralith:skylands_autumn? (from Cobblemon)
+
+#cobblemon:has_ore/ore_thunder_stone_rare
+- #cobblemon:is_jungle (from Cobblemon)
+- #cobblemon:is_plains (from Cobblemon)
+
+#minecraft:has_structure/village_plains
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+- minecraft:plains (from Terralith)
+- minecraft:meadow (from Terralith)
+- terralith:blooming_plateau (from Terralith)
+- terralith:steppe (from Terralith)
+- terralith:birch_taiga (from Terralith)
+- terralith:lavender_forest (from Terralith)
+- terralith:temperate_highlands (from Terralith)
+
+#c:is_dry/nether
+- minecraft:nether_wastes (from Porting Lib Tags)
+- minecraft:soul_sand_valley (from Porting Lib Tags)
+- minecraft:crimson_forest (from Porting Lib Tags)
+- minecraft:warped_forest (from Porting Lib Tags)
+- minecraft:basalt_deltas (from Porting Lib Tags)
+
+#cobblemon:is_reef
+- minecraft:warm_ocean (from Cobblemon)
+- terralith:lush_stacks? (from Cobblemon)
+
+#c:ocean
+- #c:deep_ocean? (from Fabric Convention Tags)
+- #c:shallow_ocean? (from Fabric Convention Tags)
+- #minecraft:is_ocean? (from Fabric Convention Tags)
+
+#forge:is_coniferous
+- terralith:alpine_grove (from Terralith)
+- terralith:alpine_highlands (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:cloud_forest (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+
+#waystones:is_mushroom
+- minecraft:mushroom_fields (from Waystones)
+
+#forge:is_snowy
+- terralith:alpha_islands_winter (from Terralith)
+- terralith:alpine_grove (from Terralith)
+- terralith:cold_shrubland (from Terralith)
+- terralith:emerald_peaks (from Terralith)
+- terralith:gravel_desert (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:rocky_mountains (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:snowy_shield (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+
+#cobblemon:is_winter
+- #cobblemon:is_freezing (from Cobblemon)
+- terralith:skylands_winter? (from Cobblemon)
+
+#minecraft:has_structure/swamp_hut
+- minecraft:swamp (from Default)
+- terralith:orchid_swamp (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:ice_marsh (from Terralith)
+
+#c:is_dry
+- #c:is_dry/overworld (from Porting Lib Tags)
+- #c:is_dry/nether (from Porting Lib Tags)
+- #c:is_dry/end (from Porting Lib Tags)
+
+#c:is_cold
+- #c:is_cold/overworld (from Porting Lib Tags)
+- #c:is_cold/nether? (from Porting Lib Tags)
+- #c:is_cold/end (from Porting Lib Tags)
+
+#apoli:category/mountain
+- #minecraft:is_mountain (from Apoli)
+
+#forge:is_water
+- terralith:warm_river (from Terralith)
+
+#minecraft:has_structure/ruined_portal_nether
+- #minecraft:is_nether (from Default)
+- #minecraft:is_nether (from Terralith)
+
+#minecraft:only_allows_snow_and_gold_rabbits
+- minecraft:desert (from Default)
+
+#minecraft:stronghold_biased_to
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:desert (from Default)
+- minecraft:forest (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:meadow (from Default)
+- minecraft:grove (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+
+#c:is_peak
+- minecraft:jagged_peaks (from Porting Lib Tags)
+- minecraft:frozen_peaks (from Porting Lib Tags)
+- minecraft:stony_peaks (from Porting Lib Tags)
+
+#minecraft:is_beach
+- minecraft:beach (from Default)
+- minecraft:snowy_beach (from Default)
+- minecraft:beach (from Terralith)
+- minecraft:snowy_beach (from Terralith)
+- terralith:gravel_beach (from Terralith)
+
+#minecraft:has_structure/ruined_portal_standard
+- #minecraft:is_beach (from Default)
+- #minecraft:is_river (from Default)
+- #minecraft:is_taiga (from Default)
+- #minecraft:is_forest (from Default)
+- minecraft:mushroom_fields (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:plains (from Default)
+- minecraft:sunflower_plains (from Default)
+- #minecraft:is_beach (from Terralith)
+- #minecraft:is_river (from Terralith)
+- #minecraft:is_taiga (from Terralith)
+- #minecraft:is_forest (from Terralith)
+- minecraft:mushroom_fields (from Terralith)
+- minecraft:ice_spikes (from Terralith)
+- minecraft:dripstone_caves (from Terralith)
+- minecraft:lush_caves (from Terralith)
+- minecraft:savanna (from Terralith)
+- minecraft:snowy_plains (from Terralith)
+- minecraft:plains (from Terralith)
+- minecraft:sunflower_plains (from Terralith)
+
+#minecraft:has_structure/pillager_outpost
+- minecraft:desert (from Default)
+- minecraft:plains (from Default)
+- minecraft:savanna (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:taiga (from Default)
+- #minecraft:is_mountain (from Default)
+- minecraft:grove (from Default)
+- minecraft:desert (from Terralith)
+- minecraft:plains (from Terralith)
+- minecraft:savanna (from Terralith)
+- minecraft:snowy_plains (from Terralith)
+- minecraft:taiga (from Terralith)
+- #minecraft:is_mountain (from Terralith)
+- minecraft:grove (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:sakura_valley (from Terralith)
+- terralith:sakura_grove (from Terralith)
+- terralith:lavender_forest (from Terralith)
+
+#c:birch_forest
+- minecraft:birch_forest (from Fabric Convention Tags)
+- minecraft:old_growth_birch_forest (from Fabric Convention Tags)
+
+#forge:is_swamp
+- terralith:ice_marsh (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+
+#c:is_dense/overworld
+- minecraft:jungle (from Porting Lib Tags)
+- minecraft:dark_forest (from Porting Lib Tags)
+- minecraft:old_growth_birch_forest (from Porting Lib Tags)
+- minecraft:old_growth_spruce_taiga (from Porting Lib Tags)
+
+#minecraft:is_mountain
+- minecraft:meadow (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:meadow (from Terralith)
+- minecraft:frozen_peaks (from Terralith)
+- minecraft:jagged_peaks (from Terralith)
+- minecraft:stony_peaks (from Terralith)
+- minecraft:snowy_slopes (from Terralith)
+- terralith:emerald_peaks (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:rocky_mountains (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+
+#c:plains
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+- minecraft:plains (from Fabric Convention Tags)
+- terralith:highlands (from Terralith)
+
+#cobblemon:has_ore/ore_thunder_stone_normal
+- #cobblemon:is_highlands (from Cobblemon)
+- #cobblemon:is_hills (from Cobblemon)
+
+#apoli:category/none
+- minecraft:the_void (from Apoli)
+
+#minecraft:is_badlands
+- minecraft:badlands (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:badlands (from Terralith)
+- minecraft:eroded_badlands (from Terralith)
+- minecraft:wooded_badlands (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+
+#c:climate_temperate
+- minecraft:forest (from Fabric Convention Tags)
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+- minecraft:swamp (from Fabric Convention Tags)
+- minecraft:stony_shore (from Fabric Convention Tags)
+- minecraft:dark_forest (from Fabric Convention Tags)
+- minecraft:windswept_forest (from Fabric Convention Tags)
+- minecraft:birch_forest (from Fabric Convention Tags)
+- minecraft:old_growth_birch_forest (from Fabric Convention Tags)
+- minecraft:meadow (from Fabric Convention Tags)
+- minecraft:plains (from Fabric Convention Tags)
+- terralith:alpha_islands (from Terralith)
+- terralith:blooming_plateau (from Terralith)
+- terralith:blooming_valley (from Terralith)
+- terralith:gravel_beach (from Terralith)
+- terralith:lavender_forest (from Terralith)
+- terralith:lavender_valley (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:moonlight_grove (from Terralith)
+- terralith:moonlight_valley (from Terralith)
+- terralith:sakura_grove (from Terralith)
+- terralith:sakura_valley (from Terralith)
+- terralith:skylands (from Terralith)
+- terralith:skylands_autumn (from Terralith)
+- terralith:skylands_spring (from Terralith)
+- terralith:steppe (from Terralith)
+- terralith:stony_spires (from Terralith)
+- terralith:temperate_highlands (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:white_cliffs (from Terralith)
+- terralith:windswept_spires (from Terralith)
+- terralith:yosemite_cliffs (from Terralith)
+- terralith:yosemite_lowlands (from Terralith)
+
+#terralith:has_structure/spire
+- terralith:wintry_lowlands (from Terralith)
+- minecraft:ice_spikes (from Terralith)
+- minecraft:frozen_river (from Terralith)
+
+#totw_additions:has_structure/end_tower_biomes
+- minecraft:end_highlands (from Towers of the Wild: Additions)
+- minecraft:end_midlands (from Towers of the Wild: Additions)
+
+#c:aquatic
+- #c:ocean? (from Fabric Convention Tags)
+- #c:river? (from Fabric Convention Tags)
+- terralith:warm_river (from Terralith)
+
+#cobblemon:is_sandy
+- #cobblemon:is_badlands (from Cobblemon)
+- #cobblemon:is_desert (from Cobblemon)
+- #byg:is_sandy? (from Cobblemon)
+
+#c:aquatic_icy
+- minecraft:frozen_river (from Fabric Convention Tags)
+- minecraft:deep_frozen_ocean (from Fabric Convention Tags)
+- minecraft:frozen_ocean (from Fabric Convention Tags)
+
+#cobblemon:has_ore/ore_sun_stone_rare
+- #cobblemon:is_desert (from Cobblemon)
+
+#minecraft:has_structure/nether_fossil
+- minecraft:soul_sand_valley (from Default)
+
+#cobblemon:has_ore/ore_moon_stone_normal
+- #cobblemon:is_dripstone (from Cobblemon)
+- minecraft:mushroom_fields (from Cobblemon)
+
+#terralith:all_terralith_biomes_no_mineshafts
+- terralith:desert_canyon (from Terralith)
+- terralith:cave/andesite_caves (from Terralith)
+- terralith:cave/crystal_caves (from Terralith)
+- terralith:cave/deep_caves (from Terralith)
+- terralith:cave/desert_caves (from Terralith)
+- terralith:cave/diorite_caves (from Terralith)
+- terralith:cave/fungal_caves (from Terralith)
+- terralith:cave/granite_caves (from Terralith)
+- terralith:cave/ice_caves (from Terralith)
+- terralith:cave/infested_caves (from Terralith)
+- terralith:cave/mantle_caves (from Terralith)
+- terralith:cave/thermal_caves (from Terralith)
+- terralith:cave/tuff_caves (from Terralith)
+- terralith:alpine_grove (from Terralith)
+- terralith:alpine_highlands (from Terralith)
+- terralith:amethyst_canyon (from Terralith)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:ancient_sands (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:basalt_cliffs (from Terralith)
+- terralith:birch_taiga (from Terralith)
+- terralith:blooming_plateau (from Terralith)
+- terralith:blooming_valley (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:cloud_forest (from Terralith)
+- terralith:cold_shrubland (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:emerald_peaks (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:frozen_cliffs (from Terralith)
+- terralith:glacial_chasm (from Terralith)
+- terralith:granite_cliffs (from Terralith)
+- terralith:gravel_beach (from Terralith)
+- terralith:gravel_desert (from Terralith)
+- terralith:haze_mountain (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:lavender_forest (from Terralith)
+- terralith:lavender_valley (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:moonlight_grove (from Terralith)
+- terralith:moonlight_valley (from Terralith)
+- terralith:mountain_steppe (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+- terralith:red_oasis (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:rocky_mountains (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:sakura_grove (from Terralith)
+- terralith:sakura_valley (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:shield_clearing (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:shrubland (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:skylands_autumn (from Terralith)
+- terralith:skylands_spring (from Terralith)
+- terralith:skylands_summer (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:skylands (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:snowy_shield (from Terralith)
+- terralith:steppe (from Terralith)
+- terralith:stony_spires (from Terralith)
+- terralith:temperate_highlands (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:warm_river (from Terralith)
+- terralith:warped_mesa (from Terralith)
+- terralith:white_cliffs (from Terralith)
+- terralith:white_mesa (from Terralith)
+- terralith:windswept_spires (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:yosemite_cliffs (from Terralith)
+- terralith:yosemite_lowlands (from Terralith)
+
+#cobblemon:is_thermal
+- terralith:caldera? (from Cobblemon)
+- terralith:thermal_caves? (from Cobblemon)
+- terralith:yellowstone? (from Cobblemon)
+
+#c:is_sparse
+- #c:is_sparse/overworld (from Porting Lib Tags)
+- #c:is_sparse/nether? (from Porting Lib Tags)
+- #c:is_sparse/end? (from Porting Lib Tags)
+
+#c:vegetation_sparse
+- #c:savanna? (from Fabric Convention Tags)
+- #c:desert? (from Fabric Convention Tags)
+- #c:dead? (from Fabric Convention Tags)
+- minecraft:lush_caves (from Fabric Convention Tags)
+- #c:wasteland? (from Fabric Convention Tags)
+- terralith:alpine_grove (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:cold_shrubland (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:shield_clearing (from Terralith)
+- terralith:steppe (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:windswept_spires (from Terralith)
+- terralith:yosemite_cliffs (from Terralith)
+
+#forge:is_cold/overworld
+- terralith:alpha_islands_winter (from Terralith)
+- terralith:alpine_grove (from Terralith)
+- terralith:alpine_highlands (from Terralith)
+- terralith:birch_taiga (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:cloud_forest (from Terralith)
+- terralith:cold_shrubland (from Terralith)
+- terralith:emerald_peaks (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:frozen_cliffs (from Terralith)
+- terralith:glacial_chasm (from Terralith)
+- terralith:gravel_desert (from Terralith)
+- terralith:haze_mountain (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:rocky_mountains (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:snowy_shield (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:cave/frostfire_caves (from Terralith)
+- terralith:cave/ice_caves (from Terralith)
+
+#minecraft:has_structure/end_city
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+- minecraft:end_highlands (from Terralith)
+- minecraft:end_midlands (from Terralith)
+
+#philipsruins:has_structure/ancient_pyramid_biomes
+- minecraft:badlands (from Philip`s ruins)
+- minecraft:eroded_badlands (from Philip`s ruins)
+- minecraft:wooded_badlands (from Philip`s ruins)
+
+#forge:is_dense/overworld
+- terralith:jungle_mountains (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+
+#c:beach
+- #minecraft:is_beach? (from Fabric Convention Tags)
+- minecraft:stony_shore (from Fabric Convention Tags)
+- terralith:frozen_cliffs (from Terralith)
+- terralith:gravel_beach (from Terralith)
+
+#c:extreme_hills
+- minecraft:windswept_gravelly_hills (from Fabric Convention Tags)
+- minecraft:windswept_hills (from Fabric Convention Tags)
+- terralith:blooming_plateau (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:shield_clearing (from Terralith)
+- terralith:snowy_shield (from Terralith)
+- terralith:steppe (from Terralith)
+- terralith:windswept_spires (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:yosemite_cliffs (from Terralith)
+
+#cobblemon:is_frigid
+- minecraft:cold_ocean (from Cobblemon)
+- minecraft:deep_cold_ocean (from Cobblemon)
+- #cobblemon:is_frozen (from Cobblemon)
+
+#c:is_swamp
+- minecraft:swamp (from Porting Lib Tags)
+- minecraft:mangrove_swamp (from Porting Lib Tags)
+
+#minecraft:has_structure/bastion_remnant
+- minecraft:crimson_forest (from Default)
+- minecraft:nether_wastes (from Default)
+- minecraft:soul_sand_valley (from Default)
+- minecraft:warped_forest (from Default)
+- minecraft:crimson_forest (from Terralith)
+- minecraft:nether_wastes (from Terralith)
+- minecraft:soul_sand_valley (from Terralith)
+- minecraft:warped_forest (from Terralith)
+
+#c:is_dry/end
+- minecraft:the_end (from Porting Lib Tags)
+- minecraft:small_end_islands (from Porting Lib Tags)
+- minecraft:end_midlands (from Porting Lib Tags)
+- minecraft:end_highlands (from Porting Lib Tags)
+- minecraft:end_barrens (from Porting Lib Tags)
+
+#philipsruins:has_structure/start_nether_dungeon_biomes
+- minecraft:nether_wastes (from Philip`s ruins)
+- minecraft:soul_sand_valley (from Philip`s ruins)
+- minecraft:basalt_deltas (from Philip`s ruins)
+- minecraft:warped_forest (from Philip`s ruins)
+- minecraft:crimson_forest (from Philip`s ruins)
+
+#minecraft:has_structure/ruined_portal_mountain
+- #minecraft:is_badlands (from Default)
+- #minecraft:is_hill (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:stony_shore (from Default)
+- #minecraft:is_mountain (from Default)
+- #minecraft:is_badlands (from Terralith)
+- #minecraft:is_hill (from Terralith)
+- minecraft:savanna_plateau (from Terralith)
+- minecraft:windswept_savanna (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- minecraft:stony_shore (from Terralith)
+- #minecraft:is_mountain (from Terralith)
+
+#c:climate_wet
+- #c:aquatic? (from Fabric Convention Tags)
+- #c:swamp? (from Fabric Convention Tags)
+- minecraft:lush_caves (from Fabric Convention Tags)
+- #c:jungle? (from Fabric Convention Tags)
+- terralith:amethyst_canyon (from Terralith)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:blooming_valley (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:granite_cliffs (from Terralith)
+- terralith:gravel_beach (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+- terralith:red_oasis (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:white_cliffs (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:cave/thermal_caves (from Terralith)
+- terralith:cave/underground_jungle (from Terralith)
+
+#cobblemon:is_river
+- #minecraft:is_river (from Cobblemon)
+- terralith:warm_river? (from Cobblemon)
+
+#minecraft:water_on_map_outlines
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#minecraft:is_river
+- minecraft:river (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:river (from Terralith)
+- minecraft:frozen_river (from Terralith)
+
+#c:nether_forests
+- minecraft:warped_forest (from Fabric Convention Tags)
+- minecraft:crimson_forest (from Fabric Convention Tags)
+
+#cobblemon:is_mushroom
+- minecraft:dark_forest (from Cobblemon)
+- minecraft:mushroom_fields (from Cobblemon)
+- terralith:fungal_caves? (from Cobblemon)
+- terralith:mirage_isles? (from Cobblemon)
+
+#cobblemon:is_savanna
+- #minecraft:is_savanna (from Cobblemon)
+- terralith:arid_highlands? (from Cobblemon)
+- terralith:ashen_savanna? (from Cobblemon)
+- terralith:brushland? (from Cobblemon)
+- terralith:desert_oasis? (from Cobblemon)
+- terralith:fractured_savanna? (from Cobblemon)
+- terralith:hot_shrubland? (from Cobblemon)
+- terralith:red_oasis? (from Cobblemon)
+- terralith:savanna_badlands? (from Cobblemon)
+- terralith:savanna_slopes? (from Cobblemon)
+- terralith:shrubland? (from Cobblemon)
+
+#cobblemon:is_cave
+- minecraft:dripstone_caves (from Cobblemon)
+- minecraft:lush_caves (from Cobblemon)
+- terralith:andesite_caves? (from Cobblemon)
+- terralith:desert_caves? (from Cobblemon)
+- terralith:diorite_caves? (from Cobblemon)
+- terralith:fungal_caves? (from Cobblemon)
+- terralith:granite_caves? (from Cobblemon)
+- terralith:infested_caves? (from Cobblemon)
+- terralith:thermal_caves? (from Cobblemon)
+- terralith:underground_jungle? (from Cobblemon)
+
+#vinery:has_structure/tree
+- minecraft:plains (from Vinery)
+- minecraft:sunflower_plains (from Vinery)
+- minecraft:meadow (from Vinery)
+- terralith:blooming_plateau? (from Vinery)
+- terralith:blooming_valley? (from Vinery)
+- terralith:cloud_forest? (from Vinery)
+- terralith:forested_highlands? (from Vinery)
+- terralith:highlands? (from Vinery)
+- terralith:valley_clearing? (from Vinery)
+- terralith:shield? (from Vinery)
+- terralith:yosemite_cliffs? (from Vinery)
+- terralith:yosemite_lowlands? (from Vinery)
+
+#c:in_nether
+- #minecraft:is_nether? (from Fabric Convention Tags)
+- minecraft:crimson_forest (from Fabric Convention Tags)
+- minecraft:warped_forest (from Fabric Convention Tags)
+- minecraft:nether_wastes (from Fabric Convention Tags)
+- minecraft:soul_sand_valley (from Fabric Convention Tags)
+- minecraft:basalt_deltas (from Fabric Convention Tags)
+
+#c:tree_coniferous
+- minecraft:grove (from Fabric Convention Tags)
+- #c:taiga? (from Fabric Convention Tags)
+- terralith:alpine_grove (from Terralith)
+- terralith:alpine_highlands (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:cloud_forest (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:snowy_shield (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+
+#terralith:all_terralith_biomes
+- terralith:desert_canyon (from Terralith)
+- terralith:cave/andesite_caves (from Terralith)
+- terralith:cave/crystal_caves (from Terralith)
+- terralith:cave/deep_caves (from Terralith)
+- terralith:cave/desert_caves (from Terralith)
+- terralith:cave/diorite_caves (from Terralith)
+- terralith:cave/frostfire_caves (from Terralith)
+- terralith:cave/fungal_caves (from Terralith)
+- terralith:cave/granite_caves (from Terralith)
+- terralith:cave/ice_caves (from Terralith)
+- terralith:cave/infested_caves (from Terralith)
+- terralith:cave/mantle_caves (from Terralith)
+- terralith:cave/thermal_caves (from Terralith)
+- terralith:cave/tuff_caves (from Terralith)
+- terralith:alpha_islands_winter (from Terralith)
+- terralith:alpha_islands (from Terralith)
+- terralith:alpine_grove (from Terralith)
+- terralith:alpine_highlands (from Terralith)
+- terralith:amethyst_canyon (from Terralith)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:ancient_sands (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:basalt_cliffs (from Terralith)
+- terralith:birch_taiga (from Terralith)
+- terralith:blooming_plateau (from Terralith)
+- terralith:blooming_valley (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:cloud_forest (from Terralith)
+- terralith:cold_shrubland (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:emerald_peaks (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:frozen_cliffs (from Terralith)
+- terralith:glacial_chasm (from Terralith)
+- terralith:granite_cliffs (from Terralith)
+- terralith:gravel_beach (from Terralith)
+- terralith:gravel_desert (from Terralith)
+- terralith:haze_mountain (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:lavender_forest (from Terralith)
+- terralith:lavender_valley (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:moonlight_grove (from Terralith)
+- terralith:moonlight_valley (from Terralith)
+- terralith:mountain_steppe (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:red_oasis (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:rocky_mountains (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:sakura_grove (from Terralith)
+- terralith:sakura_valley (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:shield_clearing (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:shrubland (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:skylands_autumn (from Terralith)
+- terralith:skylands_spring (from Terralith)
+- terralith:skylands_summer (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:skylands (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:snowy_shield (from Terralith)
+- terralith:steppe (from Terralith)
+- terralith:stony_spires (from Terralith)
+- terralith:temperate_highlands (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:warm_river (from Terralith)
+- terralith:warped_mesa (from Terralith)
+- terralith:white_cliffs (from Terralith)
+- terralith:white_mesa (from Terralith)
+- terralith:windswept_spires (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:yosemite_cliffs (from Terralith)
+- terralith:yosemite_lowlands (from Terralith)
+
+#c:savanna
+- #minecraft:is_savanna? (from Fabric Convention Tags)
+- minecraft:savanna_plateau (from Fabric Convention Tags)
+- minecraft:windswept_savanna (from Fabric Convention Tags)
+- minecraft:savanna (from Fabric Convention Tags)
+- terralith:arid_highlands (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:shrubland (from Terralith)
+
+#philipsruins:has_structure/level_two_ruins_biomes
+- #minecraft:is_jungle (from Philip`s ruins)
+- #minecraft:is_forest (from Philip`s ruins)
+- #minecraft:is_taiga (from Philip`s ruins)
+- #minecraft:is_mountain (from Philip`s ruins)
+- minecraft:plains (from Philip`s ruins)
+- minecraft:snowy_plains (from Philip`s ruins)
+- minecraft:sunflower_plains (from Philip`s ruins)
+- minecraft:savanna (from Philip`s ruins)
+- minecraft:savanna_plateau (from Philip`s ruins)
+- minecraft:windswept_savanna (from Philip`s ruins)
+- minecraft:snowy_taiga (from Philip`s ruins)
+- minecraft:frozen_peaks (from Philip`s ruins)
+- minecraft:stony_shore (from Philip`s ruins)
+- minecraft:dark_forest (from Philip`s ruins)
+- minecraft:jungle (from Philip`s ruins)
+- minecraft:meadow (from Philip`s ruins)
+- minecraft:swamp (from Philip`s ruins)
+- minecraft:mangrove_swamp (from Philip`s ruins)
+
+#c:is_wet/overworld
+- minecraft:swamp (from Porting Lib Tags)
+- minecraft:jungle (from Porting Lib Tags)
+- minecraft:sparse_jungle (from Porting Lib Tags)
+- minecraft:beach (from Porting Lib Tags)
+- minecraft:bamboo_jungle (from Porting Lib Tags)
+- minecraft:lush_caves (from Porting Lib Tags)
+- minecraft:mangrove_swamp (from Porting Lib Tags)
+
+#c:caves
+- minecraft:deep_dark (from Fabric Convention Tags)
+- minecraft:dripstone_caves (from Fabric Convention Tags)
+- minecraft:lush_caves (from Fabric Convention Tags)
+- terralith:cave/andesite_caves (from Terralith)
+- terralith:cave/crystal_caves (from Terralith)
+- terralith:cave/deep_caves (from Terralith)
+- terralith:cave/desert_caves (from Terralith)
+- terralith:cave/diorite_caves (from Terralith)
+- terralith:cave/frostfire_caves (from Terralith)
+- terralith:cave/fungal_caves (from Terralith)
+- terralith:cave/granite_caves (from Terralith)
+- terralith:cave/ice_caves (from Terralith)
+- terralith:cave/infested_caves (from Terralith)
+- terralith:cave/mantle_caves (from Terralith)
+- terralith:cave/thermal_caves (from Terralith)
+- terralith:cave/tuff_caves (from Terralith)
+- terralith:cave/underground_jungle (from Terralith)
+
+#cobblemon:is_lush
+- minecraft:lush_caves (from Cobblemon)
+- byg:lush_stacks? (from Cobblemon)
+- terralith:underground_jungle? (from Cobblemon)
+
+#c:floral
+- minecraft:sunflower_plains (from Fabric Convention Tags)
+- minecraft:flower_forest (from Fabric Convention Tags)
+- terralith:blooming_plateau (from Terralith)
+- terralith:blooming_valley (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+
+#forge:is_hot/overworld
+- terralith:amethyst_canyon (from Terralith)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:ancient_sands (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:basalt_cliffs (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:granite_cliffs (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:lush_desert (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:red_oasis (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:shrubland (from Terralith)
+- terralith:skylands_summer (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:warm_river (from Terralith)
+- terralith:warped_mesa (from Terralith)
+- terralith:white_mesa (from Terralith)
+- terralith:cave/desert_caves (from Terralith)
+- terralith:cave/frostfire_caves (from Terralith)
+- terralith:cave/mantle_caves (from Terralith)
+- terralith:cave/thermal_caves (from Terralith)
+- terralith:cave/underground_jungle (from Terralith)
+
+#cobblemon:is_bamboo
+- minecraft:bamboo_jungle (from Cobblemon)
+
+#apoli:category/icy
+- minecraft:ice_spikes (from Apoli)
+- minecraft:snowy_plains (from Apoli)
+
+#minecraft:has_structure/buried_treasure
+- #minecraft:is_beach (from Default)
+- #minecraft:is_beach (from Terralith)
+
+#cobblemon:has_ore/ore_moon_stone_dripstone
+- #cobblemon:is_dripstone (from Cobblemon)
+
+#c:is_mountain
+- #c:is_peak (from Porting Lib Tags)
+- #c:is_slope (from Porting Lib Tags)
+
+#cobblemon:is_island
+- minecraft:mushroom_fields (from Cobblemon)
+- byg:lush_stacks? (from Cobblemon)
+- terralith:alpha_islands? (from Cobblemon)
+- terralith:alpha_islands_winter? (from Cobblemon)
+- terralith:mirage_isles? (from Cobblemon)
+- terralith:warped_mesa? (from Cobblemon)
+
+#c:badlands
+- #c:mesa? (from Fabric Convention Tags)
+- #minecraft:is_badlands? (from Fabric Convention Tags)
+- terralith:ancient_sands (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:red_oasis (from Terralith)
+- terralith:warped_mesa (from Terralith)
+- terralith:white_mesa (from Terralith)
+
+#apoli:category/taiga
+- #minecraft:is_taiga (from Apoli)
+
+#apoli:category/mesa
+- #minecraft:is_badlands (from Apoli)
+
+#c:underground
+- #c:caves? (from Fabric Convention Tags)
+
+#cobblemon:is_void
+- minecraft:the_void (from Cobblemon)
+- #byg:is_void? (from Cobblemon)
+
+#c:is_slope
+- minecraft:savanna_plateau (from Porting Lib Tags)
+- minecraft:wooded_badlands (from Porting Lib Tags)
+- minecraft:meadow (from Porting Lib Tags)
+- minecraft:grove (from Porting Lib Tags)
+- minecraft:snowy_slopes (from Porting Lib Tags)
+
+#yungsextras:has_structure/swamp_structures
+- minecraft:swamp (from YUNG's Extras)
+- minecraft:mangrove_swamp (from YUNG's Extras)
+- #forge:is_swamp? (from YUNG's Extras)
+- #c:swamp? (from YUNG's Extras)
+
+#minecraft:is_savanna
+- minecraft:savanna (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:windswept_savanna (from Default)
+
+#c:jungle
+- #minecraft:is_jungle? (from Fabric Convention Tags)
+- terralith:amethyst_canyon (from Terralith)
+- terralith:amethyst_rainforest (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:skylands_summer (from Terralith)
+- terralith:tropical_jungle (from Terralith)
+- terralith:cave/underground_jungle (from Terralith)
+
+#minecraft:has_structure/igloo
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:snowy_taiga (from Terralith)
+- minecraft:snowy_plains (from Terralith)
+- minecraft:snowy_slopes (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+
+#c:wasteland
+- terralith:ashen_savanna (from Terralith)
+- terralith:basalt_cliffs (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:gravel_desert (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:yellowstone (from Terralith)
+
+#minecraft:has_structure/shipwreck_beached
+- #minecraft:is_beach (from Default)
+- #minecraft:is_beach (from Terralith)
+
+#cobblemon:has_ore/ore_dawn_stone_normal
+- #cobblemon:is_peak (from Cobblemon)
+- #cobblemon:is_sky (from Cobblemon)
+
+#philipsruins:has_structure/ancient_crypt_biomes
+- #minecraft:is_jungle (from Philip`s ruins)
+- #minecraft:is_forest (from Philip`s ruins)
+- minecraft:plains (from Philip`s ruins)
+- minecraft:snowy_plains (from Philip`s ruins)
+- minecraft:sunflower_plains (from Philip`s ruins)
+- minecraft:savanna (from Philip`s ruins)
+- minecraft:savanna_plateau (from Philip`s ruins)
+- minecraft:dark_forest (from Philip`s ruins)
+- minecraft:jungle (from Philip`s ruins)
+- minecraft:swamp (from Philip`s ruins)
+- minecraft:mangrove_swamp (from Philip`s ruins)
+
+#cobblemon:is_spooky
+- minecraft:dark_forest (from Cobblemon)
+- #byg:is_spooky? (from Cobblemon)
+- byg:ebony_woods? (from Cobblemon)
+
+#philipsruins:has_structure/bone_dungeon_biomes
+- #minecraft:is_jungle (from Philip`s ruins)
+- #minecraft:is_forest (from Philip`s ruins)
+- #minecraft:is_taiga (from Philip`s ruins)
+- #minecraft:is_mountain (from Philip`s ruins)
+- minecraft:plains (from Philip`s ruins)
+- minecraft:snowy_plains (from Philip`s ruins)
+- minecraft:sunflower_plains (from Philip`s ruins)
+- minecraft:savanna (from Philip`s ruins)
+- minecraft:savanna_plateau (from Philip`s ruins)
+- minecraft:windswept_savanna (from Philip`s ruins)
+- minecraft:snowy_taiga (from Philip`s ruins)
+- minecraft:frozen_peaks (from Philip`s ruins)
+- minecraft:stony_shore (from Philip`s ruins)
+- minecraft:dark_forest (from Philip`s ruins)
+- minecraft:jungle (from Philip`s ruins)
+- minecraft:meadow (from Philip`s ruins)
+- minecraft:swamp (from Philip`s ruins)
+- minecraft:mangrove_swamp (from Philip`s ruins)
+- minecraft:dripstone_caves (from Philip`s ruins)
+- minecraft:lush_caves (from Philip`s ruins)
+- minecraft:deep_dark (from Philip`s ruins)
+
+#waystones:is_desert
+- minecraft:desert (from Waystones)
+
+#minecraft:allows_surface_slime_spawns
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#c:deep_ocean
+- minecraft:deep_frozen_ocean (from Fabric Convention Tags)
+- minecraft:deep_lukewarm_ocean (from Fabric Convention Tags)
+- minecraft:deep_cold_ocean (from Fabric Convention Tags)
+- minecraft:deep_ocean (from Fabric Convention Tags)
+
+#forge:is_plains
+- terralith:alpine_highlands (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+
+#c:is_dense
+- #c:is_dense/overworld (from Porting Lib Tags)
+- #c:is_dense/nether? (from Porting Lib Tags)
+- #c:is_dense/end? (from Porting Lib Tags)
+
+#minecraft:required_ocean_monument_surrounding
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#apoli:category/extreme_hills
+- #minecraft:is_hill (from Apoli)
+
+#c:is_cold/end
+- minecraft:the_end (from Porting Lib Tags)
+- minecraft:small_end_islands (from Porting Lib Tags)
+- minecraft:end_midlands (from Porting Lib Tags)
+- minecraft:end_highlands (from Porting Lib Tags)
+- minecraft:end_barrens (from Porting Lib Tags)
+
+#cobblemon:has_feature/apricorns_normal
+- #cobblemon:is_hills (from Cobblemon)
+- #cobblemon:is_plains (from Cobblemon)
+- #cobblemon:is_savanna (from Cobblemon)
+
+#minecraft:has_structure/ocean_monument
+- #minecraft:is_deep_ocean (from Default)
+
+#philipsruins:has_structure/nether_structures_biomes
+- minecraft:nether_wastes (from Philip`s ruins)
+- minecraft:soul_sand_valley (from Philip`s ruins)
+- minecraft:basalt_deltas (from Philip`s ruins)
+- minecraft:warped_forest (from Philip`s ruins)
+- minecraft:crimson_forest (from Philip`s ruins)
+
+#cobblemon:is_mountain
+- #minecraft:is_mountain (from Cobblemon)
+- #cobblemon:is_hills (from Cobblemon)
+- terralith:stony_spires? (from Cobblemon)
+- terralith:volcanic_peaks? (from Cobblemon)
+- terralith:windswept_spires? (from Cobblemon)
+- terralith:yosemite_cliffs? (from Cobblemon)
+
+#forge:is_sandy
+- terralith:ancient_sands (from Terralith)
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:lush_desert (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+
+#c:is_wet
+- minecraft:mangrove_swamp (from Porting Lib Tags)
+- #c:is_wet/overworld (from Porting Lib Tags)
+- #c:is_wet/nether? (from Porting Lib Tags)
+- #c:is_wet/end? (from Porting Lib Tags)
+
+#minecraft:has_structure/ruined_portal_jungle
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_jungle (from Terralith)
+
+#c:climate_cold
+- minecraft:snowy_plains (from Fabric Convention Tags)
+- minecraft:grove (from Fabric Convention Tags)
+- minecraft:jagged_peaks (from Fabric Convention Tags)
+- minecraft:taiga (from Fabric Convention Tags)
+- minecraft:snowy_taiga (from Fabric Convention Tags)
+- minecraft:old_growth_spruce_taiga (from Fabric Convention Tags)
+- minecraft:old_growth_pine_taiga (from Fabric Convention Tags)
+- #c:icy? (from Fabric Convention Tags)
+- terralith:alpha_islands_winter (from Terralith)
+- terralith:alpine_grove (from Terralith)
+- terralith:alpine_highlands (from Terralith)
+- terralith:birch_taiga (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:cloud_forest (from Terralith)
+- terralith:cold_shrubland (from Terralith)
+- terralith:emerald_peaks (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:frozen_cliffs (from Terralith)
+- terralith:glacial_chasm (from Terralith)
+- terralith:gravel_desert (from Terralith)
+- terralith:haze_mountain (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:rocky_mountains (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:shield_clearing (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:snowy_shield (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:cave/frostfire_caves (from Terralith)
+- terralith:cave/ice_caves (from Terralith)
+
+#cobblemon:is_overworld
+- #cobblemon:is_deep (from Cobblemon)
+- #cobblemon:is_arid (from Cobblemon)
+- #cobblemon:is_cave (from Cobblemon)
+- #cobblemon:is_coast (from Cobblemon)
+- #cobblemon:is_cold (from Cobblemon)
+- #cobblemon:is_floral (from Cobblemon)
+- #cobblemon:is_forest (from Cobblemon)
+- #cobblemon:is_freshwater (from Cobblemon)
+- #cobblemon:is_grassland (from Cobblemon)
+- #cobblemon:is_highlands (from Cobblemon)
+- #cobblemon:is_island (from Cobblemon)
+- #cobblemon:is_jungle (from Cobblemon)
+- #cobblemon:is_magical (from Cobblemon)
+- #cobblemon:is_mountain (from Cobblemon)
+- #cobblemon:is_mushroom (from Cobblemon)
+- #minecraft:is_ocean (from Cobblemon)
+- #minecraft:is_overworld (from Cobblemon)
+- #cobblemon:is_sky (from Cobblemon)
+- #cobblemon:is_spooky (from Cobblemon)
+- #cobblemon:is_temperate (from Cobblemon)
+- #cobblemon:is_thermal (from Cobblemon)
+- #cobblemon:is_volcanic (from Cobblemon)
+
+#apoli:category/underground
+- minecraft:dripstone_caves (from Apoli)
+- minecraft:lush_caves (from Apoli)
+
+#cobblemon:has_ore/ore_fire_stone_rare
+- #cobblemon:is_sandy (from Cobblemon)
+
+#minecraft:plays_underwater_music
+- #minecraft:is_ocean (from Default)
+- #minecraft:is_river (from Default)
+
+#cobblemon:is_glacial
+- minecraft:frozen_peaks (from Cobblemon)
+- minecraft:ice_spikes (from Cobblemon)
+- #byg:is_icy? (from Cobblemon)
+- terralith:frostfire_caves? (from Cobblemon)
+- terralith:frozen_cliffs? (from Cobblemon)
+- terralith:glacial_chasm? (from Cobblemon)
+
+#minecraft:has_structure/desert_pyramid
+- minecraft:desert (from Default)
+- minecraft:desert (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:desert_spires (from Terralith)
+
+#apoli:category/ocean
+- #minecraft:is_ocean (from Apoli)
+
+#terralith:has_structure/underground_cabin
+- minecraft:lush_caves (from Terralith)
+- terralith:cave/underground_jungle (from Terralith)
+
+#c:in_the_end
+- #minecraft:is_end? (from Fabric Convention Tags)
+- minecraft:end_barrens (from Fabric Convention Tags)
+- minecraft:end_midlands (from Fabric Convention Tags)
+- minecraft:end_highlands (from Fabric Convention Tags)
+- minecraft:the_end (from Fabric Convention Tags)
+- minecraft:small_end_islands (from Fabric Convention Tags)
+
+#totw_additions:has_structure/nether_tower_biomes
+- minecraft:nether_wastes (from Towers of the Wild: Additions)
+- minecraft:basalt_deltas (from Towers of the Wild: Additions)
+- minecraft:soul_sand_valley (from Towers of the Wild: Additions)
+- minecraft:crimson_forest (from Towers of the Wild: Additions)
+- minecraft:warped_forest (from Towers of the Wild: Additions)
+
+#forge:is_plateau
+- terralith:alpine_highlands (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:blooming_plateau (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:shield_clearing (from Terralith)
+- terralith:steppe (from Terralith)
+- terralith:white_mesa (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:yosemite_cliffs (from Terralith)
+
+#forge:is_lush
+- terralith:white_cliffs (from Terralith)
+- terralith:cave/underground_jungle (from Terralith)
+
+#cobblemon:is_highlands
+- minecraft:meadow (from Cobblemon)
+- terralith:alpine_highlands? (from Cobblemon)
+- terralith:arid_highlands? (from Cobblemon)
+- terralith:blooming_plateau? (from Cobblemon)
+- terralith:highlands? (from Cobblemon)
+
+#forge:is_dry/overworld
+- terralith:alpine_highlands (from Terralith)
+- terralith:ancient_sands (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:basalt_cliffs (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:lush_desert (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:shrubland (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:stony_spires (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:warped_mesa (from Terralith)
+- terralith:white_mesa (from Terralith)
+- terralith:cave/desert_caves (from Terralith)
+
+#cobblemon:has_ore/ore_dusk_stone_rare
+- #cobblemon:is_swamp (from Cobblemon)
+
+#cobblemon:is_abyss
+- minecraft:deep_dark (from Cobblemon)
+- terralith:crystal_caves? (from Cobblemon)
+- terralith:deep_caves? (from Cobblemon)
+- terralith:frostfire_caves? (from Cobblemon)
+- terralith:mantle_caves? (from Cobblemon)
+- terralith:tuff_caves? (from Cobblemon)
+
+#cobblemon:is_summer
+- #cobblemon:is_forest (from Cobblemon)
+- #cobblemon:is_jungle (from Cobblemon)
+- #cobblemon:is_lush (from Cobblemon)
+- #cobblemon:is_reef (from Cobblemon)
+- #cobblemon:is_swamp (from Cobblemon)
+- terralith:skylands_summer? (from Cobblemon)
+
+#minecraft:has_structure/woodland_mansion
+- minecraft:dark_forest (from Default)
+- minecraft:dark_forest (from Terralith)
+- terralith:sakura_grove (from Terralith)
+
+#cobblemon:is_tundra
+- minecraft:ice_spikes (from Cobblemon)
+- minecraft:snowy_plains (from Cobblemon)
+- byg:cardinal_tundra? (from Cobblemon)
+- terralith:cold_shrubland? (from Cobblemon)
+- terralith:gravel_desert? (from Cobblemon)
+- terralith:rocky_shrubland? (from Cobblemon)
+- terralith:snowy_badlands? (from Cobblemon)
+- terralith:yellowstone? (from Cobblemon)
+
+#c:mountain_peak
+- minecraft:frozen_peaks (from Fabric Convention Tags)
+- minecraft:jagged_peaks (from Fabric Convention Tags)
+- minecraft:stony_peaks (from Fabric Convention Tags)
+- terralith:emerald_peaks (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:frozen_cliffs (from Terralith)
+- terralith:mirage_isles (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:warped_mesa (from Terralith)
+
+#minecraft:has_structure/ocean_ruin_warm
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+
+#c:is_lush
+- minecraft:lush_caves (from Porting Lib Tags)
+
+#cobblemon:is_arid
+- #cobblemon:is_sandy (from Cobblemon)
+- #cobblemon:is_savanna (from Cobblemon)
+
+#vinery:has_structure/vinery
+- #minecraft:is_forest (from Vinery)
+- minecraft:plains (from Vinery)
+- minecraft:sunflower_plains (from Vinery)
+- minecraft:meadow (from Vinery)
+
+#terralith:has_structure/fortified_village
+- minecraft:plains (from Terralith)
+- minecraft:sunflower_plains (from Terralith)
+- terralith:temperate_highlands (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:alpine_highlands (from Terralith)
+- terralith:brushland (from Terralith)
+- minecraft:meadow (from Terralith)
+
+#forge:is_mushroom
+- terralith:mirage_isles (from Terralith)
+- terralith:cave/fungal_caves (from Terralith)
+
+#cobblemon:has_ore/ore_dusk_stone_normal
+- #cobblemon:is_spooky (from Cobblemon)
+- #cobblemon:is_taiga (from Cobblemon)
+
+#c:flower_forests
+- minecraft:flower_forest (from Fabric Convention Tags)
+- terralith:cloud_forest (from Terralith)
+- terralith:lavender_forest (from Terralith)
+- terralith:lavender_valley (from Terralith)
+- terralith:moonlight_grove (from Terralith)
+- terralith:moonlight_valley (from Terralith)
+- terralith:sakura_grove (from Terralith)
+- terralith:sakura_valley (from Terralith)
+- terralith:skylands_spring (from Terralith)
+
+#c:is_spooky
+- minecraft:dark_forest (from Porting Lib Tags)
+- minecraft:deep_dark (from Porting Lib Tags)
+
+#c:is_void
+- minecraft:the_void (from Porting Lib Tags)
+
+#minecraft:is_overworld
+- minecraft:mushroom_fields (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_cold_ocean (from Default)
+- minecraft:cold_ocean (from Default)
+- minecraft:deep_ocean (from Default)
+- minecraft:ocean (from Default)
+- minecraft:deep_lukewarm_ocean (from Default)
+- minecraft:lukewarm_ocean (from Default)
+- minecraft:warm_ocean (from Default)
+- minecraft:stony_shore (from Default)
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_beach (from Default)
+- minecraft:windswept_gravelly_hills (from Default)
+- minecraft:grove (from Default)
+- minecraft:windswept_hills (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:windswept_forest (from Default)
+- minecraft:taiga (from Default)
+- minecraft:plains (from Default)
+- minecraft:meadow (from Default)
+- minecraft:beach (from Default)
+- minecraft:forest (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:flower_forest (from Default)
+- minecraft:birch_forest (from Default)
+- minecraft:dark_forest (from Default)
+- minecraft:savanna_plateau (from Default)
+- minecraft:savanna (from Default)
+- minecraft:jungle (from Default)
+- minecraft:badlands (from Default)
+- minecraft:desert (from Default)
+- minecraft:wooded_badlands (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:stony_peaks (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:river (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:sunflower_plains (from Default)
+- minecraft:old_growth_birch_forest (from Default)
+- minecraft:sparse_jungle (from Default)
+- minecraft:bamboo_jungle (from Default)
+- minecraft:eroded_badlands (from Default)
+- minecraft:windswept_savanna (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:dripstone_caves (from Default)
+- minecraft:lush_caves (from Default)
+- minecraft:deep_dark (from Default)
+- #terralith:all_terralith_biomes (from Terralith)
+
+#minecraft:has_structure/village_savanna
+- minecraft:savanna (from Default)
+- minecraft:savanna (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+
+#cobblemon:has_feature/apricorns_sparse
+- #cobblemon:is_tundra (from Cobblemon)
+
+#minecraft:without_patrol_spawns
+- minecraft:mushroom_fields (from Default)
+
+#c:mountain_slope
+- minecraft:snowy_slopes (from Fabric Convention Tags)
+- terralith:alpine_grove (from Terralith)
+- terralith:amethyst_canyon (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:blooming_valley (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:glacial_chasm (from Terralith)
+- terralith:jungle_mountains (from Terralith)
+- terralith:lavender_valley (from Terralith)
+- terralith:moonlight_valley (from Terralith)
+- terralith:rocky_jungle (from Terralith)
+- terralith:rocky_mountains (from Terralith)
+- terralith:sakura_valley (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:stony_spires (from Terralith)
+
+#minecraft:has_structure/village_taiga
+- minecraft:taiga (from Default)
+- minecraft:taiga (from Terralith)
+- terralith:highlands (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:shield_clearing (from Terralith)
+- terralith:cold_shrubland (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:alpine_highlands (from Terralith)
+
+#philipsruins:has_structure/rare_ruin_biomes
+- minecraft:jungle (from Philip`s ruins)
+- minecraft:mangrove_swamp (from Philip`s ruins)
+
+#apoli:category/mushroom
+- minecraft:mushroom_fields (from Apoli)
+
+#c:void
+- minecraft:the_void (from Fabric Convention Tags)
+
+#minecraft:has_closer_water_fog
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+
+#supplementaries:has_wild_flax
+- #minecraft:is_overworld (from Supplementaries Generated Pack)
+
+#cobblemon:has_ore/ore_ice_stone_normal
+- #cobblemon:is_glacial (from Cobblemon)
+- #cobblemon:is_snowy (from Cobblemon)
+- #cobblemon:is_tundra (from Cobblemon)
+
+#cobblemon:is_floral
+- minecraft:flower_forest (from Cobblemon)
+- minecraft:meadow (from Cobblemon)
+- minecraft:sunflower_plains (from Cobblemon)
+- #byg:is_floral? (from Cobblemon)
+- byg:amaranth_fields? (from Cobblemon)
+- byg:allium_fields? (from Cobblemon)
+- byg:rose_fields? (from Cobblemon)
+- byg:skyris_vale? (from Cobblemon)
+- byg:cherry_blossom_forest? (from Cobblemon)
+- byg:orchard? (from Cobblemon)
+- terralith:blooming_plateau? (from Cobblemon)
+- terralith:blooming_valley? (from Cobblemon)
+- terralith:lavender_forest? (from Cobblemon)
+- terralith:lavender_valley? (from Cobblemon)
+- terralith:sakura_grove? (from Cobblemon)
+- terralith:sakura_valley? (from Cobblemon)
+
+#cobblemon:is_volcanic
+- terralith:mantle_caves? (from Cobblemon)
+- terralith:volcanic_crater? (from Cobblemon)
+- terralith:volcanic_peaks? (from Cobblemon)
+
+#minecraft:without_wandering_trader_spawns
+- minecraft:the_void (from Default)
+
+#minecraft:has_structure/ruined_portal_desert
+- minecraft:desert (from Default)
+- minecraft:desert (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:desert_oasis (from Terralith)
+
+#minecraft:has_structure/ruined_portal_swamp
+- minecraft:swamp (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:swamp (from Terralith)
+- terralith:orchid_swamp (from Terralith)
+- terralith:ice_marsh (from Terralith)
+
+#cobblemon:has_ore/ore_moon_stone_rare
+- #cobblemon:is_taiga (from Cobblemon)
+
+#cobblemon:is_plateau
+- minecraft:savanna_plateau (from Cobblemon)
+- #byg:is_plateau? (from Cobblemon)
+
+#apoli:category/river
+- #minecraft:is_river (from Apoli)
+
+#minecraft:spawns_cold_variant_frogs
+- minecraft:snowy_plains (from Default)
+- minecraft:ice_spikes (from Default)
+- minecraft:frozen_peaks (from Default)
+- minecraft:jagged_peaks (from Default)
+- minecraft:snowy_slopes (from Default)
+- minecraft:frozen_ocean (from Default)
+- minecraft:deep_frozen_ocean (from Default)
+- minecraft:grove (from Default)
+- minecraft:deep_dark (from Default)
+- minecraft:frozen_river (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:snowy_beach (from Default)
+- #minecraft:is_end (from Default)
+- minecraft:snowy_plains (from Terralith)
+- minecraft:ice_spikes (from Terralith)
+- minecraft:frozen_peaks (from Terralith)
+- minecraft:jagged_peaks (from Terralith)
+- minecraft:snowy_slopes (from Terralith)
+- minecraft:frozen_ocean (from Terralith)
+- minecraft:deep_frozen_ocean (from Terralith)
+- minecraft:grove (from Terralith)
+- minecraft:deep_dark (from Terralith)
+- minecraft:frozen_river (from Terralith)
+- minecraft:snowy_taiga (from Terralith)
+- minecraft:snowy_beach (from Terralith)
+- #minecraft:is_end (from Terralith)
+- terralith:alpha_islands_winter (from Terralith)
+- terralith:alpine_grove (from Terralith)
+- terralith:emerald_peaks (from Terralith)
+- terralith:frozen_cliffs (from Terralith)
+- terralith:glacial_chasm (from Terralith)
+- terralith:gravel_desert (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:snowy_shield (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+
+#c:is_mushroom
+- minecraft:mushroom_fields (from Porting Lib Tags)
+
+#cobblemon:is_grassland
+- #cobblemon:is_plains (from Cobblemon)
+- #cobblemon:is_savanna (from Cobblemon)
+
+#cobblemon:is_frozen
+- minecraft:deep_frozen_ocean (from Cobblemon)
+- minecraft:frozen_ocean (from Cobblemon)
+
+#minecraft:is_end
+- minecraft:the_end (from Default)
+- minecraft:end_highlands (from Default)
+- minecraft:end_midlands (from Default)
+- minecraft:small_end_islands (from Default)
+- minecraft:end_barrens (from Default)
+
+#c:climate_dry
+- #c:in_nether? (from Fabric Convention Tags)
+- #c:badlands? (from Fabric Convention Tags)
+- #c:desert? (from Fabric Convention Tags)
+- #c:savanna? (from Fabric Convention Tags)
+- terralith:alpine_highlands (from Terralith)
+- terralith:ancient_sands (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:basalt_cliffs (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:lush_desert (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:shrubland (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:stony_spires (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:warped_mesa (from Terralith)
+- terralith:white_mesa (from Terralith)
+- terralith:cave/desert_caves (from Terralith)
+
+#forge:is_underground
+- terralith:cave/andesite_caves (from Terralith)
+- terralith:cave/crystal_caves (from Terralith)
+- terralith:cave/deep_caves (from Terralith)
+- terralith:cave/desert_caves (from Terralith)
+- terralith:cave/diorite_caves (from Terralith)
+- terralith:cave/frostfire_caves (from Terralith)
+- terralith:cave/fungal_caves (from Terralith)
+- terralith:cave/granite_caves (from Terralith)
+- terralith:cave/ice_caves (from Terralith)
+- terralith:cave/infested_caves (from Terralith)
+- terralith:cave/mantle_caves (from Terralith)
+- terralith:cave/thermal_caves (from Terralith)
+- terralith:cave/tuff_caves (from Terralith)
+- terralith:cave/underground_jungle (from Terralith)
+
+#minecraft:without_zombie_sieges
+- minecraft:mushroom_fields (from Default)
+
+#c:mesa
+- minecraft:wooded_badlands (from Fabric Convention Tags)
+- minecraft:eroded_badlands (from Fabric Convention Tags)
+- minecraft:badlands (from Fabric Convention Tags)
+- terralith:ancient_sands (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:painted_mountains (from Terralith)
+- terralith:red_oasis (from Terralith)
+- terralith:warped_mesa (from Terralith)
+- terralith:white_mesa (from Terralith)
+
+#apoli:category/the_end
+- #minecraft:is_end (from Apoli)
+
+#minecraft:is_taiga
+- minecraft:taiga (from Default)
+- minecraft:snowy_taiga (from Default)
+- minecraft:old_growth_pine_taiga (from Default)
+- minecraft:old_growth_spruce_taiga (from Default)
+- minecraft:taiga (from Terralith)
+- minecraft:snowy_taiga (from Terralith)
+- minecraft:old_growth_pine_taiga (from Terralith)
+- minecraft:old_growth_spruce_taiga (from Terralith)
+- terralith:birch_taiga (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:yellowstone (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:yosemite_lowlands (from Terralith)
+
+#cobblemon:is_taiga
+- #minecraft:is_taiga (from Cobblemon)
+- minecraft:grove (from Cobblemon)
+- terralith:alpine_grove? (from Cobblemon)
+- terralith:haze_mountain? (from Cobblemon)
+- terralith:ice_marsh? (from Cobblemon)
+- terralith:moonlight_grove? (from Cobblemon)
+- terralith:moonlight_valley? (from Cobblemon)
+- terralith:shield_clearing? (from Cobblemon)
+- terralith:siberian_grove? (from Cobblemon)
+- terralith:siberian_taiga? (from Cobblemon)
+- terralith:snowy_maple_forest? (from Cobblemon)
+- terralith:snowy_shield? (from Cobblemon)
+- terralith:wintry_lowlands? (from Cobblemon)
+
+#cobblemon:is_magical
+- minecraft:dark_forest (from Cobblemon)
+- #byg:is_magical? (from Cobblemon)
+- byg:skyris_vale? (from Cobblemon)
+- terralith:amethyst_canyon? (from Cobblemon)
+- terralith:amethyst_rainforest? (from Cobblemon)
+- terralith:mirage_isles? (from Cobblemon)
+- terralith:moonlight_grove? (from Cobblemon)
+- terralith:moonlight_valley? (from Cobblemon)
+
+#minecraft:spawns_warm_variant_frogs
+- minecraft:desert (from Default)
+- minecraft:warm_ocean (from Default)
+- #minecraft:is_jungle (from Default)
+- #minecraft:is_savanna (from Default)
+- #minecraft:is_nether (from Default)
+- #minecraft:is_badlands (from Default)
+- minecraft:mangrove_swamp (from Default)
+- minecraft:desert (from Terralith)
+- minecraft:warm_ocean (from Terralith)
+- #minecraft:is_jungle (from Terralith)
+- #minecraft:is_savanna (from Terralith)
+- #minecraft:is_nether (from Terralith)
+- #minecraft:is_badlands (from Terralith)
+- minecraft:mangrove_swamp (from Terralith)
+- terralith:arid_highlands (from Terralith)
+- terralith:ashen_savanna (from Terralith)
+- terralith:brushland (from Terralith)
+- terralith:fractured_savanna (from Terralith)
+- terralith:savanna_badlands (from Terralith)
+- terralith:savanna_slopes (from Terralith)
+- terralith:shrubland (from Terralith)
+- terralith:ancient_sands (from Terralith)
+- terralith:desert_canyon (from Terralith)
+- terralith:desert_oasis (from Terralith)
+- terralith:desert_spires (from Terralith)
+- terralith:red_oasis (from Terralith)
+- terralith:sandstone_valley (from Terralith)
+- terralith:lush_desert (from Terralith)
+- terralith:hot_shrubland (from Terralith)
+- terralith:skylands_summer (from Terralith)
+- terralith:warm_river (from Terralith)
+- terralith:white_mesa (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+
+#minecraft:mineshaft_blocking
+- minecraft:deep_dark (from Default)
+
+#forge:is_wasteland
+- terralith:ashen_savanna (from Terralith)
+- terralith:basalt_cliffs (from Terralith)
+- terralith:caldera (from Terralith)
+- terralith:gravel_desert (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:volcanic_crater (from Terralith)
+- terralith:volcanic_peaks (from Terralith)
+- terralith:yellowstone (from Terralith)
+
+#minecraft:has_structure/village_snowy
+- minecraft:snowy_plains (from Default)
+- minecraft:snowy_plains (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+
+#c:snowy
+- minecraft:snowy_beach (from Fabric Convention Tags)
+- minecraft:snowy_plains (from Fabric Convention Tags)
+- minecraft:snowy_slopes (from Fabric Convention Tags)
+- minecraft:snowy_taiga (from Fabric Convention Tags)
+- terralith:alpha_islands_winter (from Terralith)
+- terralith:alpine_grove (from Terralith)
+- terralith:cold_shrubland (from Terralith)
+- terralith:emerald_peaks (from Terralith)
+- terralith:gravel_desert (from Terralith)
+- terralith:ice_marsh (from Terralith)
+- terralith:rocky_mountains (from Terralith)
+- terralith:rocky_shrubland (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:snowy_badlands (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:snowy_shield (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+
+#cobblemon:has_ore/ore_dawn_stone_rare
+- #cobblemon:is_floral (from Cobblemon)
+- #cobblemon:is_glacial (from Cobblemon)
+- #cobblemon:is_hills (from Cobblemon)
+
+#c:taiga
+- #minecraft:is_taiga? (from Fabric Convention Tags)
+- terralith:alpine_highlands (from Terralith)
+- terralith:bryce_canyon (from Terralith)
+- terralith:cloud_forest (from Terralith)
+- terralith:forested_highlands (from Terralith)
+- terralith:lush_valley (from Terralith)
+- terralith:scarlet_mountains (from Terralith)
+- terralith:shield (from Terralith)
+- terralith:siberian_grove (from Terralith)
+- terralith:siberian_taiga (from Terralith)
+- terralith:skylands_winter (from Terralith)
+- terralith:snowy_maple_forest (from Terralith)
+- terralith:valley_clearing (from Terralith)
+- terralith:wintry_forest (from Terralith)
+- terralith:wintry_lowlands (from Terralith)
+
+#cobblemon:has_ore/ore_water_stone_normal
+- #minecraft:is_ocean (from Cobblemon)
+- #cobblemon:is_river (from Cobblemon)
+- #cobblemon:is_swamp (from Cobblemon)
+
+#cobblemon:is_freshwater
+- #cobblemon:is_river (from Cobblemon)
+- #cobblemon:is_swamp (from Cobblemon)
+
+#cobblemon:has_ore/ore_shiny_stone_rare
+- #cobblemon:is_island (from Cobblemon)
+- #cobblemon:is_peak (from Cobblemon)
+
+#philipsruins:has_structure/ocean_ruins_biomes
+- minecraft:warm_ocean (from Philip`s ruins)
+- minecraft:lukewarm_ocean (from Philip`s ruins)
+- minecraft:deep_lukewarm_ocean (from Philip`s ruins)
+- minecraft:ocean (from Philip`s ruins)
+- minecraft:deep_ocean (from Philip`s ruins)
+- minecraft:cold_ocean (from Philip`s ruins)
+- minecraft:deep_cold_ocean (from Philip`s ruins)
+- minecraft:frozen_ocean (from Philip`s ruins)
+- minecraft:deep_frozen_ocean (from Philip`s ruins)
+
+#apoli:category/desert
+- minecraft:desert (from Apoli)
+
+#cobblemon:is_plains
+- minecraft:plains (from Cobblemon)
+- minecraft:sunflower_plains (from Cobblemon)
+- #cobblemon:is_highlands (from Cobblemon)
+- #byg:is_plain? (from Cobblemon)
+- terralith:brushland? (from Cobblemon)
+- terralith:steppe? (from Cobblemon)
+- terralith:valley_clearing? (from Cobblemon)
+
+#c:is_underground
+- minecraft:lush_caves (from Porting Lib Tags)
+- minecraft:dripstone_caves (from Porting Lib Tags)
+- minecraft:deep_dark (from Porting Lib Tags)
+
+#philipsruins:has_structure/sand_house_biomes
+- minecraft:desert (from Philip`s ruins)
+
+#cobblemon:has_ore/ore_leaf_stone_rare
+- #cobblemon:is_swamp (from Cobblemon)
+
+#philipsruins:has_structure/desert_structures_biomes
+- minecraft:desert (from Philip`s ruins)
+
+#apoli:category/forest
+- #minecraft:is_forest (from Apoli)
+
+#c:is_sparse/overworld
+- minecraft:windswept_forest (from Porting Lib Tags)
+- minecraft:savanna (from Porting Lib Tags)
+- minecraft:savanna_plateau (from Porting Lib Tags)
+- minecraft:wooded_badlands (from Porting Lib Tags)
+- minecraft:snowy_slopes (from Porting Lib Tags)
+- minecraft:jagged_peaks (from Porting Lib Tags)
+- minecraft:frozen_peaks (from Porting Lib Tags)
+- minecraft:windswept_gravelly_hills (from Porting Lib Tags)
+- minecraft:windswept_savanna (from Porting Lib Tags)
+- minecraft:eroded_badlands (from Porting Lib Tags)
+- minecraft:dripstone_caves (from Porting Lib Tags)
+
+#minecraft:reduce_water_ambient_spawns
+- #minecraft:is_river (from Default)
+
+#cobblemon:is_snowy
+- minecraft:grove (from Cobblemon)
+- minecraft:snowy_taiga (from Cobblemon)
+- #byg:is_snowy? (from Cobblemon)
+- terralith:alpha_islands_winter? (from Cobblemon)
+- terralith:alpine_grove? (from Cobblemon)
+- terralith:ice_marsh? (from Cobblemon)
+- terralith:siberian_grove? (from Cobblemon)
+- terralith:snowy_maple_forest? (from Cobblemon)
+- terralith:snowy_shield? (from Cobblemon)
+- terralith:wintry_forest? (from Cobblemon)
+- terralith:wintry_lowlands? (from Cobblemon)
+
+#forge:is_spooky
+- terralith:cave/frostfire_caves (from Terralith)
+- terralith:cave/infested_caves (from Terralith)
+
+#cobblemon:is_dripstone
+- minecraft:dripstone_caves (from Cobblemon)
+- terralith:fractured_savanna? (from Cobblemon)
+- terralith:stony_spires? (from Cobblemon)

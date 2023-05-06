@@ -1,0 +1,9 @@
+{
+  "brushingLayerChance": 0.35,
+  "brushingLowerThreshold": 0.02,
+  "brushingBreakingSpeed": 3.0,
+  "enableMojangBrushingStyle": false,
+  "releaseUseKeyAfterBrushing": false,
+  "disableBrushingAnimation": false,
+  "removeShardsItemGroup": false
+}
