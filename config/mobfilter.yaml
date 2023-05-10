@@ -2,22 +2,13 @@
 # SAMPLE CONFIGURATION - uncomment and edit
 #
 
-# rules:
-
-#  - name: Always allow ocelots. Minecraft thinks they are MONSTERS.
-#    what: ALLOW_SPAWN
-#    when:
-#      entityId: ['minecraft:ocelot']
-#
-#  - name: Safe Zone Above Sea Level
-#    what: DISALLOW_SPAWN
-#    when:
-#      spawnGroup: [MONSTER]
-#      dimensionId: ['minecraft:overworld']
-#      worldName: ['My World', 'My Other World']
-#      blockX: [-128, 234]
-#      blockY: [63, MAX]
-#      blockZ: [-321, 512]
+ rules:
+ 
+  - name: NO MONSTERS
+    what: DISALLOW_SPAWN
+    when:
+      spawnGroup: [MONSTER]
+      dimensionId: ['minecraft:overworld', 'minecraft:the_nether', 'minecraft:the_end']
 #
 #  - name: No Creepers Ever
 #    what: DISALLOW_SPAWN
