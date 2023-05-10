@@ -12,7 +12,7 @@
 [Graphics]
 	# If items on the ground should have a sparkle effect.
 	#Allowed Values: NONE, BEAMS_ONLY, ALL
-	sparklesEnabled = "BEAMS_ONLY"
+	sparklesEnabled = "ALL"
 	# If beam/sparkle color should match the item's tooltip name color. (White named items won't have a beam unless specified manually)
 	automaticColor = true
 	# If the Item Borders mod is installed, should beam/sparkle colors match the item's border color.
@@ -25,7 +25,7 @@
 	#Allowed Values: LOW, MEDIUM, HIGH
 	quality = "HIGH"
 	# If enabled, beams will appear pixelated instead of smooth.
-	pixelatedMode = false
+	pixelatedMode = true
 
 	# Manual Colors
 	# Copy/paste one section below and modify to add a new color customization.
