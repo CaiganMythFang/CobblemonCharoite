@@ -229,7 +229,7 @@ customization {
 
 customization {
   orientation = top-left
-  hidden = false
+  hidden = true
   x = 2
   width = 165
   action = deep_customization_element:title_screen_branding
@@ -276,11 +276,11 @@ customization {
 customization {
   path = kubejs/assets/kubejs/textures/gui/logo.png
   orientation = top-centered
-  x = -210
+  x = -211
   width = 422
   action = addtexture
   actionid = 6ade4d0f-fe62-4ebb-840b-e8c1b41f59b01683388782608
-  y = 19
+  y = 20
   height = 100
 }
 
@@ -298,5 +298,29 @@ customization {
   y = 19
   backgroundnormal = kubejs/assets/kubejs/textures/gui/button_bugs.png
   height = 25
+}
+
+customization {
+  orientation = bottom-left
+  enable_scrolling = true
+  shadow = true
+  scale = 1.0
+  source = Pack Version - 1.0.0%n%Minecraft 1.19.2 / Fabric 0.14.19%n%Main Menu Music -%n%    Inside Prism City by TeknoAXE
+  text_border = 0
+  case_mode = normal
+  source_mode = direct
+  line_spacing = 1
+  x = 2
+  width = 200
+  action = custom_layout_element:fancymenu_customization_item_text
+  actionid = aba437be-ed88-4173-897e-2332b07c90ce1683567045451
+  y = -45
+  alignment = left
+  height = 43
+}
+
+customization {
+  identifier = %id=button_compatibility_id:mc_titlescreen_copyright_button%
+  action = hidebutton
 }
 
