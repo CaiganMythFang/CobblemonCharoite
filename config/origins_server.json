@@ -2,7 +2,7 @@
   "performVersionCheck": true,
   "origins": {
     "origins:enderian": {
-      "enabled": true,
+      "enabled": false,
       "origins:throw_ender_pearl": true,
       "origins:water_vulnerability": true,
       "origins:pumpkin_hate": true,
@@ -48,7 +48,7 @@
       "tfb2:food/herbivore3": true
     },
     "origins:feline": {
-      "enabled": true,
+      "enabled": false,
       "origins:fall_immunity": true,
       "origins:sprint_jump": true,
       "origins:velvet_paws": true,
@@ -58,7 +58,7 @@
       "origins:cat_vision": true
     },
     "origins:elytrian": {
-      "enabled": true,
+      "enabled": false,
       "origins:elytra": true,
       "origins:launch_into_air": true,
       "origins:aerial_combatant": true,
@@ -105,7 +105,7 @@
       "tfb2:food/hypercarnivore3": true
     },
     "origins:phantom": {
-      "enabled": true,
+      "enabled": false,
       "origins:phantomize": true,
       "origins:translucent": true,
       "origins:phasing": true,
@@ -135,7 +135,7 @@
       "tfb2:food/hypercarnivore3": true
     },
     "origins:blazeborn": {
-      "enabled": true,
+      "enabled": false,
       "origins:fire_immunity": true,
       "origins:nether_spawn": true,
       "origins:burning_wrath": true,
@@ -146,7 +146,7 @@
       "origins:damage_from_potions": true
     },
     "origins:avian": {
-      "enabled": true,
+      "enabled": false,
       "origins:slow_falling": true,
       "origins:fresh_air": true,
       "origins:like_air": true,
@@ -338,7 +338,7 @@
       "tfb2:food/herbivore": true
     },
     "origins:shulk": {
-      "enabled": true,
+      "enabled": false,
       "origins:shulker_inventory": true,
       "origins:natural_armor": true,
       "origins:strong_arms": true,
@@ -402,7 +402,7 @@
       "tfb2:food/frugivore4": true
     },
     "origins:merling": {
-      "enabled": true,
+      "enabled": false,
       "origins:water_breathing": true,
       "origins:water_vision": true,
       "origins:aqua_affinity": true,
@@ -439,7 +439,7 @@
       "tfb2:speed/cold_feet": true
     },
     "origins:arachnid": {
-      "enabled": true,
+      "enabled": false,
       "origins:climbing": true,
       "origins:master_of_webs": true,
       "origins:carnivore": true,
