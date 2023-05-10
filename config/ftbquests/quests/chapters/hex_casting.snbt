@@ -1,0 +1,144 @@
+{
+	id: "0ECE3D0C5D232AFB"
+	group: "4741197EBABDED21"
+	order_index: 7
+	filename: "hex_casting"
+	title: "Hex Casting"
+	icon: "hexcasting:artifact"
+	subtitle: ["&dDrawing Power"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A Magical User Manual"
+			x: 0.1d
+			y: 0.0d
+			subtitle: "&dLook, it's Purple Magic!"
+			description: [
+				"&5It seems there is quite a unique form of magic here, which some citizens call 'Hex Casting'."
+				""
+				"&5By employing the power trapped with Amethyst, you can cast a variety of spells by drawing symbols in the air. "
+				""
+				"&5You can get started by finding some Amethyst in Geodes underground, and crafting yourself this Hex Notebook. "
+				""
+				"&5The recipe sometimes doesn't show up right, so all you need to do is combine Amethyst Dust and a Book."
+			]
+			dependencies: ["3867B30AC7C6CBF9"]
+			id: "5B718C16CDDD7552"
+			tasks: [{
+				id: "110D30C92EE78FC2"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "hexcasting:thehexbook"
+					}
+				}
+			}]
+			rewards: [{
+				id: "6E333FF31EFF2161"
+				type: "item"
+				item: "coinsje:copper_coin"
+			}]
+		}
+		{
+			title: "A Wizard's Staff"
+			x: -1.5d
+			y: -1.4d
+			subtitle: "&dCan't Draw Without One"
+			dependencies: ["5B718C16CDDD7552"]
+			id: "7E460F8EDD23982D"
+			tasks: [{
+				id: "5167E1606596192D"
+				type: "item"
+				item: "hexcasting:oak_staff"
+			}]
+			rewards: [{
+				id: "7C73450BFACD0BB7"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Book of Spells"
+			x: 0.1d
+			y: -2.0d
+			subtitle: "&dHex Spells are Complex, This Helps!"
+			dependencies: ["5B718C16CDDD7552"]
+			id: "5D699210F69D6627"
+			tasks: [{
+				id: "258095DEC0B96B17"
+				type: "item"
+				item: {
+					id: "hexcasting:spellbook"
+					Count: 1b
+					tag: {
+						page_idx: 0
+						page_names: { }
+					}
+				}
+			}]
+			rewards: [{
+				id: "531105F149099181"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Counting Tool"
+			x: 1.7d
+			y: -1.4d
+			subtitle: "&dMath is Hard"
+			dependencies: ["5B718C16CDDD7552"]
+			id: "74065BC646C409FC"
+			tasks: [{
+				id: "36971005D281042F"
+				type: "item"
+				item: "hexcasting:abacus"
+			}]
+			rewards: [{
+				id: "77D2E3D59626A871"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Sight Beyond Sight"
+			x: 2.1d
+			y: 1.1d
+			subtitle: "&dWhat do your special eyes see?"
+			dependencies: ["5B718C16CDDD7552"]
+			id: "5735F832356A702E"
+			tasks: [{
+				id: "4FC28D00A9960D17"
+				type: "item"
+				item: "hexcasting:lens"
+			}]
+			rewards: [{
+				id: "4F813D2721ACE72F"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Colorful Identity"
+			x: -1.8d
+			y: 1.1d
+			subtitle: "&dLife is Change"
+			dependencies: ["5B718C16CDDD7552"]
+			id: "21C019731883403C"
+			tasks: [{
+				id: "001174F264413A62"
+				type: "item"
+				item: "hexcasting:pride_colorizer_genderfluid"
+			}]
+			rewards: [{
+				id: "06666044E0866AFA"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

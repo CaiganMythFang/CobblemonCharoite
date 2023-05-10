@@ -1,0 +1,440 @@
+{
+	id: "658F5520EE2C1851"
+	group: "4741197EBABDED21"
+	order_index: 8
+	filename: "mythic_metals__decorations"
+	title: "Mythic Metals + Deco"
+	icon: {
+		id: "mythicmetals:kyber_chestplate"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	subtitle: ["&dPretty Metals, Powerful"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Metal and Alloy"
+			icon: "mythicmetals:morkite"
+			x: -5.3d
+			y: -3.6d
+			subtitle: "&dHow Metal"
+			description: [
+				"&5These dimensions have a whole lot of metals that other dimensions consider 'mythic' and 'legendary'. Stuff spoken in stories that may or may not be real."
+				""
+				"&5Here, though, they are! And they make lots of beautiful armor and powerful weapons."
+				""
+				"&5You'll need, however, an Alloy Forge. There's a few tiers you can make, I suggest the Deepslate one to start with (search @alloy in JEI!)"
+				""
+				"&5Down at the bottom of this message you'll see a Page button. I'll show you how to build the structure : "
+				""
+				"{@pagebreak}"
+				"{image:kubejs:textures/gui/smeltery_1.png width:100 height:100 align:1}"
+				"&5Bottom layer, 3x3 Deepslate Bricks"
+				""
+				"{@pagebreak}"
+				"{image:kubejs:textures/gui/smeltery_2.png width:100 height:100 align:1}"
+				"&5Second layer part one: Smelter"
+				""
+				"{@pagebreak}"
+				"{image:kubejs:textures/gui/smeltery_3.png width:100 height:100 align:1}"
+				"&5Second layer part two: More Deepslate Bricks"
+				""
+				"{@pagebreak}"
+				"{image:kubejs:textures/gui/smeltery_4.png width:100 height:100 align:1}"
+				"&5Third Layer, Another set of Deepslate Bricks"
+				""
+				"{@pagebreak}"
+				"&5Each of the goals on this page will list a few metal ingots, then the last one will be the Alloy you get if you combine those in the Alloy Forge."
+			]
+			dependencies: ["3867B30AC7C6CBF9"]
+			id: "44A58856A5D7A392"
+			tasks: [{
+				id: "1ADC3C9E0B582F2F"
+				type: "item"
+				item: "alloy_forgery:deepslate_bricks_forge_controller"
+			}]
+			rewards: [{
+				id: "17D4BD5956C9ED0A"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "A Bronze Age"
+			icon: "mythicmetals:bronze_ingot"
+			x: -7.3d
+			y: -5.1d
+			subtitle: "&dA Very Classic Alloy"
+			hide_dependency_lines: true
+			dependencies: ["44A58856A5D7A392"]
+			id: "7720D5B7028ABDDE"
+			tasks: [
+				{
+					id: "66E73E6A3F8B1463"
+					type: "item"
+					title: "2 Copper Ingots"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:copper_ingots"
+						}
+					}
+					count: 2L
+				}
+				{
+					id: "55656E0F24CC463A"
+					type: "item"
+					title: "1 Tin Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:tin_ingots"
+						}
+					}
+				}
+				{
+					id: "3BDA1678D9406B6A"
+					type: "item"
+					title: "1 Bronze Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:bronze_ingots"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "344427FDE6D80937"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Solid Steel"
+			icon: "mythicmetals:manganese_ingot"
+			x: -5.3d
+			y: -5.6d
+			subtitle: "&dStainless, Too"
+			hide_dependency_lines: true
+			dependencies: ["44A58856A5D7A392"]
+			id: "0445AB17A894CC62"
+			tasks: [
+				{
+					id: "2E8F2CEE2AAA0678"
+					type: "item"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "3245B09B25434BA9"
+					type: "item"
+					title: "1 Manganese Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:manganese_ingots"
+						}
+					}
+				}
+				{
+					id: "572582CBAC207843"
+					type: "item"
+					title: "1 Steel Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:steel_ingots"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2B3AB9E6396C275A"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Galaxian Steel"
+			icon: "mythicmetals:durasteel_ingot"
+			x: -3.4d
+			y: -5.0d
+			subtitle: "&dWait, Isn't That From...."
+			hide_dependency_lines: true
+			dependencies: ["44A58856A5D7A392"]
+			id: "3304E18DD18BCB70"
+			tasks: [
+				{
+					id: "56DE0C8C0DD67086"
+					type: "item"
+					title: "1 Celestium Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "mythicmetals:celestium_ingots"
+						}
+					}
+				}
+				{
+					id: "2CD22F7FF534E419"
+					type: "item"
+					title: "1 Quadrillium Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:quadrillum_ingots"
+						}
+					}
+				}
+				{
+					id: "31FF4D85300FC2C2"
+					type: "item"
+					title: "1 Durasteel Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "mythicmetals:durasteel_ingots"
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7CC722180363FD66"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Starry Stand"
+			icon: "mythicmetals:star_platinum"
+			x: -2.9d
+			y: -3.1d
+			subtitle: "&dMuda Muda?"
+			hide_dependency_lines: true
+			dependencies: ["44A58856A5D7A392"]
+			id: "01ADED1A130D6B68"
+			tasks: [
+				{
+					id: "59D5C15E59312F91"
+					type: "item"
+					title: "1 Starrite"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:starrite"
+						}
+					}
+				}
+				{
+					id: "7E80DE67AD3A548D"
+					type: "item"
+					title: "1 Platinum Ingot"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:platinum_ingots"
+						}
+					}
+				}
+				{
+					id: "5150464D4F1F9623"
+					type: "item"
+					item: "mythicmetals:star_platinum"
+				}
+			]
+			rewards: [{
+				id: "30EA32997E3830DA"
+				type: "item"
+				item: "coinsje:diamond_coin"
+			}]
+		}
+		{
+			title: "Celestial Power"
+			icon: "mythicmetals:celestium_ingot"
+			x: -4.1d
+			y: -1.6d
+			subtitle: "&dNot Quite Angelic"
+			hide_dependency_lines: true
+			dependencies: ["44A58856A5D7A392"]
+			id: "408673ABAA2B2AFB"
+			tasks: [
+				{
+					id: "6465C3B2F1F7C5CD"
+					type: "item"
+					item: "mythicmetals:carmot_ingot"
+				}
+				{
+					id: "0576C72C54CC481B"
+					type: "item"
+					item: "mythicmetals:kyber_ingot"
+				}
+				{
+					id: "29787C779F84845F"
+					type: "item"
+					item: "mythicmetals:unobtainium"
+				}
+				{
+					id: "439D48D9B1988057"
+					type: "item"
+					item: "mythicmetals:star_platinum"
+				}
+				{
+					id: "3B36B8535CA8CB87"
+					type: "item"
+					item: "mythicmetals:celestium_ingot"
+				}
+			]
+			rewards: [{
+				id: "1E563FB8535F9008"
+				type: "item"
+				item: "coinsje:diamond_coin"
+			}]
+		}
+		{
+			title: "Consecrated"
+			icon: "mythicmetals:hallowed_ingot"
+			x: -6.6d
+			y: -1.6d
+			subtitle: "&dAlmost Ethereal"
+			hide_dependency_lines: true
+			dependencies: ["44A58856A5D7A392"]
+			id: "240D7BBD6474C2CC"
+			tasks: [
+				{
+					id: "265ABF76BC347993"
+					type: "item"
+					item: "mythicmetals:adamantite_ingot"
+				}
+				{
+					id: "77C3B11DB14035E4"
+					type: "item"
+					item: "mythicmetals:mythril_ingot"
+				}
+				{
+					id: "74B8D6669B0C5562"
+					type: "item"
+					item: "mythicmetals:orichalcum_ingot"
+				}
+				{
+					id: "203F9E834CB092DC"
+					type: "item"
+					item: "mythicmetals:hallowed_ingot"
+				}
+			]
+			rewards: [{
+				id: "2DBE32F5680B631B"
+				type: "item"
+				item: "coinsje:diamond_coin"
+			}]
+		}
+		{
+			title: "Deep Purple"
+			icon: "mythicmetals:metallurgium_ingot"
+			x: -7.6d
+			y: -3.0d
+			subtitle: "&dTruely Royal"
+			hide_dependency_lines: true
+			dependencies: ["44A58856A5D7A392"]
+			id: "7705C71D4A853640"
+			tasks: [
+				{
+					id: "14A91D757FF57A15"
+					type: "item"
+					item: "mythicmetals:hallowed_ingot"
+				}
+				{
+					id: "1F38D1B4AF6A2325"
+					type: "item"
+					item: "mythicmetals:palladium_ingot"
+				}
+				{
+					id: "10C8CA21F0508D07"
+					type: "item"
+					item: "mythicmetals:unobtainium"
+				}
+				{
+					id: "1603F19875DE3487"
+					type: "item"
+					item: "mythicmetals:metallurgium_ingot"
+				}
+			]
+			rewards: [{
+				id: "083DB89DDC80CAFE"
+				type: "item"
+				item: "coinsje:netherite_coin"
+			}]
+		}
+		{
+			title: "Mythical Chests"
+			x: -5.3d
+			y: -0.8d
+			subtitle: "&dMore and More Space"
+			hide_dependency_lines: true
+			dependencies: ["44A58856A5D7A392"]
+			id: "2870D877911FE92C"
+			tasks: [{
+				id: "203F8C4D760477A0"
+				type: "item"
+				item: "mythicmetals_decorations:bronze_chest"
+			}]
+			rewards: [{
+				id: "7D245048304912A4"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Forging a Good Crown"
+			icon: {
+				id: "mythicmetals_decorations:mythril_crown"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -5.3d
+			y: -7.4d
+			subtitle: "&dA Challenge to the Throne?"
+			hide_dependency_lines: true
+			dependencies: ["44A58856A5D7A392"]
+			id: "0F5D94907C7EC383"
+			tasks: [
+				{
+					id: "72A8C6D37923CEC4"
+					type: "item"
+					item: "mythicmetals_decorations:crown_chisel"
+				}
+				{
+					id: "6952923291F0DA1A"
+					type: "item"
+					item: {
+						id: "mythicmetals_decorations:mythril_crown"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "1B7416E6683E3871"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

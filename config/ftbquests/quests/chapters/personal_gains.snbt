@@ -1,0 +1,135 @@
+{
+	id: "48445BFC2D0CCFEC"
+	group: "14164995055A1873"
+	order_index: 1
+	filename: "personal_gains"
+	title: "Personal Style"
+	icon: {
+		id: "vinery:straw_hat"
+		Count: 1b
+		tag: {
+			Damage: 0
+		}
+	}
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Your Own Self Image"
+			x: -0.7d
+			y: -1.3d
+			subtitle: "&dThis is YOUR Adventure!"
+			description: [
+				"&5You've got a few things to make this adventure more comfortable for yourself."
+				""
+				"&5And I don't mean furniture, that's a whole different ballgame."
+				""
+				"&5I'll cover what I mean in this section of your Quest E-Book."
+			]
+			dependencies: ["581B4E9498124C6A"]
+			id: "1FE9B139217249DF"
+			tasks: [{
+				id: "2BDF533D2C70CA5C"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Your Shape, Your Mood"
+			icon: "origins:orb_of_origin"
+			x: -2.5d
+			y: -1.3d
+			subtitle: "&dMods: Origins and [TFB]Anthro Origins"
+			description: [
+				"&5You saw the question when you woke up about what species you were, right?"
+				""
+				"&5Hard to miss, I know, but it happens. Or you weren't sure if it was a joke or something and just chose a safe option. "
+				""
+				"&5On this Research trip, the bosses had me bring along the Origin system. This lets you choose from the various available 'sentient' species in these dimensions. Mostly anthropomorphic species it looks like."
+				""
+				"&5Each one has abilities, skills, and detriments to it. Many of them are smaller, or larger than normal!"
+				""
+				"&5And hey, if you get tired of one species, just use an Orb of Origin to change to something new!"
+				""
+				"&5Here, have one on me. You can buy more in the Shop."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FE9B139217249DF"]
+			id: "456041727F19FE2D"
+			tasks: [{
+				id: "19592190B1C7D00C"
+				type: "checkmark"
+				title: "&dTransformation!"
+			}]
+			rewards: [{
+				id: "1D58FF6580CCAE0B"
+				type: "item"
+				item: "origins:orb_of_origin"
+			}]
+		}
+		{
+			title: "Style AND Stats!"
+			x: -0.7d
+			y: -3.0d
+			subtitle: "&dMod: Cosmetic Armor"
+			description: [
+				"&5There's a whole lot of really cool looking pieces of clothing and armor to collect in this world, but there are also a lot of less...stylish ones."
+				""
+				"&5But they are REALLY useful. Especially if you are digging through a booby trap laden ruins."
+				""
+				"&5The solution is simple: Cosmetic Armor slots! If you take your armor piece and hover it over the armor slot, you get a pop up with a few different slots (Most of these are called Trinket or Curios slots)."
+				""
+				"&5The rightmost one (usually) has an eye on it : This is Cosmetic Armor. You wear the looks of the armor you put on here, but use stats and bonuses of all the other things."
+				""
+				"&5See, make this Team Skull hat. Stylish."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FE9B139217249DF"]
+			id: "00D5AEA4FC8A9169"
+			tasks: [{
+				id: "21E347D2A3D2A33A"
+				type: "item"
+				item: {
+					id: "cobblemon_armor_plus:skull_grunt_helmet"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "16C048B1D753D4A6"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Shape of : Something Cool!"
+			x: 1.1d
+			y: -1.3d
+			subtitle: "&dMod: Transmog"
+			description: [
+				"&5If you've ever had a cool looking sword, then got a better one that looks just really plain, you've probably at least considered using the prettier one for a while,  yeah?"
+				""
+				"&5Well, with the Transmogrification Table, you can make most any item LOOK like a different item! "
+				""
+				"&5You'll want to gather some Amethyst for this, it's what fuels the Transmog Table. Left slot for fuel, middle slot for the item you want to Transmot, and the right slot for what you want the item to LOOK like."
+				""
+				"&5You can also make it a 'hidden' item by putting a Void Fragment in the third slot instead."
+			]
+			hide_dependency_lines: true
+			dependencies: ["1FE9B139217249DF"]
+			id: "68D4BBD257A80781"
+			tasks: [{
+				id: "50B8AAAE7230C0AB"
+				type: "item"
+				item: "transmog:transmogrification_table"
+			}]
+			rewards: [{
+				id: "64E6ABBD344270A7"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

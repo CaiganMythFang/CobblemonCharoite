@@ -1,0 +1,269 @@
+{
+	id: "66E90B7994016CC2"
+	group: "4741197EBABDED21"
+	order_index: 5
+	filename: "cobblemon__have_you_caught_them_all"
+	title: "Cobblemon"
+	icon: "cobblemon:poke_ball"
+	subtitle: ["&dHave you Caught Them All?"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "A Handy Encyclopedia"
+			icon: {
+				id: "patchouli:guide_book"
+				Count: 1b
+				tag: {
+					"patchouli:book": "cobblepedia:cobblepedia"
+				}
+			}
+			x: 0.0d
+			y: 0.0d
+			subtitle: "&dAlmost as helpful as a dex!"
+			description: [
+				"&5You should have been given this handy little book when you first woke up. If not, well, its fairly easy to procure."
+				""
+				"&5While it doesn't cover EVERYTHING, it should be plenty to get started with!"
+			]
+			dependencies: ["3867B30AC7C6CBF9"]
+			id: "06267A02086A18CF"
+			tasks: [{
+				id: "38950A3EBB5909BE"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "cobblepedia:cobblepedia"
+					}
+				}
+			}]
+			rewards: [{
+				id: "11BDDC3CFD8E2140"
+				type: "item"
+				item: "coinsje:copper_coin"
+			}]
+		}
+		{
+			title: "Some Simple Capture Tools"
+			x: -1.6d
+			y: -1.4d
+			subtitle: "&dNever Have Enough"
+			hide_dependency_lines: true
+			dependencies: ["06267A02086A18CF"]
+			id: "3CC151A106D83727"
+			tasks: [
+				{
+					id: "6167F90F2E0B5896"
+					type: "item"
+					item: "cobblemon:poke_ball"
+				}
+				{
+					id: "62BFF8EF74A2D734"
+					type: "item"
+					item: "cobblemon:verdant_ball"
+				}
+				{
+					id: "2C08B85F29ECF5B8"
+					type: "item"
+					item: "cobblemon:roseate_ball"
+				}
+			]
+			rewards: [{
+				id: "5FDD19B137779050"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Some Specialty Tools"
+			x: 0.0d
+			y: -1.8d
+			subtitle: "&dBest For Specific Situations"
+			hide_dependency_lines: true
+			dependencies: ["06267A02086A18CF"]
+			id: "214AB65516CE8224"
+			tasks: [
+				{
+					id: "7A273F264E2C3E3D"
+					type: "item"
+					item: "cobblemon:heavy_ball"
+				}
+				{
+					id: "550C5D94076EA065"
+					type: "item"
+					item: "cobblemon:fast_ball"
+				}
+				{
+					id: "11FD02DFE8CCD420"
+					type: "item"
+					item: "cobblemon:moon_ball"
+				}
+			]
+			rewards: [{
+				id: "6137B51D7F60552B"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Best Beast"
+			x: 1.5d
+			y: -1.5d
+			subtitle: "&dPower for Power"
+			hide_dependency_lines: true
+			dependencies: ["06267A02086A18CF"]
+			id: "25DABF69D9D45F85"
+			tasks: [{
+				id: "7939F9EF4A624E24"
+				type: "item"
+				item: "cobblemon:beast_ball"
+			}]
+			rewards: [{
+				id: "14B47516487A0076"
+				type: "item"
+				item: "coinsje:diamond_coin"
+			}]
+		}
+		{
+			title: "Evolutionary"
+			x: -0.9d
+			y: 1.4d
+			subtitle: "&dEvolving One Step"
+			hide_dependency_lines: true
+			dependencies: ["06267A02086A18CF"]
+			id: "5B200A174F2F9C41"
+			tasks: [
+				{
+					id: "4F36D23EE2590007"
+					type: "item"
+					item: "cobblemon:kings_rock"
+				}
+				{
+					id: "217AF7DDB95386FD"
+					type: "item"
+					item: "cobblemon:water_stone"
+				}
+			]
+			rewards: [{
+				id: "0895817C72B009DF"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Power Props"
+			x: 0.8d
+			y: 1.4d
+			subtitle: "&dA Bit Extra"
+			hide_dependency_lines: true
+			dependencies: ["06267A02086A18CF"]
+			id: "186CF12BFBCFAEF1"
+			tasks: [
+				{
+					id: "7A2689A2C2324688"
+					type: "item"
+					item: "cobblemon:twisted_spoon"
+				}
+				{
+					id: "72FE52558D6E185A"
+					type: "item"
+					item: "cobblemon:black_belt"
+				}
+			]
+			rewards: [{
+				id: "761927E36A9B9C99"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Good Machines"
+			x: -1.4d
+			y: 0.0d
+			subtitle: "&dAid on Your Journey"
+			hide_dependency_lines: true
+			dependencies: ["06267A02086A18CF"]
+			id: "13113AACF0D04A62"
+			tasks: [
+				{
+					id: "70E51B6F0BE756E8"
+					type: "item"
+					item: "cobblemon:pc"
+				}
+				{
+					id: "7FB07CF97E668AFE"
+					type: "item"
+					item: "cobblemon:healing_machine"
+				}
+			]
+			rewards: [{
+				id: "5CCAFA18480A7E7F"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Antagonistic Armor"
+			x: 1.4d
+			y: 0.0d
+			subtitle: "&dLooks Stylish In A Way"
+			hide_dependency_lines: true
+			dependencies: ["06267A02086A18CF"]
+			id: "50BDFC69D04B23C4"
+			tasks: [
+				{
+					id: "5E64F280B64B0A96"
+					type: "item"
+					item: {
+						id: "cobblemon_armor_plus:rocket_grunt_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "088A9DB26C02DC6F"
+					type: "item"
+					item: {
+						id: "cobblemon_armor_plus:rocket_grunt_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "0496BF8FD8C76FE9"
+					type: "item"
+					item: {
+						id: "cobblemon_armor_plus:rocket_grunt_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4F19E04F32C77990"
+					type: "item"
+					item: {
+						id: "cobblemon_armor_plus:rocket_grunt_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "2C60E6E4666B082B"
+				type: "item"
+				item: "coinsje:diamond_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

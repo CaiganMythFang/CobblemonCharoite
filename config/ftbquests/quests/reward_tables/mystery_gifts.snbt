@@ -1,0 +1,10 @@
+{
+	id: "778A2B64B955999D"
+	order_index: 0
+	title: "Mystery Gifts"
+	loot_size: 1
+	rewards: [
+		{ item: "a_man_with_plushies:plush_box" }
+		{ item: "simplehats:hatbag_common" }
+	]
+}

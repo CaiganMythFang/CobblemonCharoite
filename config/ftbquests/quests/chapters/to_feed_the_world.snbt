@@ -1,0 +1,514 @@
+{
+	id: "571A2CBC7FC4D492"
+	group: "4741197EBABDED21"
+	order_index: 4
+	filename: "to_feed_the_world"
+	title: "To Feed the Hungry"
+	icon: "culturaldelights:egg_roll"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "So Many Dishes, So Little Stomach"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "&dDon't Stop Trying Everything"
+			description: [
+				"&5Food can be a very simple, basic thing. Some bread, some meat, some water, some vegetables. Enough nutrients, nothing more."
+				""
+				"&5But that is BORING. There's so many dishes, so many flavors, so many foods to try. And this place has no shortage of things to try either!"
+			]
+			dependencies: ["3867B30AC7C6CBF9"]
+			id: "274D30B2DD37FE11"
+			tasks: [{
+				id: "5DF3E2754D19E056"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Aged Finely"
+			icon: "vinery:wine_bottle"
+			x: 0.0d
+			y: -1.7d
+			subtitle: "&dMod: [Vinery] Let's Do Wine!"
+			description: [
+				"&5Making wine tends to be a very... involved process. That also includes a lot of waiting. "
+				""
+				"&5Here they have a process that is both somewhat standard, and very...not. It all starts with finding some Grapes. Either out in the wild, or if you can find a wandering Wine Salesman (that just sounds so...weird), they should offer a variety of Grapes and Grape Seeds."
+				""
+				"&5Grow some Grapes and then Right Click them into a Grapevine Pot. Then start jumping on it to crush the grapes. Then you can Right Click an empty Wine Bottle onto the Pot to fill it with Grape Juice."
+				""
+				"&5Then take the Grape Juice to an Aging Barrel, where you can (kind of) see recipes to turn it into Wine, usually by adding extra ingredients."
+			]
+			hide_dependency_lines: true
+			dependencies: ["274D30B2DD37FE11"]
+			id: "18D2CAEEA46428FE"
+			tasks: [
+				{
+					id: "1E7009ABEF678BA8"
+					type: "item"
+					item: "vinery:red_grape_seeds"
+				}
+				{
+					id: "7826AD3BD29F2E2A"
+					type: "item"
+					item: "vinery:red_grape"
+				}
+				{
+					id: "7CCD31E097D9CBAE"
+					type: "item"
+					item: "vinery:grapevine_pot"
+				}
+				{
+					id: "1EA34B15756F52A7"
+					type: "item"
+					item: "vinery:fermentation_barrel"
+				}
+				{
+					id: "14E05877E9F39701"
+					type: "item"
+					item: "vinery:wine_bottle"
+				}
+			]
+			rewards: [{
+				id: "21EE93386D045373"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "From Farm to Table"
+			icon: {
+				id: "farmersdelight:skillet"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 0.0d
+			y: 1.6d
+			subtitle: "&dMod: Farmer's Delight"
+			description: [
+				"&5These dimensions are big on culinary delights, spanning from all over!"
+				""
+				"&5And many of them come from one starting point : the farm. The Delightful Farm."
+				""
+				"&5Farm work is hard, but rewarding when you get all these dishes at the end."
+				""
+				"&5To start with, you'll want to get a Knife and a Cutting Board. The Knife can cut grass and occasionally get Fibers to make things with."
+				""
+				"&5It can also be used with a Cutting Board to cut up food. Right Click the food onto the Board, then Right Click the Knife onto it."
+				""
+				"&5The Skillet and Stove can cook all the same recipes a Campfire can, and then some! Mmmm hamburgers."
+			]
+			hide_dependency_lines: true
+			dependencies: ["274D30B2DD37FE11"]
+			id: "5B8A689729CC767D"
+			tasks: [
+				{
+					id: "5D82DDAE78F799B8"
+					type: "item"
+					item: {
+						id: "farmersdelight:flint_knife"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C020B5B9ED1B2AC"
+					type: "item"
+					item: "farmersdelight:cutting_board"
+				}
+				{
+					id: "1B866B13D62ECEC7"
+					type: "item"
+					item: {
+						id: "farmersdelight:skillet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "283228CCAABB0F4C"
+					type: "item"
+					item: "farmersdelight:stove"
+				}
+				{
+					id: "71EE0708BE0378B6"
+					type: "item"
+					item: "farmersdelight:hamburger"
+				}
+			]
+			rewards: [{
+				id: "2DAE9259193D983A"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Tasty Snacks"
+			icon: "expandeddelight:snickerdoodle"
+			x: 1.3d
+			y: 4.1d
+			subtitle: "&dMod: Expanded Delight"
+			description: ["&5There are a lot of nice little treats and sweets this place has to offer. Even the usual staples from most dimensions, like Peanut Butter Sandwiches and Snickerdoodles, hit just right."]
+			hide_dependency_lines: true
+			dependencies: ["5B8A689729CC767D"]
+			id: "5E7467CFE9CD2391"
+			tasks: [
+				{
+					id: "5168874E6869D547"
+					type: "item"
+					item: "expandeddelight:peanut_butter_sandwich"
+				}
+				{
+					id: "22FAAC41A3CC8F6C"
+					type: "item"
+					item: "expandeddelight:snickerdoodle"
+				}
+			]
+			rewards: [{
+				id: "2368139F2D8D113D"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Cultures Far and Wide"
+			x: 1.3d
+			y: 2.8d
+			subtitle: "&dMod: Cultural Delights"
+			description: [
+				"&5Everywhere you go, there are different cultures, different groups, different peoples that come together. Dishes get made with local ingredients, local tastes, and trying other cultures dishes is an interesting and fun..."
+				""
+				"&5...hey, is that Sushi? The bosses will be very interested!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["5B8A689729CC767D"]
+			id: "534FBF7D81E974BA"
+			tasks: [{
+				id: "3EEE64BE6CC6CD29"
+				type: "item"
+				item: "culturaldelights:exotic_roll_medley"
+			}]
+			rewards: [{
+				id: "15BF4E16BDBF7CC0"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Sea of Food"
+			icon: "oceansdelight:fugu_roll"
+			x: -1.3d
+			y: 2.8d
+			subtitle: "&dMod: Ocean's Delight"
+			description: ["&5The ocean provides plenty of food to incorporate into some delicious dishes."]
+			hide_dependency_lines: true
+			dependencies: ["5B8A689729CC767D"]
+			id: "0DD90DAB1EE6B87E"
+			tasks: [
+				{
+					id: "56DCC3FC7A53E1BB"
+					type: "item"
+					item: "oceansdelight:fugu_roll"
+				}
+				{
+					id: "2EDC63F201F07E82"
+					type: "item"
+					item: "oceansdelight:braised_sea_pickle"
+				}
+			]
+			rewards: [{
+				id: "53FC56943BDFE3C9"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "No Milk, Three Sugars"
+			icon: "coffee_delight:mag_black_coffee"
+			x: -2.6d
+			y: 2.8d
+			subtitle: "&dMod: Coffee Delight"
+			description: [
+				"&5Coffee is a lot of folks morning wake up call, lifeblood through the day. You can have it so many ways, there's all sorts of ways to brew it, its really interesting!"
+				""
+				"&5Coffee plants here can usually be found around desert areas."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5B8A689729CC767D"]
+			id: "6F8EB1CDF46175E8"
+			tasks: [
+				{
+					id: "260DA5767C9EDC5F"
+					type: "item"
+					item: "coffee_delight:coffee_berries"
+				}
+				{
+					id: "3C534A3648259EE3"
+					type: "item"
+					item: {
+						id: "coffee_delight:mr_clever"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3B8117EB536F329B"
+					type: "item"
+					item: "coffee_delight:mag_black_coffee"
+				}
+			]
+			rewards: [{
+				id: "5B1B9E3571FCE533"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Fastish Food"
+			icon: "with_thursday:bacon_panini"
+			x: -1.3d
+			y: 4.1d
+			subtitle: "&dMod: With Thursday"
+			description: ["&5Nothing hits the spot at midnight like a fast food burger and fries, ya know?"]
+			hide_dependency_lines: true
+			dependencies: ["5B8A689729CC767D"]
+			id: "29347BB4D3BB5471"
+			tasks: [
+				{
+					id: "252B6CFC9637DCF1"
+					type: "item"
+					item: "with_thursday:french_fries"
+				}
+				{
+					id: "7925F8AE7CBB4406"
+					type: "item"
+					item: "with_thursday:bacon_panini"
+				}
+			]
+			rewards: [{
+				id: "4527CAB705CE62E2"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "A Nice Knife"
+			x: 0.0d
+			y: 2.8d
+			subtitle: "&dMod: Farmer's Knives"
+			description: ["&5There's lots of decent metals in this world, and they all make some very nice kitchen knives!"]
+			hide_dependency_lines: true
+			dependencies: ["5B8A689729CC767D"]
+			id: "312E8938E5DFEEC6"
+			tasks: [{
+				id: "106579CDB7291914"
+				type: "item"
+				item: {
+					id: "farmersknives:copper_knife_mm"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "1DEE2261F0DCB617"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "A Spot of Tea"
+			icon: "farmersrespite:rose_hip_tea"
+			x: 2.7d
+			y: 2.8d
+			subtitle: "&dMod: Farmer's Respite"
+			description: [
+				"&5Coffee might be good for get up and go... or well, get up and stay awake at least. But tea is good for relaxing."
+				""
+				"&5You can take a Kettle, and put it over some kind of fire. Fill it with Water, and something like Tea Leaves or Rose Hips, and get yourself some nice, calming tea."
+			]
+			hide_dependency_lines: true
+			dependencies: ["5B8A689729CC767D"]
+			id: "3287D1FFF6E1AE2F"
+			tasks: [
+				{
+					id: "1160446C2F21D16B"
+					type: "item"
+					item: "farmersrespite:kettle"
+				}
+				{
+					id: "78E731C4C60A521D"
+					type: "item"
+					item: "farmersrespite:rose_hips"
+				}
+				{
+					id: "4C526036A3EC1FF9"
+					type: "item"
+					item: "farmersrespite:rose_hip_tea"
+				}
+			]
+			rewards: [{
+				id: "407CB7E6214BB16A"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "My Kind of Sandwich!"
+			icon: {
+				id: "culinaryconstruct:sandwich"
+				Count: 1b
+				tag: {
+					SolidsSize: 6
+					Size: 5
+					Saturation: 1.04f
+					Quality: 4
+					Ingredients: {
+						Items: [
+							{
+								Slot: 0b
+								id: "farmersrespite:green_tea_cookie"
+								Count: 1b
+							}
+							{
+								Slot: 1b
+								id: "farmersdelight:sweet_berry_cookie"
+								Count: 1b
+							}
+							{
+								Slot: 2b
+								id: "farmersdelight:fried_egg"
+								Count: 1b
+							}
+							{
+								Slot: 3b
+								id: "culturaldelights:fried_eggplant_pasta"
+								Count: 1b
+							}
+							{
+								Slot: 4b
+								id: "with_thursday:chicken_panini"
+								Count: 1b
+							}
+						]
+					}
+					Solids: {
+						Items: [
+							{
+								Slot: 0b
+								id: "farmersrespite:green_tea_cookie"
+								Count: 1b
+							}
+							{
+								Slot: 1b
+								id: "farmersdelight:sweet_berry_cookie"
+								Count: 1b
+							}
+							{
+								Slot: 2b
+								id: "farmersdelight:fried_egg"
+								Count: 1b
+							}
+							{
+								Slot: 3b
+								id: "culturaldelights:fried_eggplant_pasta"
+								Count: 1b
+							}
+							{
+								Slot: 4b
+								id: "with_thursday:chicken_panini"
+								Count: 1b
+							}
+							{
+								Slot: 5b
+								id: "minecraft:bread"
+								Count: 1b
+							}
+						]
+					}
+					Count: 4
+					Base: {
+						id: "minecraft:bread"
+						Count: 1b
+					}
+					Food: 9
+				}
+			}
+			x: -1.3d
+			y: -1.7d
+			subtitle: "&dMod: Culinary Construct"
+			description: [
+				"&5It's inevitable, really. With so many good foods, someone will think of the following : "
+				""
+				"&5What if I put it all in a sandwich?"
+				""
+				"&5...or...."
+				""
+				"&5What if I put it all in a bowl?"
+				""
+				"&5With this Culinary Station, you can do just that with almost any food! Just put some Bread or a Bowl in the Station, and all the pieces of food you want, and bam. Sandwich."
+			]
+			hide_dependency_lines: true
+			dependencies: ["274D30B2DD37FE11"]
+			id: "25B7EAF849B2A37F"
+			tasks: [
+				{
+					id: "02D4308474D48CD3"
+					type: "item"
+					item: "culinaryconstruct:culinary_station"
+				}
+				{
+					id: "1C379FE15AF1BAF7"
+					type: "item"
+					item: {
+						id: "culinaryconstruct:sandwich"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			title: "A Well Maintained Kitchen"
+			x: 1.3d
+			y: -1.7d
+			subtitle: "&dMod: Cooking for Blockheads"
+			description: [
+				"&5A good chef has a good kitchen to work in. And Cooking for Blockheads is a fantastic kitchen."
+				""
+				"&5Each part of the Cooking for Blockheads kitchen can connect with each other, and show you all the recipes you can make with you have in your inventory, and in some of the storage containers."
+			]
+			hide_dependency_lines: true
+			dependencies: ["274D30B2DD37FE11"]
+			id: "2B3D34AA8601BD79"
+			tasks: [
+				{
+					id: "2D0CEE50E1C674EC"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+				{
+					id: "1197D62C88E6FA0F"
+					type: "item"
+					item: "cookingforblockheads:oven"
+				}
+			]
+			rewards: [{
+				id: "6B6796BDC22C6EA5"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

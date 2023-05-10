@@ -1,0 +1,856 @@
+{
+	id: "6AC6A59E681CABBB"
+	group: "4741197EBABDED21"
+	order_index: 10
+	filename: "plushies__a_man_with_plushies"
+	title: "Plushies + A Man with Plushies"
+	icon: "a_man_with_plushies:goose_plush"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Soft Collectables"
+			icon: "a_man_with_plushies:golden_plush_box"
+			x: 0.1d
+			y: 0.1d
+			subtitle: "&dJust Make a Giant Pile, Like a Dragon"
+			description: [
+				"&5We in the TFB aren't just researching things like unlimited energy, life saving medicine, or super powerful machines... we also deal in toys, games, and other things. Things that are fun and enjoyable. "
+				""
+				"&5Plushies are definitely on the boss' minds. Everyone loves plushies. And this world has a bunch of them!"
+				""
+				"&5There's two kinds... the handcrafted ones called simply \"Plushies\" on the left side."
+				""
+				"&5And on the right, is the special line called \"A Man with Plushies\", which cannot be crafted. Well, kind of. You can craft the special sealed boxes, to try your luck at unboxing all of them!"
+			]
+			hide_dependent_lines: true
+			dependencies: ["3867B30AC7C6CBF9"]
+			id: "149092A24DB21BBC"
+			tasks: [{
+				id: "06B71F4491D5E714"
+				type: "checkmark"
+			}]
+		}
+		{
+			x: -3.7d
+			y: -1.7d
+			dependencies: ["149092A24DB21BBC"]
+			id: "734A439604A017CF"
+			tasks: [{
+				id: "0459203AF2193312"
+				type: "item"
+				item: "plushies:panda_plushie"
+			}]
+			rewards: [{
+				id: "20D3E92FFD51221F"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -2.8d
+			y: -1.7d
+			dependencies: ["149092A24DB21BBC"]
+			id: "01BAAFFEEE68D556"
+			tasks: [{
+				id: "58944EF5CE37DCEA"
+				type: "item"
+				item: "plushies:slime_plushie"
+			}]
+			rewards: [{
+				id: "52EC02AD4F7C0ACA"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.9d
+			y: -1.7d
+			dependencies: ["149092A24DB21BBC"]
+			id: "603024A1AD1FA5C7"
+			tasks: [{
+				id: "11933B9DD4D97461"
+				type: "item"
+				item: "plushies:red_fox_plushie"
+			}]
+			rewards: [{
+				id: "50477EAAAFF6DA53"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -1.7d
+			hide_dependency_lines: true
+			dependencies: ["149092A24DB21BBC"]
+			id: "75683459D58A9D12"
+			tasks: [{
+				id: "54890C361AD7F1D6"
+				type: "item"
+				item: "plushies:white_fox_plushie"
+			}]
+			rewards: [{
+				id: "1902E501A382AA75"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -3.7d
+			y: -0.8d
+			dependencies: ["149092A24DB21BBC"]
+			id: "00CA0788A97068FF"
+			tasks: [{
+				id: "3EBB1B64A086DE02"
+				type: "item"
+				item: "plushies:cow_plushie"
+			}]
+			rewards: [{
+				id: "0B852D1DC6BBD062"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -2.8d
+			y: -0.8d
+			dependencies: ["149092A24DB21BBC"]
+			id: "43C33214245E6E0F"
+			tasks: [{
+				id: "21EC652EEBFF056E"
+				type: "item"
+				item: "plushies:mooshroom_plushie"
+			}]
+			rewards: [{
+				id: "0C9485A000A4A425"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.9d
+			y: -0.8d
+			dependencies: ["149092A24DB21BBC"]
+			id: "48A4A2AA90710002"
+			tasks: [{
+				id: "75D9F5C81D83ECFB"
+				type: "item"
+				item: "plushies:bee_plushie"
+			}]
+			rewards: [{
+				id: "0E662593F0AC4F82"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: -0.8d
+			hide_dependency_lines: true
+			dependencies: ["149092A24DB21BBC"]
+			id: "54FBC7CBF474D59D"
+			tasks: [{
+				id: "3B55E74C2A52015E"
+				type: "item"
+				item: "plushies:magma_cube_plushie"
+			}]
+			rewards: [{
+				id: "3B51BE2DCA633BF8"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -3.7d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "1BE66A4404295B9C"
+			tasks: [{
+				id: "0EECD63EC52B4DAB"
+				type: "item"
+				item: "plushies:axolotl_plushie"
+			}]
+			rewards: [{
+				id: "4606316FA7C3DE65"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -2.8d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "5C051C9CFA745279"
+			tasks: [{
+				id: "099B06878F18EA2F"
+				type: "item"
+				item: "plushies:turtle_plushie"
+			}]
+			rewards: [{
+				id: "1CB21067C9395B1A"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.9d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "2533B4774CC3BAAB"
+			tasks: [{
+				id: "0A1F3DA5807E91EB"
+				type: "item"
+				item: "plushies:snow_golem_plushie"
+			}]
+			rewards: [{
+				id: "7071ADF513C3867D"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 0.1d
+			hide_dependency_lines: true
+			dependencies: ["149092A24DB21BBC"]
+			id: "5D88E47507055C15"
+			tasks: [{
+				id: "62841CFCA67288E2"
+				type: "item"
+				item: "plushies:dolphin_plushie"
+			}]
+			rewards: [{
+				id: "3BFB72F1165E8006"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -3.7d
+			y: 1.0d
+			dependencies: ["149092A24DB21BBC"]
+			id: "5D25B228C076BFE9"
+			tasks: [{
+				id: "5AB794DF9DE45010"
+				type: "item"
+				item: "plushies:parrot_plushie"
+			}]
+			rewards: [{
+				id: "59FDD552D1D31CE9"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -2.8d
+			y: 1.0d
+			dependencies: ["149092A24DB21BBC"]
+			id: "77AEC718AB7E12FB"
+			tasks: [{
+				id: "7C6E93E69E467C09"
+				type: "item"
+				item: "plushies:warden_plushie"
+			}]
+			rewards: [{
+				id: "7040D93F3BFE2AAD"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.9d
+			y: 1.0d
+			dependencies: ["149092A24DB21BBC"]
+			id: "78243132C9A78382"
+			tasks: [{
+				id: "26A97D9F07C9E968"
+				type: "item"
+				item: "plushies:frog_plushie"
+			}]
+			rewards: [{
+				id: "058DF0824ABE52F2"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.0d
+			hide_dependency_lines: true
+			dependencies: ["149092A24DB21BBC"]
+			id: "49D199435F6A8BE4"
+			tasks: [{
+				id: "1FC98BE3B56A9692"
+				type: "item"
+				item: "plushies:goat_plushie"
+			}]
+			rewards: [{
+				id: "173547C0CB9C53AE"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -3.7d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "04BD2E87B920548B"
+			tasks: [{
+				id: "4D373CA2D4D875F7"
+				type: "item"
+				item: "plushies:cat_plushie"
+			}]
+			rewards: [{
+				id: "5BA33C3C5B473CF9"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -2.8d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "02B33936987E2A98"
+			tasks: [{
+				id: "60ED42B8DF009452"
+				type: "item"
+				item: "plushies:enderman_plushie"
+			}]
+			rewards: [{
+				id: "5AA0A06E8C36C6E4"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.9d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "6546E2480C0FD579"
+			tasks: [{
+				id: "6BBB952272D031D2"
+				type: "item"
+				item: "plushies:sheep_plushie"
+			}]
+			rewards: [{
+				id: "334537702761821D"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: -1.0d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "221677E989238829"
+			tasks: [{
+				id: "56814D57DBB25859"
+				type: "item"
+				item: "plushies:llama_plushie"
+			}]
+			rewards: [{
+				id: "4B65C8D91338673F"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 1.2d
+			y: -1.7d
+			dependencies: ["149092A24DB21BBC"]
+			id: "30B8BA125D58FA06"
+			tasks: [{
+				id: "3D9FC48169DB8B3D"
+				type: "item"
+				item: "a_man_with_plushies:creeper_plush"
+			}]
+			rewards: [{
+				id: "1EF36DD19C458AE8"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 2.1d
+			y: -1.7d
+			dependencies: ["149092A24DB21BBC"]
+			id: "65AACD392FACC747"
+			tasks: [{
+				id: "0D5401A3DA12AF14"
+				type: "item"
+				item: "a_man_with_plushies:enderman_plush"
+			}]
+			rewards: [{
+				id: "33C14056E510FC97"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -1.7d
+			dependencies: ["149092A24DB21BBC"]
+			id: "11439C2C62B90358"
+			tasks: [{
+				id: "5B04F5AEEF43FC4B"
+				type: "item"
+				item: "a_man_with_plushies:crewmate_plush"
+			}]
+			rewards: [{
+				id: "58A6DF81DED3A628"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.9d
+			y: -1.7d
+			dependencies: ["149092A24DB21BBC"]
+			id: "60A96C4D559580FC"
+			tasks: [{
+				id: "6440DBD442738897"
+				type: "item"
+				item: "a_man_with_plushies:isaac_plush"
+			}]
+			rewards: [{
+				id: "27CF7E28E17BCCB6"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 4.8d
+			y: -1.7d
+			dependencies: ["149092A24DB21BBC"]
+			id: "04CD9E902CFB90E0"
+			tasks: [{
+				id: "5D719C6CEC4E06A6"
+				type: "item"
+				item: "a_man_with_plushies:off_plush"
+			}]
+			rewards: [{
+				id: "5027DCBF35FB65E1"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 5.7d
+			y: -1.7d
+			dependencies: ["149092A24DB21BBC"]
+			id: "514E73EC45C798C9"
+			tasks: [{
+				id: "14760214AE59F4D8"
+				type: "item"
+				item: "a_man_with_plushies:meat_boy_plush"
+			}]
+			rewards: [{
+				id: "6077C34AFB272D7A"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 1.2d
+			y: -0.8d
+			dependencies: ["149092A24DB21BBC"]
+			id: "074721C9A569E96C"
+			tasks: [{
+				id: "331501F15D9097FA"
+				type: "item"
+				item: "a_man_with_plushies:gd_cube_plush"
+			}]
+			rewards: [{
+				id: "73D7EE2AB8E94925"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 2.1d
+			y: -0.8d
+			dependencies: ["149092A24DB21BBC"]
+			id: "0BA512AD1706455B"
+			tasks: [{
+				id: "5140846B054A2CCB"
+				type: "item"
+				item: "a_man_with_plushies:henry_stickmin_plush"
+			}]
+			rewards: [{
+				id: "1F12253495839436"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.0d
+			y: -0.8d
+			dependencies: ["149092A24DB21BBC"]
+			id: "4D0527FE351BC4CA"
+			tasks: [{
+				id: "31F1DBF911A8F562"
+				type: "item"
+				item: "a_man_with_plushies:pig_plush"
+			}]
+			rewards: [{
+				id: "5C7257D6F76EAEA4"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.9d
+			y: -0.8d
+			dependencies: ["149092A24DB21BBC"]
+			id: "2F5FD8368961B4CF"
+			tasks: [{
+				id: "7E7B743AA7018F13"
+				type: "item"
+				item: "a_man_with_plushies:white_sheep_plush"
+			}]
+			rewards: [{
+				id: "55BA268866DD3862"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 4.8d
+			y: -0.8d
+			dependencies: ["149092A24DB21BBC"]
+			id: "2BEC23845AE9629B"
+			tasks: [{
+				id: "4644FFE66F07E2A2"
+				type: "item"
+				item: "a_man_with_plushies:cow_plush"
+			}]
+			rewards: [{
+				id: "7648CCE2342A3F63"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 5.7d
+			y: -0.8d
+			dependencies: ["149092A24DB21BBC"]
+			id: "357A339F1452631E"
+			tasks: [{
+				id: "4C2467D21AB4EA98"
+				type: "item"
+				item: "a_man_with_plushies:chicken_plush"
+			}]
+			rewards: [{
+				id: "21D1E160CB300ED6"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "6500C4E8BE433E74"
+			tasks: [{
+				id: "38EAF417AB32634B"
+				type: "item"
+				item: "a_man_with_plushies:peashooter_plush"
+			}]
+			rewards: [{
+				id: "2D8CED7723AD11F9"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 2.1d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "300D27CF50020F36"
+			tasks: [{
+				id: "27A65F4E3755FA31"
+				type: "item"
+				item: "a_man_with_plushies:fall_guy_plush"
+			}]
+			rewards: [{
+				id: "6E0C7C45CBE34B77"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "3C59183072E5AAD8"
+			tasks: [{
+				id: "2870E871D4968BFD"
+				type: "item"
+				item: "a_man_with_plushies:wilson_plush"
+			}]
+			rewards: [{
+				id: "6495383962D60BB1"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.9d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "5074165A3497F6CF"
+			tasks: [{
+				id: "0E8648B6D0CCCDFA"
+				type: "item"
+				item: "a_man_with_plushies:cuphead_plush"
+			}]
+			rewards: [{
+				id: "23D234F88AD066DC"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 4.8d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "76BBD9C26A71ECDB"
+			tasks: [{
+				id: "789CC23D742142E8"
+				type: "item"
+				item: "a_man_with_plushies:lariat_plushie"
+			}]
+			rewards: [{
+				id: "14D595470BB07D4F"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 5.7d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "31D7F139E7FF36DE"
+			tasks: [{
+				id: "65B50642BF37A35C"
+				type: "item"
+				item: "a_man_with_plushies:sans_plush"
+			}]
+			rewards: [{
+				id: "5672F6B36DEB9840"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 1.0d
+			dependencies: ["149092A24DB21BBC"]
+			id: "38476114A0E58558"
+			tasks: [{
+				id: "1F26D6608F3A18B2"
+				type: "item"
+				item: "a_man_with_plushies:cc_green_knight_plush"
+			}]
+			rewards: [{
+				id: "6E19719E543A6CD7"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 2.1d
+			y: 1.0d
+			dependencies: ["149092A24DB21BBC"]
+			id: "33530E7ECA7D043F"
+			tasks: [{
+				id: "0E909805F92DC478"
+				type: "item"
+				item: "a_man_with_plushies:goose_plush"
+			}]
+			rewards: [{
+				id: "02CEEE4D1CB5AB6C"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.0d
+			dependencies: ["149092A24DB21BBC"]
+			id: "5E6C8E59972889FD"
+			tasks: [{
+				id: "20B7F2CFB2EC2BC6"
+				type: "item"
+				item: "a_man_with_plushies:the_knight_plush"
+			}]
+			rewards: [{
+				id: "628BF0267914358B"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.9d
+			y: 1.0d
+			dependencies: ["149092A24DB21BBC"]
+			id: "7D750097C44BEEFB"
+			tasks: [{
+				id: "726857D1EEF8987F"
+				type: "item"
+				item: "a_man_with_plushies:baldi_plush"
+			}]
+			rewards: [{
+				id: "334FB112A40FFE27"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 4.8d
+			y: 1.0d
+			dependencies: ["149092A24DB21BBC"]
+			id: "63F5A8A52534EEAA"
+			tasks: [{
+				id: "24B68D0D8AE3E519"
+				type: "item"
+				item: "a_man_with_plushies:ghast_plush"
+			}]
+			rewards: [{
+				id: "7BE8990549402B4A"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 5.7d
+			y: 1.0d
+			dependencies: ["149092A24DB21BBC"]
+			id: "214CBA31D6BC643B"
+			tasks: [{
+				id: "238FF4B3079DB92B"
+				type: "item"
+				item: "a_man_with_plushies:freddy_fazbear_plush"
+			}]
+			rewards: [{
+				id: "12AF1A31C7B29E8E"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 1.2d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "23295F3CD5D1B6EA"
+			tasks: [{
+				id: "5D0273E9579E7D45"
+				type: "item"
+				item: "a_man_with_plushies:popgoes_plush"
+			}]
+			rewards: [{
+				id: "3F23BCD3AFCF10BA"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 2.1d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "107067C68D2E2D7F"
+			tasks: [{
+				id: "44865E719E063845"
+				type: "item"
+				item: "a_man_with_plushies:candy_plush"
+			}]
+			rewards: [{
+				id: "3D7A78C7A29FA0D3"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.0d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "7B32BB6F98797B46"
+			tasks: [{
+				id: "379CE7606E5CAF8B"
+				type: "item"
+				item: "a_man_with_plushies:heavy_plush"
+			}]
+			rewards: [{
+				id: "22B14BE6BC3CFDD1"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 3.9d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "16F78B05EED15EB4"
+			tasks: [{
+				id: "76415EEC6D46EAE1"
+				type: "item"
+				item: "a_man_with_plushies:companion_block_plushie"
+			}]
+			rewards: [{
+				id: "0ED316612DEA0AA6"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 4.8d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "15228AB3DEDE595D"
+			tasks: [{
+				id: "7B5B45A35D7F2F4E"
+				type: "item"
+				item: "a_man_with_plushies:glados_plush"
+			}]
+			rewards: [{
+				id: "730E4AEF484AED4A"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 6.6d
+			y: 0.1d
+			dependencies: ["149092A24DB21BBC"]
+			id: "1C8A6E671A714B1E"
+			tasks: [{
+				id: "6E58B05B5F5EE21A"
+				type: "item"
+				item: "a_man_with_plushies:spamton_plush"
+			}]
+			rewards: [{
+				id: "32A02559C8AD16E1"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			x: 5.7d
+			y: 1.9d
+			dependencies: ["149092A24DB21BBC"]
+			id: "4992B01BE7DFEBF4"
+			tasks: [{
+				id: "4010B8037AAA7CDB"
+				type: "item"
+				item: "a_man_with_plushies:headcrab_plush"
+			}]
+			rewards: [{
+				id: "0A4678993D6CADA7"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

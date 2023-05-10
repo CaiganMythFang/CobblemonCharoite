@@ -1,0 +1,30 @@
+{
+	id: "361673F0E3ECA36B"
+	group: "4741197EBABDED21"
+	order_index: 0
+	filename: "research_basics"
+	title: "Research Basics"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [{
+		title: "Information on Research Pages"
+		icon: "minecraft:writable_book"
+		x: 1.2d
+		y: -0.2d
+		subtitle: "&dJust some helpful notes"
+		description: [
+			"&5So each of these following pages will give you guidance on how to begin Researching the various things we're looking for in these Dimensions."
+			""
+			"&5Be it how to cast spells with sky writing, how to process high grade materials with super powerful machines, how to jump super high with fancy artifacts: all we're looking for information for our Research."
+			""
+			"&5You don't have to turn in any of the items you Research. We're hoping they will help you explore further and find even more."
+		]
+		dependencies: ["581B4E9498124C6A"]
+		id: "3867B30AC7C6CBF9"
+		tasks: [{
+			id: "2BA568071BE0B832"
+			type: "checkmark"
+		}]
+	}]
+	quest_links: [ ]
+}

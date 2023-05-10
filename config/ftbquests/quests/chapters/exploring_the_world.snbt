@@ -1,0 +1,328 @@
+{
+	id: "57480B7A8E393AE8"
+	group: "4741197EBABDED21"
+	order_index: 1
+	filename: "exploring_the_world"
+	title: "Exploring the World"
+	icon: "immersive_aircraft:biplane"
+	subtitle: ["&dWhat Sights to See"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Getting Around"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "&dPlaces to Go, Things to See"
+			description: [
+				"&5There's a whole lot of fun things to see in these dimensions. Crazy buildings, intriguing ruins, villages, and more."
+				""
+				"&5Since there's no real teleportation technology here (And we've been advised to stick to this dimension's technology level), you have plenty of other ways of getting around."
+			]
+			dependencies: [
+				"581B4E9498124C6A"
+				"3867B30AC7C6CBF9"
+			]
+			id: "3953E09C5CDBB232"
+			tasks: [{
+				id: "0FB8ABB4CE2C5D3D"
+				type: "checkmark"
+				title: "Getting Around"
+			}]
+		}
+		{
+			title: "Jobs of the Village"
+			icon: "morevillagers:oceanography_table"
+			x: -2.1d
+			y: -2.3d
+			subtitle: "&dMod: More Villagers"
+			description: ["&5While we've encountered many similar dimensions, this is one of the first where the usual Villager job market is...expanded? There are many new Villager jobs (and associated workstations), which provide many of the things you'd usually only find by bashing a couple dozen monsters."]
+			hide_dependency_lines: true
+			dependencies: ["3953E09C5CDBB232"]
+			id: "2A5FE3561F7A8935"
+			tasks: [{
+				id: "38482BA5C323A208"
+				type: "item"
+				item: "morevillagers:oceanography_table"
+			}]
+			rewards: [{
+				id: "230098096DDFFB45"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Loot for All"
+			icon: "lootr:lootr_chest"
+			x: 0.0d
+			y: -2.3d
+			subtitle: "&dMod: Lootr"
+			description: [
+				"&5If you are out adventuring with other Researchers and Assistants, you'll be happy to know these dimensions seem to favor you. Most regular chests you find around will be these gilded \"Lootr\" chests. "
+				""
+				"&5They hold prizes for each person once, so that you all can get something!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3953E09C5CDBB232"]
+			id: "52F073C0851CE472"
+			tasks: [{
+				id: "6DFFF6425762EF46"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "42798BE105A6E0C0"
+				type: "item"
+				item: "coinsje:copper_coin"
+			}]
+		}
+		{
+			title: "Swing Around and Around"
+			x: 1.9d
+			y: -2.3d
+			subtitle: "&dMod: Grappling Hook Mod"
+			description: [
+				"&5Perhaps one of the most fun tools in my opinion. Grappling Hooks lets you swing around, climb up and down, and all around. They are ESPECIALLY useful for smaller species like mice!"
+				""
+				"&5You can also use a Modifier Bench to add various Modifiers, like longer ropes for example."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3953E09C5CDBB232"]
+			id: "055251CE1AE3C560"
+			tasks: [
+				{
+					id: "62441FC5959092FA"
+					type: "item"
+					item: {
+						id: "grapplemod:grapplinghook"
+						Count: 1b
+						tag: {
+							Damage: 0
+							custom: {
+								doublehook: 0b
+								motor: 0b
+								phaserope: 0b
+								attract: 0b
+								rocket: 0b
+								hookgravity: 1.0d
+								repelforce: 1.0d
+								attractradius: 3.0d
+								pullbackwards: 1b
+								smartmotor: 0b
+								detachonkeyrelease: 0b
+								angle: 20.0d
+								crc32: 2252267022L
+								rocket_vertical_angle: 0.0d
+								rocket_force: 1.0d
+								rocket_refuel_ratio: 15.0d
+								motorwhencrouching: 0b
+								motorwhennotcrouching: 1b
+								motordampener: 0b
+								rocket_active_time: 0.5d
+								throwspeed: 2.0d
+								motoracceleration: 0.2d
+								enderstaff: 0b
+								oneropepull: 0b
+								sneakingverticalthrowangle: 0.0d
+								smartdoublemotor: 1b
+								repel: 0b
+								sneakingangle: 10.0d
+								motormaxspeed: 4.0d
+								playermovementmult: 1.0d
+								reelin: 1b
+								sticky: 0b
+								verticalthrowangle: 0.0d
+								maxlen: 30.0d
+							}
+						}
+					}
+				}
+				{
+					id: "5439DDD7A8A01DB9"
+					type: "item"
+					item: "grapplemod:block_grapple_modifier"
+				}
+				{
+					id: "58EEFF37536D2B04"
+					type: "item"
+					item: "grapplemod:ropeupgradeitem"
+				}
+			]
+			rewards: [{
+				id: "0BC1C0D895F7091C"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "From Downtown"
+			x: -2.1d
+			y: 0.0d
+			subtitle: "&dMod: Hookshot"
+			description: [
+				"&5Hookshots are simpler grappling hooks, no need to figure out angles or swing arcs."
+				""
+				"&5Just aim, fire, and get pulled to the block you connected to."
+				""
+				"&5You can put the Hookshot into a Smithing Table with various items to upgrade it. Make it reach farther, faster, etc."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3953E09C5CDBB232"]
+			id: "6011EC4CF21705E0"
+			tasks: [{
+				id: "0B8FC5F3B568091D"
+				type: "item"
+				item: {
+					id: "hookshot:white_hookshot"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "0CACCB4D48D19FFC"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Vroom Vroom"
+			x: -2.1d
+			y: 2.1d
+			subtitle: "&dMod: Automobility"
+			description: [
+				"&5Cars are fun to drive, especially when nobody else is on the road."
+				""
+				"&5Your dimensions right now don't have many drivers, but they do have a nice variety of vehicles you can make from Automobility."
+				""
+				"&5Using an Automotive Table, you can craft different parts for your vehicle, putting them together on an Auto Assembler."
+				""
+				"&5The Crowbar is for if you need to get rid of the vehicle."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3953E09C5CDBB232"]
+			id: "2AF0F01773A68761"
+			tasks: [
+				{
+					id: "4CA844EA12367817"
+					type: "item"
+					item: "automobility:auto_mechanic_table"
+				}
+				{
+					id: "71CB032BDDA54E57"
+					type: "item"
+					item: "automobility:automobile_assembler"
+				}
+				{
+					id: "1B75339BADFF0FEA"
+					type: "item"
+					item: "automobility:crowbar"
+				}
+			]
+			rewards: [{
+				id: "6CCB0A63FC94B827"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "To the Skies!"
+			x: 0.0d
+			y: 2.1d
+			subtitle: "&dMod: Immersive Skies"
+			description: [
+				"&5While not having a wide variety of styles like Cars, Immersive Aircraft gives you a few different options to travel the skies."
+				""
+				"&5You have a classic biplane for example, but also weirder machines like the Gyrodyne."
+				""
+				"&5It's important to note you don't get out of Immersive Aircraft like other vehicles here...Shift is Down, not Dismount. "
+				""
+				"&5To Dismount, you hit H instead. You know, to HOP OUT."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3953E09C5CDBB232"]
+			id: "1FACE4416BACAC2B"
+			tasks: [{
+				id: "7ED9845890273297"
+				type: "item"
+				item: "immersive_aircraft:gyrodyne"
+			}]
+			rewards: [{
+				id: "4D70C5D56BC21ECB"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Yarrr"
+			x: 1.9d
+			y: 2.1d
+			subtitle: "&dMod: Small Ships"
+			description: [
+				"&5You can sail the seas in the comfort of your ship. Not a little boat, but a nice Cog or even more extravegant Brigg."
+				""
+				"&5You'll have to swim out a little bit before you can place the ship down. You can then sail around!"
+				""
+				"&5R raises and lowers your sails. You can also open the ship's inventory off the ship by Sneak+Right Clicking it."
+			]
+			hide_dependency_lines: true
+			dependencies: ["3953E09C5CDBB232"]
+			id: "4C50DF8962C3464F"
+			tasks: [{
+				id: "5BE783219AB198BE"
+				type: "item"
+				item: "smallships:oak_cog"
+			}]
+			rewards: [{
+				id: "50018E59435132C5"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "A Careful Dig"
+			icon: "archeology:raw_clay_pot"
+			x: 1.9d
+			y: 0.0d
+			subtitle: "&dMod: Archaeology Mod"
+			description: [
+				"&5Around the dimensions you can find ruins or signs of earlier civilizations. In these, you'll find dirt, sand, or gravel with white streaks through it. These can be excavated!"
+				""
+				"&5Make yourself a Copper Brush, and hold Right Click on the Excavation Block to start brushing it."
+				""
+				"&5You'll need to move your brush around so you don't break the delicate loot inside!"
+				""
+				"&5If succesfull, you could get something useful, or a piece of ancient pottery with designs on it!"
+				""
+				"&5You can make a Raw Clay Pot, and place it over an unlit Campfire. Right Click pieces of ancient pottery to add it to the Raw Clay Pot, then light the fire to harden it!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["3953E09C5CDBB232"]
+			id: "2B6CBC61E86E2E28"
+			tasks: [
+				{
+					id: "64CDFC0240EDB56F"
+					type: "item"
+					item: {
+						id: "archeology:copper_brush"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "30260C0CEDDB1AC6"
+					type: "item"
+					item: "archeology:raw_clay_pot"
+				}
+			]
+			rewards: [{
+				id: "793E9BDD43E52928"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

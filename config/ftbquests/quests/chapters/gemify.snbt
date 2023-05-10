@@ -1,0 +1,261 @@
+{
+	id: "63B0DA263CA3C0D0"
+	group: "4741197EBABDED21"
+	order_index: 9
+	filename: "gemify"
+	title: "Gemify"
+	icon: "gemify:garnet"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Glorious Gems"
+			x: -0.1d
+			y: -0.1d
+			subtitle: "&dAll Very Pretty"
+			description: [
+				"&5A class of gems called Gemify are not only pretty and make pretty building blocks, they also have some special abilities."
+				""
+				"&5Take the Topaz. You can Right Click with it to throw it, and it'll highlight all creatures around where it lands. It's only a moment, but it might be really helpful to locate small or hidden Cobblemon."
+			]
+			dependencies: ["3867B30AC7C6CBF9"]
+			id: "2C204807073C31AC"
+			tasks: [{
+				id: "7CEA6C799862400C"
+				type: "item"
+				item: "gemify:topaz"
+			}]
+			rewards: [{
+				id: "4EA7046CF7D2CC1E"
+				type: "item"
+				item: "coinsje:copper_coin"
+			}]
+		}
+		{
+			title: "Sparkling Blue"
+			x: -0.1d
+			y: -2.2d
+			subtitle: "&dFrom the Seas and Sands"
+			description: ["&5The Aqua Wand will douse nearby enemies in water when used."]
+			hide_dependency_lines: true
+			dependencies: ["2C204807073C31AC"]
+			id: "02557E30F38EC949"
+			tasks: [
+				{
+					id: "41AFF7DA3701AE7E"
+					type: "item"
+					title: "Aquamarine"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:aquamarines"
+						}
+					}
+				}
+				{
+					id: "574643CE74B2FA0A"
+					type: "item"
+					item: {
+						id: "gemify:aquamarine_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "7955E73DEE123CD0"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Orange Flame"
+			x: 1.7d
+			y: -1.7d
+			subtitle: "&dBurns with Warmth"
+			hide_dependency_lines: true
+			dependencies: ["2C204807073C31AC"]
+			id: "74A662FC66E6F1E3"
+			tasks: [
+				{
+					id: "692726DE36AD9808"
+					type: "item"
+					item: "gemify:garnet"
+				}
+				{
+					id: "44AEFCA9A693EE3E"
+					type: "item"
+					item: "gemify:flame_arrow"
+				}
+			]
+			rewards: [{
+				id: "59D7E3005CA99266"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Red Fires"
+			icon: "gemify:ruby"
+			x: 2.2d
+			y: -0.1d
+			subtitle: "&dFire, Fire, Burns Much Brighter"
+			description: ["&5The Fire Wand ignites all mobs nearby when used."]
+			hide_dependency_lines: true
+			dependencies: ["2C204807073C31AC"]
+			id: "7B7BEB019D717089"
+			tasks: [
+				{
+					id: "4DFAF4AAAAF6A8AC"
+					type: "item"
+					title: "Ruby"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:rubies"
+						}
+					}
+				}
+				{
+					id: "2DDAA74A7BDEEA3C"
+					type: "item"
+					item: {
+						id: "gemify:ruby_wand"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			title: "Deep Blue"
+			icon: "gemify:sapphire"
+			x: 1.0d
+			y: 1.7d
+			subtitle: "&dBlast Absorbant"
+			hide_dependency_lines: true
+			dependencies: ["2C204807073C31AC"]
+			id: "325B876EECDE6E5C"
+			tasks: [
+				{
+					id: "3C09A5932A95CF72"
+					type: "item"
+					title: "Sapphire"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "c:sapphires"
+						}
+					}
+				}
+				{
+					id: "15EC55FA0209A8EF"
+					type: "item"
+					item: {
+						id: "gemify:sapphire_shield"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "6A4528F7F5AD6568"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Cool Quartz"
+			x: -1.2d
+			y: 1.7d
+			subtitle: "&dChill, Even"
+			hide_dependency_lines: true
+			dependencies: ["2C204807073C31AC"]
+			id: "257C5D314876E423"
+			tasks: [
+				{
+					id: "5C643A5C43C27B4D"
+					type: "item"
+					item: "gemify:snow_quartz"
+				}
+				{
+					id: "19FC4FB0D6ADDBB6"
+					type: "item"
+					item: "gemify:frost_arrow"
+				}
+			]
+			rewards: [{
+				id: "590E6EB267792504"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Colorful Quartz"
+			x: -2.4d
+			y: -0.1d
+			subtitle: "&dQuite Decorative"
+			hide_dependency_lines: true
+			dependencies: ["2C204807073C31AC"]
+			id: "53F8B1C18ECBB2C7"
+			tasks: [
+				{
+					id: "1B2892BE13025B99"
+					type: "item"
+					item: "gemify:minty_quartz"
+				}
+				{
+					id: "4CE776FEC82E02AC"
+					type: "item"
+					item: "gemify:rose_quartz"
+				}
+				{
+					id: "43ED124491BAD91D"
+					type: "item"
+					item: "gemify:smoky_quartz"
+				}
+			]
+			rewards: [{
+				id: "7D6D967CC26E7CCC"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Attractively Purple"
+			x: -1.8d
+			y: -1.7d
+			subtitle: "&dCome Here, Go Away"
+			hide_dependency_lines: true
+			dependencies: ["2C204807073C31AC"]
+			id: "1A5BB0A9A471BB9E"
+			tasks: [
+				{
+					id: "493CCACB082EB366"
+					type: "item"
+					item: "gemify:end_quartz"
+				}
+				{
+					id: "71D0DCB58DDD7BBB"
+					type: "item"
+					item: "gemify:entity_magnet"
+				}
+			]
+			rewards: [{
+				id: "36FE7A1860D74CE3"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

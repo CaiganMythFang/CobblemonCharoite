@@ -1,0 +1,13 @@
+{
+	id: "3DE7F24302F1CD4F"
+	order_index: 1
+	title: "Epic Hats"
+	loot_size: 1
+	rewards: [
+		{ item: "simplehats:hatbag_epic", weight: 15.0f }
+		{ item: "simplehats:hatbag_easter" }
+		{ item: "simplehats:hatbag_summer" }
+		{ item: "simplehats:hatbag_halloween" }
+		{ item: "simplehats:hatbag_festive" }
+	]
+}

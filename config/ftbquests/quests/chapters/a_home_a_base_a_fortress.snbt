@@ -1,0 +1,796 @@
+{
+	id: "476D9C70A60293E4"
+	group: "4741197EBABDED21"
+	order_index: 3
+	filename: "a_home_a_base_a_fortress"
+	title: "A Home, A Base, A Fortress"
+	icon: "mcwwindows:hammer"
+	subtitle: ["&dSo many things to build with!"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "New Construction Options"
+			icon: "mcwwindows:hammer"
+			x: -0.2d
+			y: 0.7d
+			description: [
+				"&5Without having to worry about destructive monsters rampaging their homes, it seems the citizens of these dimensions get a lot more time to design and decorate lovely homes."
+				""
+				"&5And even without the threat of monster raids, a lot of what they've made would fit right at home in a defensive bunker too!"
+			]
+			hide_dependency_lines: true
+			dependencies: [
+				"581B4E9498124C6A"
+				"3867B30AC7C6CBF9"
+			]
+			id: "2B8C4B822F57E3B7"
+			tasks: [{
+				id: "0D5C2285FACD5303"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Supplementing with Style"
+			x: -2.0d
+			y: -1.7d
+			subtitle: "&dMod: Supplementaries"
+			description: [
+				"&5This line of useful and decorative blocks and tools combine form and function."
+				""
+				"&5Keep on the look out for Flax, which makes useful Rope. And Sacks are good mini storage containers for on the go. "
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "249FDE0CD2D31DAE"
+			tasks: [
+				{
+					id: "479CAB24285BC938"
+					type: "item"
+					item: "supplementaries:pedestal"
+				}
+				{
+					id: "48081DAD794B715D"
+					type: "item"
+					item: "supplementaries:sack"
+				}
+				{
+					id: "7448AD660ADB8B00"
+					type: "item"
+					item: "supplementaries:present_purple"
+				}
+				{
+					id: "6C4F862B6E574C29"
+					type: "item"
+					item: "supplementaries:rope"
+				}
+			]
+			rewards: [{
+				id: "7B354C7977C5E02A"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Crate Shop"
+			x: -0.8d
+			y: -1.7d
+			subtitle: "&dMod: Apple Crates"
+			description: [
+				"&5Apple Crates are a nice way to store items and have them be visible."
+				""
+				"&5There is a bonus though, you can set up a very simple shop with them too!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "272A2C45768683F7"
+			tasks: [{
+				id: "30079C3E43BD2B82"
+				type: "item"
+				item: "applecrates:oak_crate"
+			}]
+			rewards: [{
+				id: "02742F02A538D6B1"
+				type: "item"
+				item: "coinsje:copper_coin"
+			}]
+		}
+		{
+			title: "Connected Storages"
+			x: 0.3999999999999999d
+			y: -1.7d
+			subtitle: "&dMod: Linked Storage"
+			description: [
+				"&5Linked Storages provides quite a simple yet powerful thing : A chest with a '3 channel' designation. By using Dyes on the 3 channels, all Linked Storages with that 3 channel combo share an inventory!"
+				""
+				"&5If you Right Click a Diamond onto the chest, then you'll swap the chest to your PERSONAL network."
+				""
+				"&5You can also make a Handheld Storage, and Sneak+Right Click it onto a Storage Chest to copy its combo."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "0FD18C47797A7E19"
+			tasks: [{
+				id: "0E3F16A45C291337"
+				type: "item"
+				item: {
+					id: "linkedstorage:storageblock"
+					Count: 1b
+					tag: { }
+				}
+			}]
+			rewards: [{
+				id: "76E3F5B23729CA54"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Pipes Pipes Pipes"
+			icon: "moderndynamics:item_pipe"
+			x: 1.6d
+			y: -1.7d
+			subtitle: "&dMod: Modern Dynamics"
+			description: [
+				"&5Modern Dynamics provides Item, Fluid, and Energy Pipes that enable you to move said elements around automatically."
+				""
+				"&5The Wrench enables you to change and configure connections and pipes."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "60EC77A1F36F8D80"
+			tasks: [
+				{
+					id: "5D883D0E3F0A3BD6"
+					type: "item"
+					item: "moderndynamics:item_pipe"
+				}
+				{
+					id: "5CC2AA3AD29BF85F"
+					type: "item"
+					item: "moderndynamics:wrench"
+				}
+			]
+			rewards: [{
+				id: "70E2FA3EC30569F0"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Deep, Dank Storage"
+			x: 2.7d
+			y: -1.7d
+			subtitle: "&dMod: Dank Storage"
+			description: [
+				"&5Dank Storage provides 7 tiers of an item called a Dank."
+				""
+				"&5Danks can hold a set number of items, and multiple stacks of each item. Higher tier Danks can hold more of both."
+				""
+				"&5Docks can also be crafted to place Danks into, to let them interact with pipes and hoppers."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "46EF51E73B3223E6"
+			tasks: [
+				{
+					id: "2543103B9FAA3BEA"
+					type: "item"
+					item: {
+						id: "dankstorage:dank_1"
+						Count: 1b
+						tag: {
+							settings: {
+								"dankstorage:id": 0
+							}
+						}
+					}
+				}
+				{
+					id: "62BAC11002765C6F"
+					type: "item"
+					item: "dankstorage:dock"
+				}
+			]
+			rewards: [{
+				id: "656FFA1AC13AA3A2"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Big Chests, Small Chests"
+			x: -3.1d
+			y: -1.7d
+			subtitle: "&dMod: Expanded Storage"
+			description: [
+				"&5Extended Storage adds a variety of tiered storages for you, including Chests and Barrels."
+				""
+				"&5Also included are these handy little Upgrade Tokens, which lets you upgrade an already placed chest from one tier to another just by Right Clicking the upgrade onto it!"
+				""
+				"&5You can also split up a large chest into smaller Mini Chests which are weirdly cute."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "5A445C90A9552E69"
+			tasks: [
+				{
+					id: "21258B398F27A21E"
+					type: "item"
+					item: "expandedstorage:wood_to_copper_conversion_kit"
+				}
+				{
+					id: "26BFC50F907FE51D"
+					type: "item"
+					item: "expandedstorage:iron_mini_chest"
+				}
+				{
+					id: "27DD617852C6359D"
+					type: "item"
+					item: "expandedstorage:copper_barrel"
+				}
+			]
+			rewards: [{
+				id: "73F5FB5B5B6588DA"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Backpacking Out in Style"
+			x: 0.4d
+			y: -0.6d
+			subtitle: "&dMod: Traveler's Backpacks"
+			description: [
+				"&5Traveler's Backpacks give you a wide variety of styled backpacks to choose from. They also benefit from being nearly an entire mini campsite on your back!"
+				""
+				"&5The backpacks support crafting within them, can have a fluid tank put into them and fill/empty with a hose, as well as hold your tools!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "519236476D344B1C"
+			tasks: [
+				{
+					id: "58BB6F9C6EBD00BE"
+					type: "item"
+					item: {
+						id: "travelersbackpack:standard"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "7D6E7A7D6CF573D6"
+					type: "item"
+					item: "travelersbackpack:backpack_tank"
+				}
+				{
+					id: "6FC2ED7CACB75D4D"
+					type: "item"
+					item: "travelersbackpack:hose"
+				}
+			]
+			rewards: [{
+				id: "7FC8BBEBECB3CE9A"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Nicely Fancy Constructions"
+			x: -2.0d
+			y: 4.2d
+			subtitle: "&dMod: Chipped 2"
+			description: [
+				"&5Chipped adds a variety of workbenches that act like the Stonecutter: They take certain blocks, and give you a wide variety of other blocks those can be turned into!"
+				""
+				"&5These other blocks are the same general material, but can look quite different. "
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "6B4F5FF8EE907038"
+			tasks: [
+				{
+					id: "057CEF41FE59D4B2"
+					type: "item"
+					item: "chipped:glassblower"
+				}
+				{
+					id: "6A32201E8DEEB81E"
+					type: "item"
+					item: "chipped:mason_table"
+				}
+			]
+			rewards: [{
+				id: "65130772B0C13A04"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Construction Ahead"
+			x: -0.7999999999999998d
+			y: 4.2d
+			subtitle: "&dMod: Construction Deco"
+			description: ["&dBuilding up a town or a city? Be sure to use appropriate construction deco to get people to slow down!"]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "42CA5FE3F95F814B"
+			tasks: [{
+				id: "607EFD179A283D26"
+				type: "item"
+				item: "construction_deco:traffic_cone"
+			}]
+			rewards: [{
+				id: "40BC8EA37C42E21D"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Simply Rustic Furniture"
+			x: 0.40000000000000036d
+			y: 4.2d
+			subtitle: "&dMod: Decor4Fabric"
+			description: ["&5Decor4Fabric adds a special workbench, in which you can add logs of the basic vanilla wood types (oak, spruce, etc), and turn them into some nice, rustic furniture."]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "64EDF95EC1A9DAB1"
+			tasks: [
+				{
+					id: "44D086A621530FF7"
+					type: "item"
+					item: "decor4fabric:workbench"
+				}
+				{
+					id: "0E21FCA85453B66E"
+					type: "item"
+					item: "decor4fabric:oak_log_small_stool"
+				}
+			]
+			rewards: [{
+				id: "01E8D35D3AF7123C"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "These Posters are METAL"
+			x: 1.5999999999999996d
+			y: 4.2d
+			subtitle: "&dMod: Display Deco"
+			description: [
+				"&5Most posters are made with paper or some sort of plastic like fabric."
+				""
+				"&5However, these posters are nice, solid METAL, and stand out on the wall."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "689A02A7BB93A3F0"
+			tasks: [{
+				id: "029775DE80E62A0C"
+				type: "item"
+				item: "display:display_1"
+			}]
+			rewards: [{
+				id: "11236EC1378B7CE8"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "By Hand"
+			x: -3.2d
+			y: 4.2d
+			subtitle: "&dMod: Handcrafted"
+			description: [
+				"&5Handcrafted stuff always a certain look to it. Made with a bit of effort and, I guess love or at least confidence?"
+				""
+				"&5Either way, these Handcrafted furniture items look fairly nice and different than the usual deco faire."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "0BC69FB1B017E58B"
+			tasks: [
+				{
+					id: "2312D19A50670999"
+					type: "item"
+					item: "handcrafted:white_glazed_thin_pot"
+				}
+				{
+					id: "6FA61D77021A5D5D"
+					type: "item"
+					item: "handcrafted:acacia_couch"
+				}
+				{
+					id: "07D91925C1E7644A"
+					type: "item"
+					item: "handcrafted:stackable_book"
+				}
+			]
+			rewards: [{
+				id: "45F3922E27647EFA"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Fences by Macaw"
+			x: 0.40000000000000036d
+			y: 3.0d
+			subtitle: "&dMod: Macaw's Fences and Walls"
+			description: [
+				"&5Macaw creates a wide variety of useful building blocks and decorations."
+				""
+				"&5Here is a variety of fences and walls for everything from a home yard to a farm."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "504344FBB437DFA6"
+			tasks: [
+				{
+					id: "2A032F609F283A1E"
+					type: "item"
+					item: "mcwfences:oak_picket_fence"
+				}
+				{
+					id: "785C40E4E9EDA55A"
+					type: "item"
+					item: "mcwfences:oak_wired_fence"
+				}
+			]
+			rewards: [{
+				id: "0072FA5EDD815B4B"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Furniture by Macaw"
+			x: -0.7999999999999998d
+			y: 3.0d
+			subtitle: "&dMod: Macaw's Furniture"
+			description: [
+				"&5Macaw creates a wide variety of useful building blocks and decorations."
+				""
+				"&5This is a lovely line of furniture that includes combination bookshelves and cabinets and drawers."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "0869E808D1C9AE9B"
+			tasks: [
+				{
+					id: "3A161917E148BB8C"
+					type: "item"
+					item: "mcwfurnitures:oak_bookshelf_cupboard"
+				}
+				{
+					id: "6359F6054BBBEDDB"
+					type: "item"
+					item: "mcwfurnitures:oak_bookshelf_drawer"
+				}
+			]
+			rewards: [{
+				id: "0790AA1090DAED8A"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Lights and Lamps by Macaw"
+			x: -2.0d
+			y: 3.0d
+			subtitle: "&dMod: Macaw's Lights and Lamps"
+			description: [
+				"&5Macaw creates a wide variety of useful building blocks and decorations."
+				""
+				"&5This is a variety of lights and lamps for both indoors and outdoors."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "4FBC0238477F525D"
+			tasks: [
+				{
+					id: "3BF26865CC369DF4"
+					type: "item"
+					item: "mcwlights:purple_ceiling_light"
+				}
+				{
+					id: "468842C98CA5179F"
+					type: "item"
+					item: "mcwlights:garden_light"
+				}
+			]
+			rewards: [{
+				id: "376583C0CC2DF736"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Roofs by Macaw"
+			x: 1.5999999999999996d
+			y: 3.0d
+			subtitle: "&dMod: Macaw's Roofs"
+			description: [
+				"&5Macaw creates a wide variety of useful building blocks and decorations."
+				""
+				"&5This adds a nice variety of sloped roofs, with windows and sunlights as well."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "3A0930C53543F7C7"
+			tasks: [
+				{
+					id: "6920F1A455CDB132"
+					type: "item"
+					item: "mcwroofs:oak_roof"
+				}
+				{
+					id: "15A0F0444941BA5F"
+					type: "item"
+					item: "mcwroofs:oak_attic_roof"
+				}
+			]
+			rewards: [{
+				id: "24C84B5A6CA44EFD"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Trapdoors by Macaw"
+			x: 2.8d
+			y: 3.0d
+			subtitle: "&dMod: Macaw's Trapdoors"
+			description: [
+				"&5Macaw creates a wide variety of useful building blocks and decorations."
+				""
+				"&5This adds a variety of different designs to go alongside the vanilla versions."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "0B33EEE17DEB9BA1"
+			tasks: [
+				{
+					id: "3BC5FFCECFCEA91B"
+					type: "item"
+					item: "mcwtrpdoors:oak_glass_trapdoor"
+				}
+				{
+					id: "270B53997EE197E2"
+					type: "item"
+					item: "mcwtrpdoors:oak_paper_trapdoor"
+				}
+			]
+			rewards: [{
+				id: "344F226345CCCEFA"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Windows by Macaw"
+			x: -3.2d
+			y: 3.0d
+			subtitle: "&dMod: Macaw's Windows"
+			description: [
+				"&5Macaw creates a wide variety of useful building blocks and decorations."
+				""
+				"&5This adds a variety of windows and window coverings."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "44AD93CB7E701B93"
+			tasks: [
+				{
+					id: "2CE0E84090610F27"
+					type: "item"
+					item: "mcwwindows:stone_brick_gothic"
+				}
+				{
+					id: "46F1C6EAA1DBC8A5"
+					type: "item"
+					item: "mcwwindows:oak_blinds"
+				}
+			]
+			rewards: [{
+				id: "2714E07EC20829CD"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Furniture by Exline"
+			x: 2.8d
+			y: 4.2d
+			subtitle: "&dMod: Exline Furniture Mod"
+			description: ["&dExline's line of furniture adds a nice variety of chair, dresser, and window styles, along with some deco like TV's and kitchen appliances."]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "1D0AF72E8E3A1BFA"
+			tasks: [
+				{
+					id: "07257BFD21D71063"
+					type: "item"
+					item: "exlinefurniture:oak_bench"
+				}
+				{
+					id: "66CA8248D76AA92D"
+					type: "item"
+					item: "exlinefurniture:flatscreen_tv"
+				}
+			]
+			rewards: [{
+				id: "5170AA0C5DED85E6"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Holy Furniture"
+			icon: "exlinefurniture:birch_chair_red"
+			x: -4.4d
+			y: 3.0d
+			subtitle: "&dMod: Paladin's Furniture"
+			description: ["&5Paladin's line of furniture adds lots of quality furniture in lots of different styles."]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "38BB0C40159D7A0D"
+			tasks: [
+				{
+					id: "0608C9A06AD2F4F9"
+					type: "item"
+					item: "pfm:furniture_book"
+				}
+				{
+					id: "797CCC44B8C69673"
+					type: "item"
+					item: "exlinefurniture:birch_chair_red"
+				}
+			]
+			rewards: [{
+				id: "3CE14D16C026680E"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Lights. Just Lights."
+			x: -4.4d
+			y: 4.2d
+			subtitle: "&dMod: Simply Lights"
+			description: ["&5The Simply Lights line is just that. Lights. Wall trim lights. Lamp posts. Big light blocks."]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "30227D5857AAEDCB"
+			tasks: [
+				{
+					id: "0D79ACA37B3607F7"
+					type: "item"
+					item: "simplylight:lamp_post"
+				}
+				{
+					id: "52C58E8590439098"
+					type: "item"
+					item: "simplylight:illuminant_block_on"
+				}
+			]
+			rewards: [{
+				id: "6FB0E7E2566476D9"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "A Fancy Display"
+			x: 3.9000000000000004d
+			y: 3.0d
+			subtitle: "&dMod: Display Case"
+			description: ["&5Got a neat item you want to show off? Use a Display Case!"]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "19A8324BB118F693"
+			tasks: [{
+				id: "213AFC625549D75E"
+				type: "item"
+				item: {
+					id: "display_case:display_case"
+					Count: 1b
+					tag: {
+						BlockEntityTag: {
+							Waxed: 0b
+							id: "display_case:display_case"
+							Rotation: 166
+						}
+					}
+				}
+			}]
+			rewards: [{
+				id: "275A3D0C60C9F14F"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Mark Your Containers"
+			x: 3.9000000000000004d
+			y: 4.1d
+			subtitle: "&dMod: Storage Labels"
+			description: [
+				"&5Signs are usually the defacto way of marking whats in a chest. Or if you want to get fancyish, you use an Item Frame."
+				""
+				"&5But, if you want to get REALLY fancy, old school apothecary style fancy, then use Storage Labels. You can Sneak + Right Click them onto anything, not just storage. Then Sneak + Right Click any item or block onto it to mark it with that item! It gets a really nice pixelated style."
+				""
+				"&5You can use dyes, glow sacs, and feathers to change how the label looks as well."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "14A6F7803679D032"
+			tasks: [{
+				id: "153C898A1906A055"
+				type: "item"
+				item: "labels:label"
+			}]
+			rewards: [{
+				id: "061E845CCBFFB2BC"
+				type: "item"
+				item: "coinsje:copper_coin"
+				count: 5
+			}]
+		}
+		{
+			title: "Keep Things Tidy"
+			x: -0.2d
+			y: 1.9d
+			subtitle: "&dMod: Trash Can"
+			description: [
+				"&5There's a lot to explore and collect in these dimensions, but not all of it is useful of course."
+				""
+				"&5Now, you could do the classic pit of lava...but that's dangerous. This world isn't that dangerous, so why make it more so? Use a Trash Can!"
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "2F006CDFB3CE55C7"
+			tasks: [{
+				id: "4DD6E045C4FDFA11"
+				type: "item"
+				item: "trashcans:trash_can"
+			}]
+			rewards: [{
+				id: "7A79BB2AD5A5B062"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "A Good Trade"
+			x: -0.8d
+			y: -0.6d
+			subtitle: "&dMod: Shoppy"
+			description: [
+				"&5If you are traveling around with other Researchers or Assistants, or just some friends you met, you can set up a Shop to trade one item for another."
+				""
+				"&5Just place down this Shop Block, and you can Right Click the item you want to sell on the glass display (have the amount you want to sell at once in the stack! So Right Click 3 Hamburgers if you want to sell 3 at a time, for example)"
+				""
+				"&5Then Right Click the item you want to sell it for on the wood panel on the front. You can keep Right Clicking the item on the front panel to increase the price."
+				""
+				"&5Then to stock the shop by Right Clicking the item you are selling onto the block."
+			]
+			hide_dependency_lines: true
+			dependencies: ["2B8C4B822F57E3B7"]
+			id: "2C74B264AEED4EF5"
+			tasks: [{
+				id: "7FDDF142A73DAF16"
+				type: "item"
+				item: "shoppy:bartering_station"
+			}]
+			rewards: [{
+				id: "23F11B0617AA283C"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

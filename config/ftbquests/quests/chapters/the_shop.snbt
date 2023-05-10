@@ -1,0 +1,230 @@
+{
+	id: "4DE8F9A00D3287FD"
+	group: "14164995055A1873"
+	order_index: 2
+	filename: "the_shop"
+	title: "The Shop"
+	icon: "coinsje:netherite_coin"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Welcome to the Shop"
+			icon: "coinsje:diamond_coin_pile"
+			x: 0.5d
+			y: -4.5d
+			subtitle: "&dGot coin? Get Goodies!"
+			description: ["&5Here is where you'll find a variety of useful items to purchase to help you on your adventures."]
+			dependencies: ["581B4E9498124C6A"]
+			id: "17123DEB73B3B35A"
+			tasks: [{
+				id: "59299BFBE47D21C8"
+				type: "checkmark"
+			}]
+		}
+		{
+			title: "Orb of Origin"
+			icon: "origins:orb_of_origin"
+			x: -2.1d
+			y: -2.9d
+			subtitle: "&dHenshin!"
+			description: ["&5Tired of your current species? Then grab one of these to try something new!"]
+			hide_dependency_lines: true
+			dependencies: ["17123DEB73B3B35A"]
+			can_repeat: true
+			id: "33D9A88772D00BEB"
+			tasks: [{
+				id: "5EEDD2B23B9F9F78"
+				type: "item"
+				item: "coinsje:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "50EDCE8F43E331B0"
+				type: "item"
+				item: "origins:orb_of_origin"
+			}]
+		}
+		{
+			title: "Zombie Egg"
+			icon: "minecraft:zombie_spawn_egg"
+			x: -0.5d
+			y: -2.9d
+			subtitle: "&dThe Vaguely Dead"
+			description: [
+				"&5So one of the odd things in this world we want to research more is... why are the monsters so rare?"
+				""
+				"&5To that, we've found some Zombie eggs. They aren't super useful for loot: I mean, its a single zombie, right?"
+				""
+				"&5But you can use a lone Zombie to turn a Villager into a Zombie, then turn them back with a Weakness Potion and a Golden Apple. Weird but cool! "
+			]
+			hide_dependency_lines: true
+			dependencies: ["17123DEB73B3B35A"]
+			can_repeat: true
+			id: "1A5D1B514EC2EA28"
+			tasks: [{
+				id: "7A1E12B6B275FA1B"
+				type: "item"
+				item: "coinsje:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "66388CD60DA669E8"
+				type: "item"
+				item: "minecraft:zombie_spawn_egg"
+			}]
+		}
+		{
+			title: "Common Hat Grab Bag"
+			icon: "simplehats:hatbag_common"
+			x: -2.1d
+			y: -1.4d
+			subtitle: "&dSimple Hats"
+			description: [
+				"&5There's a whole lot of hats to collect, but not many ways to collect them."
+				""
+				"&5We've sent out a few Assistants to procure what they can."
+			]
+			hide_dependency_lines: true
+			dependencies: ["17123DEB73B3B35A"]
+			can_repeat: true
+			id: "4FB7F48D2E629907"
+			tasks: [{
+				id: "30358478D231C7C7"
+				type: "item"
+				item: "coinsje:iron_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "26506A801886B76B"
+				type: "item"
+				item: "simplehats:hatbag_common"
+			}]
+		}
+		{
+			title: "Uncommon Hat Grab Bag"
+			icon: "simplehats:hatbag_uncommon"
+			x: -0.5d
+			y: -1.4d
+			subtitle: "&dSlightly Fancy Hats"
+			description: [
+				"&5There's a whole lot of hats to collect, but not many ways to collect them."
+				""
+				"&5We've sent out a few Assistants to procure what they can."
+			]
+			hide_dependency_lines: true
+			dependencies: ["17123DEB73B3B35A"]
+			can_repeat: true
+			id: "4460DBDD067C1255"
+			tasks: [{
+				id: "1D8B25ABFAE60877"
+				type: "item"
+				item: "coinsje:gold_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2F5C2F93A17C6F33"
+				type: "item"
+				item: "simplehats:hatbag_uncommon"
+			}]
+		}
+		{
+			title: "Rare Hat Grab Bag"
+			icon: "simplehats:hatbag_rare"
+			x: 1.0d
+			y: -1.4d
+			subtitle: "&dMuch Fancier Hats"
+			description: [
+				"&5There's a whole lot of hats to collect, but not many ways to collect them."
+				""
+				"&5We've sent out a few Assistants to procure what they can."
+			]
+			hide_dependency_lines: true
+			dependencies: ["17123DEB73B3B35A"]
+			can_repeat: true
+			id: "03C949AA3DBD4F49"
+			tasks: [{
+				id: "65535D7131682338"
+				type: "item"
+				item: "coinsje:diamond_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "2615573EFF93DE43"
+				type: "item"
+				item: "simplehats:hatbag_rare"
+			}]
+		}
+		{
+			title: "Epic and Holiday Hat Grab Bags"
+			icon: "simplehats:hatbag_epic"
+			x: 2.5d
+			y: -1.4d
+			subtitle: "&dSo Many Super Fancy Hats"
+			description: [
+				"&5There's a whole lot of hats to collect, but not many ways to collect them."
+				""
+				"&5We've sent out a few Assistants to procure what they can."
+			]
+			hide_dependency_lines: true
+			dependencies: ["17123DEB73B3B35A"]
+			can_repeat: true
+			id: "0CAA4B6D076895CB"
+			tasks: [{
+				id: "17FD1256308C48F8"
+				type: "item"
+				item: "coinsje:netherite_coin"
+				consume_items: true
+			}]
+			rewards: [{
+				id: "6C10184715B479A3"
+				type: "random"
+				exclude_from_claim_all: true
+				table_id: 4460800325559897423L
+			}]
+		}
+		{
+			title: "Vein Mining"
+			icon: {
+				id: "minecraft:netherite_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: 1.0d
+			y: -2.9d
+			subtitle: "&dConnect Ore"
+			description: [
+				"&5If you are looking for one of the skills other worlds had, mainly Vein Mining, that exists in these worlds too, but it's a little...different."
+				""
+				"&5Here, it's contained in a magical Enchantment. We can provide it, or you can find it fairly commonly on Villagers or by trying to Enchant the normal way."
+			]
+			hide_dependency_lines: true
+			dependencies: ["17123DEB73B3B35A"]
+			can_repeat: true
+			id: "50990C83B64E8442"
+			tasks: [{
+				id: "2980D5C8F256FAA8"
+				type: "item"
+				item: "coinsje:gold_coin"
+				count: 5L
+			}]
+			rewards: [{
+				id: "4D9707DBC3BF1098"
+				type: "item"
+				item: {
+					id: "minecraft:enchanted_book"
+					Count: 1b
+					tag: {
+						StoredEnchantments: [{
+							lvl: 1s
+							id: "veinmining:vein_mining"
+						}]
+					}
+				}
+			}]
+		}
+	]
+	quest_links: [ ]
+}

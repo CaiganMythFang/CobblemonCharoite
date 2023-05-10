@@ -1,0 +1,222 @@
+{
+	id: "770826F4B4C851F4"
+	group: "4741197EBABDED21"
+	order_index: 6
+	filename: "tech_reborn"
+	title: "Tech Reborn"
+	icon: {
+		id: "techreborn:industrial_chainsaw"
+		Count: 1b
+		tag: {
+			energy: 1000000L
+		}
+	}
+	subtitle: ["&dFuse It, Baby"]
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "Guide to the Future"
+			x: 0.0d
+			y: 0.1d
+			subtitle: "&dFrom Caveman to Fusion"
+			description: [
+				"&5Tech Reborn is an excellent technology path to check out. You'll go from small machines to large fusion reactors and beyond!"
+				""
+				"&5To get started in it, you'll want to make yourself the TechReborn Manual (careful, there's two, one is a bit of a prank), and a Treetap. "
+				""
+				"&5And then to find yourself a Rubber Tree..."
+			]
+			dependencies: [
+				"581B4E9498124C6A"
+				"3867B30AC7C6CBF9"
+			]
+			id: "58BC425CD1037788"
+			tasks: [
+				{
+					id: "0A3177AEA71C0A04"
+					type: "item"
+					item: "tr-patchouli:guide"
+				}
+				{
+					id: "589B4A3B0BFE335F"
+					type: "item"
+					item: {
+						id: "techreborn:treetap"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			rewards: [{
+				id: "66E4F32CD66524A5"
+				type: "item"
+				item: "coinsje:copper_coin"
+			}]
+		}
+		{
+			title: "Early Tools"
+			x: -2.1d
+			y: -1.7d
+			subtitle: "&dA Bit of Grind and Combine"
+			hide_dependency_lines: true
+			dependencies: ["58BC425CD1037788"]
+			id: "6B0E4BFDC00AE2DA"
+			tasks: [
+				{
+					id: "3F6E185199B6AF76"
+					type: "item"
+					item: "techreborn:alloy_smelter"
+				}
+				{
+					id: "70EF4A1EBC274428"
+					type: "item"
+					item: "techreborn:grinder"
+				}
+			]
+			rewards: [{
+				id: "5E678F8210018806"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Energy Energy Energy"
+			x: 0.0d
+			y: -2.3d
+			subtitle: "&dPowerful Choices"
+			hide_dependency_lines: true
+			dependencies: ["58BC425CD1037788"]
+			id: "131C273F56BE8C10"
+			tasks: [
+				{
+					id: "66823E0D77A51873"
+					type: "item"
+					item: "techreborn:solid_fuel_generator"
+				}
+				{
+					id: "5605BD4A4BADCFC8"
+					type: "item"
+					item: "techreborn:basic_solar_panel"
+				}
+			]
+			rewards: [{
+				id: "7FA0F42811393166"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Early Tools"
+			x: 2.1d
+			y: -1.7d
+			subtitle: "&dBit of Power, Lots of Fun"
+			hide_dependency_lines: true
+			dependencies: ["58BC425CD1037788"]
+			id: "3476EBC6501E0F5C"
+			tasks: [
+				{
+					id: "033B5510ED0B0580"
+					type: "item"
+					item: "techreborn:wrench"
+				}
+				{
+					id: "00EA0C23337DA382"
+					type: "item"
+					item: "techreborn:basic_drill"
+				}
+			]
+			rewards: [{
+				id: "215D416E38589645"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Industrial Machines"
+			x: -1.9d
+			y: 0.1d
+			subtitle: "&dIndustrial Sized, Too"
+			hide_dependency_lines: true
+			dependencies: ["58BC425CD1037788"]
+			id: "53E5894B01CA5C8F"
+			tasks: [
+				{
+					id: "4FA5C09D942369F9"
+					type: "item"
+					item: "techreborn:industrial_blast_furnace"
+				}
+				{
+					id: "4F71DE9B7231C763"
+					type: "item"
+					item: "techreborn:rolling_machine"
+				}
+			]
+			rewards: [{
+				id: "348D0FC9C0BEDB15"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "Power Pack"
+			x: 1.8d
+			y: 0.1d
+			subtitle: "&dEnergy to Go"
+			hide_dependency_lines: true
+			dependencies: ["58BC425CD1037788"]
+			id: "2BCABA72A20DA4F9"
+			tasks: [{
+				id: "67E1708B43E26171"
+				type: "item"
+				item: "techreborn:lithium_ion_batpack"
+			}]
+			rewards: [{
+				id: "142297D80BBAD66E"
+				type: "item"
+				item: "coinsje:gold_coin"
+			}]
+		}
+		{
+			title: "The Big Vaccuum"
+			x: -0.9d
+			y: 2.1d
+			subtitle: "&dLike Space?"
+			hide_dependency_lines: true
+			dependencies: ["58BC425CD1037788"]
+			id: "636013FDB88945D6"
+			tasks: [{
+				id: "671FA32AEF05E10F"
+				type: "item"
+				item: "techreborn:vacuum_freezer"
+			}]
+			rewards: [{
+				id: "5AF98A832F595943"
+				type: "item"
+				item: "coinsje:diamond_coin"
+			}]
+		}
+		{
+			title: "Quantum Armor"
+			x: 0.9d
+			y: 2.1d
+			subtitle: "&dNow is That Size, Or..."
+			hide_dependency_lines: true
+			dependencies: ["58BC425CD1037788"]
+			id: "5FFF986A1A217116"
+			tasks: [{
+				id: "4EE33CFF567388CA"
+				type: "item"
+				item: "techreborn:quantum_helmet"
+			}]
+			rewards: [{
+				id: "3486F4B20EA0503B"
+				type: "item"
+				item: "coinsje:diamond_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}

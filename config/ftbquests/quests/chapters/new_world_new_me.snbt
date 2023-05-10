@@ -1,0 +1,169 @@
+{
+	id: "08A7EB458BC6DC07"
+	group: "14164995055A1873"
+	order_index: 0
+	filename: "new_world_new_me"
+	title: "New World, New Me"
+	icon: "supplementaries:globe"
+	default_quest_shape: ""
+	default_hide_dependency_lines: false
+	quests: [
+		{
+			title: "An Interesting Greeting"
+			icon: "ftbquests:missing_item"
+			x: 0.0d
+			y: 0.0d
+			subtitle: "&dAdventure is Calling!"
+			description: [
+				"&5Hey. HEY! You awake?"
+				""
+				"&5Phew, you had me worried! You kinda... zoned out on the trip here. Really hard, been like that since..."
+				""
+				"&5Wait, who am I? Oh, right, we haven't actually met yet. The name is Berg. Berg D. Bun. "
+				""
+				"&5Technically on this trip, the name is supposed to be &l\"Professor Bun\"&r &5but I'm not an egghead or anything. I'm just &overy&r&5 good when it comes to numbers and games of chance..."
+				""
+				"&5But that's besides the point. You've got a fantastic opportunity here. You got the info on the job, right?"
+				""
+				"&5....right?"
+			]
+			id: "2F0CCA64801639B1"
+			tasks: [{
+				id: "4830A53127B25D9A"
+				type: "checkmark"
+				title: ".....riiiiiight?!"
+			}]
+		}
+		{
+			title: "The Situation Report"
+			x: 0.0d
+			y: 1.2d
+			subtitle: "&dI think they call it the... SitRep?"
+			description: [
+				"&5Oh, well that'll pump the brakes on this... okay not for long, I just gotta get you up to speed. Where's those stupid notes....ah here."
+				""
+				"[Sounds of throat clearing]"
+				""
+				"&dThe Ferret Business(henceforth, TFB; our Employer), have discovered one or more dimensions. You have been selected for the main Research team. This TFB venture will be handled in a special manner. Expedition leader will be Professor Berg D. Bun... &5yadda yadda."
+				""
+				"&5Okay I'll sum it up, it gets way too legalese wordy for my liking."
+				""
+				"&5The Biz has discovered these alternate dimensions full of creatures to Research. The citizens of this world call them : Cobblemon."
+				""
+				"&5If you haven't already, you can hit J and choose your first Cobblemon to begin your research adventure with!"
+			]
+			dependencies: ["2F0CCA64801639B1"]
+			id: "11A3725495D4DAAA"
+			tasks: [{
+				id: "19D32452B5A3D66D"
+				type: "advancement"
+				title: "Start your Cobblemon Adventure!"
+				advancement: "cobblemon:root"
+				criterion: ""
+			}]
+		}
+		{
+			title: "The Mission Statement"
+			icon: "cobblemon:master_ball"
+			x: 0.0d
+			y: 2.4d
+			subtitle: "&dWhy are we here? Just to collect?"
+			description: [
+				"&5Right, our goal here is pretty simple."
+				""
+				"&5See, there are hundreds of different Cobblemon species in these dimensions. All of them can be collected by using a variety of 'capture balls'."
+				""
+				"&5But most of them won't be captured without being challenged first. So you'll need to battle them with your own team of Cobblemon that you've trained first."
+				""
+				"&5And Cobblemon aren't the only things to collect : There are strange materials, magical artifacts, fancy gadgets, crazy high tech machines, beautiful  weapons, shining armors, unique magic, and more."
+				""
+				"&5And the mission :"
+				""
+				"&5&lCollect it all!"
+				""
+				"&5Explore the world. Battle and gather Cobblemon. Build. Create. Collect!"
+				""
+				"&5All in the name of Research!"
+			]
+			dependencies: ["11A3725495D4DAAA"]
+			id: "424EA3F9C285A804"
+			tasks: [{
+				id: "67ABFAD9335DCB6C"
+				type: "item"
+				title: "&dExplore and make some tools for yourself, please."
+				item: {
+					id: "minecraft:iron_pickaxe"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			rewards: [{
+				id: "373DB212810D1271"
+				type: "choice"
+				title: "&dYour reward: More things to collect!"
+				exclude_from_claim_all: true
+				table_id: 8613744948905613725L
+			}]
+		}
+		{
+			title: "Important Information"
+			x: 0.0d
+			y: 3.6d
+			subtitle: "&dGood things to know!"
+			description: [
+				"&5Now you know the mission. Before you go off on your new adventure, a few things you should probably know!"
+				""
+				"&5This e-book we're chatting through? It'll help give you good places to start your Research, and goals to strive for.  It'll start out pretty bare bones, but I'll be adding more information as our Research progresses."
+				""
+				"&5I'll give you some coins for completing various goals, and you can use them to buy certain things from this e-book as well. Mostly stuff that might be useful, nothing too ridiculous."
+				""
+				"&5OH right! You may not have noticed, but this world has barely any monsters. I mean, monsters like back home: Zombies, skeletons, HOAs."
+				""
+				"&5That doesn't mean that this world is safe. You can still fall into Lava, for example! So explore, just be careful."
+			]
+			dependencies: ["424EA3F9C285A804"]
+			id: "0DD92BD03E7F304B"
+			tasks: [{
+				id: "477379F15F20F627"
+				type: "checkmark"
+			}]
+			rewards: [{
+				id: "3F313E8852ACF8BE"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+		{
+			title: "Time to Answer the Call"
+			x: 0.0d
+			y: 4.8d
+			subtitle: "&dAdventure is calling again! Please answer!"
+			description: [
+				"&5Okay, I've talked your ears off at this point. Head off and start adventuring!"
+				""
+				"&5Just note: Unlike most Ferret Business ventures, we'll be having a much lighter hand in guiding you this time."
+				""
+				"&5What else... OH! What Cobblemon did you choose? There's a lot of choices, but I may have a special bias : "
+				""
+				"{image:kubejs:textures/gui/berg.png width:100 height:100 align:1}"
+				"          &b[Professor Berg D. Bun]"
+			]
+			dependencies: ["0DD92BD03E7F304B"]
+			id: "581B4E9498124C6A"
+			tasks: [{
+				id: "1A3197272EBF1A53"
+				type: "item"
+				title: "&dBreak some bread with me for good luck!"
+				item: "minecraft:bread"
+			}]
+			rewards: [{
+				id: "5D47FFCD7E099A19"
+				type: "item"
+				item: "coinsje:iron_coin"
+			}]
+		}
+	]
+	quest_links: [ ]
+}
